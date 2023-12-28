@@ -15,3 +15,4 @@ D:\Project\Reactivities\Persistence\obj\Debug\net8.0\Persistence.pdb
 D:\Project\Reactivities\Persistence\obj\Debug\net8.0\ref\Persistence.dll
 D:\Project\Reactivities\Persistence\bin\Debug\net8.0\Persistence.runtimeconfig.json
 D:\Project\Reactivities\Persistence\obj\Debug\net8.0\Persistence.genruntimeconfig.cache
+D:\Project\Reactivities\Persistence\obj\Debug\net8.0\Persistence.sourcelink.json
