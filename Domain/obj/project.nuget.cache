@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vPy6rhKZEXQSKFarCTwsWqXbhOCmY8fO47J8olQirp+Ai6juS4S6q/5dt7LIHxdmQVx5doYUlFSBwzyV5V9QQg==",
+  "dgSpecHash": "PeBjwSfPX8ea7q5ZPKqh1lgWyyUmY7raQI8Nt8o2XPg8BUrIh+uGo3lm0qCsrLfSHbwuXq/wfzKzkbStXoupdg==",
   "success": true,
-  "projectFilePath": "D:\\Project\\Reactivities\\Domain\\Domain.csproj",
+  "projectFilePath": "D:\\Projects\\Exercise\\Reactivities\\Domain\\Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
