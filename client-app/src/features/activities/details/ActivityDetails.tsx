@@ -2,8 +2,12 @@ import { Button, Card, Image } from "semantic-ui-react";
 import { Activities } from "../../../models/Activities";
 interface Props {
   activity: Activities;
+  cancelSelectActivity: () => void;
 }
-export default function ActivityDetails({ activity }: Props) {
+export default function ActivityDetails({
+  activity,
+  cancelSelectActivity,
+}: Props) {
   return (
     <>
       <Card>
@@ -18,7 +22,14 @@ export default function ActivityDetails({ activity }: Props) {
         <Card.Content extra>
           <Button.Group widths={"2"}>
             <Button basic color="blue" content="Edit" />
-            <Button basic color="grey" content="Cancel" />
+            <Button
+              onClick={() => {
+                cancelSelectActivity;
+              }}
+              basic
+              color="grey"
+              content="Cancel"
+            />
           </Button.Group>
         </Card.Content>
       </Card>

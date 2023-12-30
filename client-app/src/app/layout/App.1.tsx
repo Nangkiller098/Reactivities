@@ -1,12 +1,11 @@
 import { useEffect, useState } from "react";
-
 import axios from "axios";
 import { Container, Header } from "semantic-ui-react";
 import { Activities } from "../../models/Activities";
 import NavBar from "./Navbar";
 import ActivityDashboard from "../../features/activities/dashboard/ActivityDashboard";
 
-function App() {
+export function App() {
   const [activities, setActivities] = useState<Activities[]>([]);
 
   // for selete view to view or edit form activity
@@ -32,11 +31,6 @@ function App() {
   function handleCancelSelectActivity() {
     setSelectActivity(undefined);
   }
-
-  function handleFormOpen(id?: string) {
-    id ? handleSelectedActivity(id) : handleCancelSelectActivity();
-    setEditMode(true);
-  }
   return (
     <>
       <NavBar />
@@ -53,5 +47,3 @@ function App() {
     </>
   );
 }
-
-export default App;
