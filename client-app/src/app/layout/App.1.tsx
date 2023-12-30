@@ -31,9 +31,17 @@ export function App() {
   function handleCancelSelectActivity() {
     setSelectActivity(undefined);
   }
+  function handleFormOpen(id?: string) {
+    id ? handleSelectedActivity(id) : handleCancelSelectActivity();
+    setEditMode(true);
+  }
+
+  function handleFormClose() {
+    setEditMode(false);
+  }
   return (
     <>
-      <NavBar />
+      <NavBar openForm={handleFormOpen} />
       <Container style={{ marginTop: "7em" }}>
         <Header as="h2" icon="users" content="Reactivities" />
         {/* passing data from axios to the function */}
@@ -42,6 +50,9 @@ export function App() {
           selectedActivity={selectedActivity}
           selectActivity={handleSelectedActivity}
           cancelSelectActivity={handleCancelSelectActivity}
+          editMode={editMode}
+          openForm={handleFormOpen}
+          closeForm={handleFormClose}
         />
       </Container>
     </>
