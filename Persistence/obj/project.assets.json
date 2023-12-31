@@ -358,10 +358,10 @@
           }
         }
       },
-      "Microsoft.EntityFrameworkCore.Relational.Design/1.1.0": {
+      "Microsoft.EntityFrameworkCore.Relational.Design/1.1.2": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.Relational": "1.1.0",
+          "Microsoft.EntityFrameworkCore.Relational": "1.1.2",
           "NETStandard.Library": "1.6.1"
         },
         "compile": {
@@ -694,16 +694,17 @@
           }
         }
       },
-      "Npgsql.EntityFrameworkCore.PostgreSQL.Design/1.1.0": {
+      "Npgsql.EntityFrameworkCore.PostgreSQL.Design/1.1.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": "1.1.0",
-          "Microsoft.EntityFrameworkCore.Relational": "1.1.0",
-          "Microsoft.EntityFrameworkCore.Relational.Design": "1.1.0",
+          "Microsoft.EntityFrameworkCore": "1.1.2",
+          "Microsoft.EntityFrameworkCore.Relational": "1.1.2",
+          "Microsoft.EntityFrameworkCore.Relational.Design": "1.1.2",
           "Microsoft.Extensions.DependencyInjection": "1.1.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "1.1.0",
-          "Npgsql": "3.1.9",
-          "Npgsql.EntityFrameworkCore.PostgreSQL": "1.1.0"
+          "NETStandard.Library": "1.6.1",
+          "Npgsql": "3.2.5",
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "1.1.1"
         },
         "compile": {
           "lib/netstandard1.3/Npgsql.EntityFrameworkCore.PostgreSQL.Design.dll": {}
@@ -2736,10 +2737,10 @@
         "microsoft.entityframeworkcore.relational.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Relational.Design/1.1.0": {
-      "sha512": "fF0sVEUkoGeJutGIzwnYsJJ9o2hxEGJRpSaCxPq63rhSwn0hBmCwf9ET4QqYqO9Pc6+ODXenAQa095CWzuM4Kg==",
+    "Microsoft.EntityFrameworkCore.Relational.Design/1.1.2": {
+      "sha512": "pu2Jxndzv3slY6Ch9mdqVfL3AFhH5XzM02Rrnf9h5lKoViprYx1O+nNqT3BxmGrPkYadY9OddG2b9+sUO3Xuzw==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.relational.design/1.1.0",
+      "path": "microsoft.entityframeworkcore.relational.design/1.1.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2747,7 +2748,7 @@
         "lib/net451/Microsoft.EntityFrameworkCore.Relational.Design.xml",
         "lib/netstandard1.3/Microsoft.EntityFrameworkCore.Relational.Design.dll",
         "lib/netstandard1.3/Microsoft.EntityFrameworkCore.Relational.Design.xml",
-        "microsoft.entityframeworkcore.relational.design.1.1.0.nupkg.sha512",
+        "microsoft.entityframeworkcore.relational.design.1.1.2.nupkg.sha512",
         "microsoft.entityframeworkcore.relational.design.nuspec"
       ]
     },
@@ -3249,16 +3250,16 @@
         "postgresql.png"
       ]
     },
-    "Npgsql.EntityFrameworkCore.PostgreSQL.Design/1.1.0": {
-      "sha512": "+taA6t8sRI0JTbyCZH0GobEtJYvU4aAGBf5/2/CutWHiYpO2nLfJ8SQSyWYMKakrwn1/NDM9VV85mGEAzBZ7LQ==",
+    "Npgsql.EntityFrameworkCore.PostgreSQL.Design/1.1.1": {
+      "sha512": "UXgRNtmOIc/gw3bvdof4hZu4rL9xIUGeSWklasd+Oj9SF7EH+OTu43/Qsz6YYrqX2sem2qxd004LwtW/CWpVHg==",
       "type": "package",
-      "path": "npgsql.entityframeworkcore.postgresql.design/1.1.0",
+      "path": "npgsql.entityframeworkcore.postgresql.design/1.1.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/net451/Npgsql.EntityFrameworkCore.PostgreSQL.Design.dll",
         "lib/netstandard1.3/Npgsql.EntityFrameworkCore.PostgreSQL.Design.dll",
-        "npgsql.entityframeworkcore.postgresql.design.1.1.0.nupkg.sha512",
+        "npgsql.entityframeworkcore.postgresql.design.1.1.1.nupkg.sha512",
         "npgsql.entityframeworkcore.postgresql.design.nuspec"
       ]
     },
@@ -6884,23 +6885,28 @@
       "Domain >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 8.0.0",
       "Npgsql.EntityFrameworkCore.PostgreSQL >= 8.0.0",
-      "Npgsql.EntityFrameworkCore.PostgreSQL.Design >= 1.1.0"
+      "Npgsql.EntityFrameworkCore.PostgreSQL.Design >= 1.1.1"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ripdo\\.nuget\\packages\\": {}
+    "C:\\Users\\NK\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\Exercise\\Reactivities\\Persistence\\Persistence.csproj",
+      "projectUniqueName": "D:\\Project\\Reactivities\\Persistence\\Persistence.csproj",
       "projectName": "Persistence",
-      "projectPath": "D:\\Projects\\Exercise\\Reactivities\\Persistence\\Persistence.csproj",
-      "packagesPath": "C:\\Users\\ripdo\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\Exercise\\Reactivities\\Persistence\\obj\\",
+      "projectPath": "D:\\Project\\Reactivities\\Persistence\\Persistence.csproj",
+      "packagesPath": "C:\\Users\\NK\\.nuget\\packages\\",
+      "outputPath": "D:\\Project\\Reactivities\\Persistence\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\ripdo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\NK\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6908,14 +6914,15 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Projects\\Exercise\\Reactivities\\Domain\\Domain.csproj": {
-              "projectPath": "D:\\Projects\\Exercise\\Reactivities\\Domain\\Domain.csproj"
+            "D:\\Project\\Reactivities\\Domain\\Domain.csproj": {
+              "projectPath": "D:\\Project\\Reactivities\\Domain\\Domain.csproj"
             }
           }
         }
@@ -6942,7 +6949,7 @@
           },
           "Npgsql.EntityFrameworkCore.PostgreSQL.Design": {
             "target": "Package",
-            "version": "[1.1.0, )"
+            "version": "[1.1.1, )"
           }
         },
         "imports": [

@@ -10,7 +10,7 @@ export function App() {
 
   // for selete view to view or edit form activity
   const [selectedActivity, setSelectActivity] = useState<
-    Activities[] | undefined
+    Activities | undefined
   >(undefined);
 
   //edit mode
