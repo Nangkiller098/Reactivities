@@ -12,18 +12,21 @@ export default class ActivityStore {
   constructor() {
     makeAutoObservable(this);
   }
+
+  //get data and sort by date to z-a
   get activitiesByDate() {
     return Array.from(this.activityRegistry.values()).sort(
-      (a, b) => Date.parse(a.date) - Date.parse(b.date)
+      (a, b) => Date.parse(b.date) - Date.parse(a.date)
     );
   }
+
   //loading all data activity
   loadActivities = async () => {
+    this.setLoadingInitial(true);
     try {
       const activities = await agent.Activities.list();
       activities.forEach((activity) => {
-        activity.date = activity.date.split("T")[0];
-        this.activityRegistry.set(activity.id, activity);
+        this.setActivity(activity);
       });
       this.setLoadingInitial(false);
     } catch (error) {
@@ -32,28 +35,39 @@ export default class ActivityStore {
     }
   };
 
-  //for checking
+  //load activity by id in view form
+  loadActivity = async (id: string) => {
+    let activity = this.getActivity(id);
+    if (activity) {
+      this.selectedActivity = activity;
+    } else {
+      this.setLoadingInitial(true);
+      try {
+        activity = await agent.Activities.details(id);
+        this.setActivity(activity);
+        this.selectedActivity = activity;
+        this.setLoadingInitial(false);
+      } catch (error) {
+        console.log(error);
+        this.setLoadingInitial(false);
+      }
+    }
+  };
+
+  //set date in activty view
+  private setActivity = (activity: Activities) => {
+    // activity.date = activity.date.split("T")[0];
+    this.activityRegistry.set(activity.id, activity);
+  };
+
+  //select and get activty by id
+  private getActivity = (id: string) => {
+    return this.activityRegistry.get(id);
+  };
+
+  //for checking create or edit activity
   setLoadingInitial = (state: boolean) => {
     this.loadingInitial = state;
-  };
-
-  //select and view activity by Id
-  selectActivity = (id: string) => {
-    this.selectedActivity = this.activityRegistry.get(id);
-  };
-  //cancel View activity by Id
-  cancelSelectedActivity = () => {
-    this.selectedActivity = undefined;
-  };
-
-  //open form edit
-  openForm = (id?: string) => {
-    id ? this.selectActivity(id) : this.cancelSelectedActivity();
-    this.editMode = true;
-  };
-  //close form edit
-  closeForm = () => {
-    this.editMode = false;
   };
 
   //create activity
@@ -77,6 +91,7 @@ export default class ActivityStore {
     }
   };
 
+  //update activity
   updateActivity = async (activity: Activities) => {
     this.loading = true;
     try {
@@ -94,13 +109,14 @@ export default class ActivityStore {
       });
     }
   };
+
+  //delete activity
   deleteActivity = async (id: string) => {
     this.loading = true;
     try {
       await agent.Activities.delete(id);
       runInAction(() => {
         this.activityRegistry.delete(id);
-        if (this.selectedActivity?.id == id) this.cancelSelectedActivity();
         this.loading = false;
       });
     } catch (error) {

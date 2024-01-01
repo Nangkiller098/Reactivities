@@ -5,13 +5,8 @@ import { observer } from "mobx-react-lite";
 
 export default observer(function ActivityForm() {
   const { activityStore } = useStore();
-  const {
-    selectedActivity,
-    closeForm,
-    updateActivity,
-    createActiviy,
-    loading,
-  } = activityStore;
+  const { selectedActivity, updateActivity, createActiviy, loading } =
+    activityStore;
 
   //const is use for make a variable constant and cannnot be changed
   const initiaState = selectedActivity ?? {
@@ -79,13 +74,7 @@ export default observer(function ActivityForm() {
           type="submit"
           content="Submit"
         />
-        <Button
-          onClick={closeForm}
-          floated="right"
-          positive
-          type="submit"
-          content="Cancel"
-        />
+        <Button floated="right" positive type="submit" content="Cancel" />
       </Form>
     </Segment>
   );
