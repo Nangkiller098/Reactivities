@@ -1,15 +1,16 @@
 import { Button, Card, Image } from "semantic-ui-react";
-import { Activities } from "../../../models/Activities";
-interface Props {
-  activity: Activities;
-  cancelSelectActivity: () => void;
-  openForm: (id: string) => void;
-}
-export default function ActivityDetails({
-  activity,
-  cancelSelectActivity,
-  openForm,
-}: Props) {
+import { useStore } from "../../../app/stores/store";
+import LoadingComponent from "../../../app/layout/LoadingComponent";
+
+export default function ActivityDetails() {
+  const { activityStore } = useStore();
+  const {
+    selectedActivity: activity,
+    openForm,
+    cancelSelectedActivity,
+  } = activityStore;
+
+  if (!activity) return <LoadingComponent content={"Loading..."} />;
   return (
     <>
       <Card>
@@ -31,7 +32,7 @@ export default function ActivityDetails({
             />
             <Button
               onClick={() => {
-                cancelSelectActivity;
+                cancelSelectedActivity;
               }}
               basic
               color="grey"
