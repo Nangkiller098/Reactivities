@@ -1,39 +1,38 @@
+import { ChangeEvent, useState } from "react";
 import { Button, Form, Segment } from "semantic-ui-react";
 import { Activities } from "../../../models/Activities";
-import { ChangeEvent, useState } from "react";
 
 interface Props {
   activity: Activities | undefined;
   closeForm: () => void;
   createOrEdit: (activity: Activities) => void;
+  submitting: boolean;
 }
-
 export default function ActivityForm({
   activity: selectedActivity,
   closeForm,
   createOrEdit,
+  submitting,
 }: Props) {
-  const initalState = selectedActivity ?? {
+  //const is use for make a variable constant and cannnot be changed
+  const initiaState = selectedActivity ?? {
     id: "",
     title: "",
-    date: "",
-    description: "",
     category: "",
+    description: "",
+    date: "",
     city: "",
     venue: "",
   };
-
-  const [activity, setActivity] = useState(initalState);
+  const [activity, setActivity] = useState(initiaState);
 
   function handleSubmit() {
     createOrEdit(activity);
   }
-
   function handleInputChange(event: ChangeEvent<HTMLInputElement>) {
     const { name, value } = event.target;
     setActivity({ ...activity, [name]: value });
   }
-
   return (
     <Segment clearing>
       <Form onSubmit={handleSubmit} autoComplete="off">
@@ -56,7 +55,7 @@ export default function ActivityForm({
           onChange={handleInputChange}
         />
         <Form.Input
-          type="date"
+          // type="date"
           placeholder="Date"
           value={activity.date}
           name="date"
@@ -75,7 +74,7 @@ export default function ActivityForm({
           onChange={handleInputChange}
         />
         <Button
-          onClick={handleSubmit}
+          loading={submitting}
           floated="right"
           positive
           type="submit"

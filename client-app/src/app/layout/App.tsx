@@ -1,102 +1,107 @@
 import { useEffect, useState } from "react";
-import { Container, Header } from "semantic-ui-react";
+import { Container } from "semantic-ui-react";
+import { v4 as uuid } from "uuid";
+import LoadingComponent from "./LoadingComponent";
 import { Activities } from "../../models/Activities";
+import agent from "../api/agents";
 import NavBar from "./Navbar";
 import ActivityDashboard from "../../features/activities/dashboard/ActivityDashboard";
-import { v4 as uuid } from "uuid";
-import agent from "../api/agents";
-import LoadingComponent from "./LoadingComponent";
 
-export function App() {
+//create value
+function App() {
+  // const { activityStore } = useStore();
   const [activities, setActivities] = useState<Activities[]>([]);
-
-  // for selete view to view or edit form activity
   const [selectedActivity, setSelectActivity] = useState<
     Activities | undefined
   >(undefined);
-
-  //edit mode
   const [editMode, setEditMode] = useState(false);
+  const [Loading, setloading] = useState(true);
+  const [submitting, setSubmitting] = useState(false);
 
-  const [loading, setLoading] = useState(true);
-
+  // get data from api using axios by url
   useEffect(() => {
     agent.Activities.list().then((response) => {
-      const activities: Activities[] = [];
-      response.forEach((activity) => {
-        activity.date = activity.date.split("T")[0];
-        activities.push(activity);
-      });
-      setActivities(activities);
-      setLoading(false);
+      // let activities: Activity[] = [];
+      // response.forEach((activity) => {
+      //   activity.date = activity.date.split("T")[0];
+      //   // activity.date = new Date().toLocaleDateString();
+      // });
+      setActivities(response);
+      setloading(false);
     });
   }, []);
 
-  //selected activity on view button
+  //Get data by Id
   function handleSelectedActivity(id: string) {
     setSelectActivity(activities.find((x) => x.id === id));
   }
 
-  //cancel seletect activity
+  //cancel select data
   function handleCancelSelectActivity() {
     setSelectActivity(undefined);
   }
 
-  //open form edit
+  //open form and get data
   function handleFormOpen(id?: string) {
     id ? handleSelectedActivity(id) : handleCancelSelectActivity();
     setEditMode(true);
   }
-
-  //close form edit
+  //close form then remove data
   function handleFormClose() {
     setEditMode(false);
   }
-
-  //handle check create for edit mode
+  //creat or edit data
   function handleCreateOrEditActivity(activity: Activities) {
-    //check data activite have or not if not replace by new activity
-    activity.id
-      ? setActivities([
+    setSubmitting(true);
+    if (activity.id) {
+      agent.Activities.update(activity).then(() => {
+        setActivities([
           ...activities.filter((x) => x.id !== activity.id),
           activity,
-        ])
-      : //uuid
-        setActivities([...activities, { ...activity, id: uuid() }]);
-    setEditMode(false);
+        ]);
+      });
+    } else {
+      activity.id = uuid();
+      agent.Activities.create(activity).then(() => {
+        setActivities([...activities, activity]);
+      });
+    }
     setSelectActivity(activity);
+    setEditMode(false);
+    setSubmitting(false);
   }
 
+  //delete data
   function handleDeleteActivity(id: string) {
-    setActivities([...activities.filter((x) => x.id !== id)]);
+    setSubmitting(true);
+    agent.Activities.delete(id).then(() => {
+      setActivities([...activities.filter((x) => x.id !== id)]);
+      setSubmitting(false);
+    });
   }
-  if (loading) return <LoadingComponent content="Loading app" />;
+
+  //loading gif
+  if (Loading) return <LoadingComponent content="Loading app" />;
   return (
-    <>
+    <div>
       <NavBar openForm={handleFormOpen} />
       <Container style={{ marginTop: "7em" }}>
-        <Header as="h2" icon="users" content="Reactivities" />
-        {/* passing data from axios to the function */}
+        {/* <h2>{activityStore.title}</h2> */}
         <ActivityDashboard
           activities={activities}
-          //view activity
           selectedActivity={selectedActivity}
-          //select and view activity
           selectActivity={handleSelectedActivity}
-          //cancel
           cancelSelectActivity={handleCancelSelectActivity}
-          //check user request edit or create activity
           editMode={editMode}
-          //open form for edit or create activity
           openForm={handleFormOpen}
-          //close form for edit or create activity
           closeForm={handleFormClose}
-          //for checking create or edit mode if true set editmode(true) it not editmode(false)
           createOrEdit={handleCreateOrEditActivity}
-          //delete activity
           deleteActivity={handleDeleteActivity}
+          submitting={submitting}
         />
       </Container>
-    </>
+    </div>
   );
 }
+
+export default App;
