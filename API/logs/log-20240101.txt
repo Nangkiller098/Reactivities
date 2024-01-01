@@ -1,0 +1,7 @@
+2024-01-01 13:45:07.098 +07:00 [INF] Now listening on: http://localhost:5000
+2024-01-01 13:45:07.125 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-01 13:45:07.126 +07:00 [INF] Hosting environment: Development
+2024-01-01 13:45:07.126 +07:00 [INF] Content root path: D:\Projects\Exercise\Reactivities\API
+2024-01-01 13:45:12.188 +07:00 [WRN] Failed to determine the https port for redirect.
+2024-01-01 13:45:12.250 +07:00 [INF] HTTP GET /api/Activities responded 200 in 57.8705 ms
+2024-01-01 13:45:21.063 +07:00 [INF] Application is shutting down...

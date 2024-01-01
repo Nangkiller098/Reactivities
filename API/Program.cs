@@ -2,6 +2,7 @@ using API.Extensions;
 using Application.Activities;
 using Microsoft.EntityFrameworkCore;
 using Persistence;
+using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,6 +12,7 @@ builder.Services.AddControllers();
 
 //all the service 
 builder.Services.AddApplicationServiceExtensions(builder.Configuration);
+builder.Host.UseSerilog((ctx, lc) => lc.WriteTo.Console().ReadFrom.Configuration(ctx.Configuration));
 
 // builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(List.Handler).Assembly));
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
@@ -29,7 +31,7 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
-
+app.UseSerilogRequestLogging();
 app.UseCors("CorsPolicy");
 app.MapControllers();
 
@@ -41,10 +43,10 @@ try
     context.Database.Migrate();
     await Seed.SeedData(context);
 }
-catch (System.Exception)
+catch (Exception ex)
 {
-
-    throw;
+    var logger = services.GetRequiredService<ILogger<Program>>();
+    logger.LogError(ex, "An error occured during migration");
 }
 
 app.Run();

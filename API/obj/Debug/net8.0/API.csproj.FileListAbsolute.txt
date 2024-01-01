@@ -232,3 +232,15 @@ D:\Projects\Exercise\Reactivities\API\obj\Debug\net8.0\refint\API.dll
 D:\Projects\Exercise\Reactivities\API\obj\Debug\net8.0\API.pdb
 D:\Projects\Exercise\Reactivities\API\obj\Debug\net8.0\API.genruntimeconfig.cache
 D:\Projects\Exercise\Reactivities\API\obj\Debug\net8.0\ref\API.dll
+D:\Projects\Exercise\Reactivities\API\bin\Debug\net8.0\Serilog.dll
+D:\Projects\Exercise\Reactivities\API\bin\Debug\net8.0\Serilog.AspNetCore.dll
+D:\Projects\Exercise\Reactivities\API\bin\Debug\net8.0\Serilog.Expressions.dll
+D:\Projects\Exercise\Reactivities\API\bin\Debug\net8.0\Serilog.Extensions.Hosting.dll
+D:\Projects\Exercise\Reactivities\API\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
+D:\Projects\Exercise\Reactivities\API\bin\Debug\net8.0\Serilog.Formatting.Compact.dll
+D:\Projects\Exercise\Reactivities\API\bin\Debug\net8.0\Serilog.Settings.Configuration.dll
+D:\Projects\Exercise\Reactivities\API\bin\Debug\net8.0\Serilog.Sinks.Console.dll
+D:\Projects\Exercise\Reactivities\API\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
+D:\Projects\Exercise\Reactivities\API\bin\Debug\net8.0\Serilog.Sinks.File.dll
+D:\Projects\Exercise\Reactivities\API\bin\Debug\net8.0\Serilog.Sinks.PeriodicBatching.dll
+D:\Projects\Exercise\Reactivities\API\bin\Debug\net8.0\Serilog.Sinks.Seq.dll
