@@ -6,30 +6,23 @@ import { Activities } from "../../models/Activities";
 import agent from "../api/agents";
 import NavBar from "./Navbar";
 import ActivityDashboard from "../../features/activities/dashboard/ActivityDashboard";
+import { useStore } from "../stores/store";
+import { observer } from "mobx-react-lite";
 
 //create value
 function App() {
-  // const { activityStore } = useStore();
+  const { activityStore } = useStore();
   const [activities, setActivities] = useState<Activities[]>([]);
   const [selectedActivity, setSelectActivity] = useState<
     Activities | undefined
   >(undefined);
   const [editMode, setEditMode] = useState(false);
-  const [Loading, setloading] = useState(true);
   const [submitting, setSubmitting] = useState(false);
 
   // get data from api using axios by url
   useEffect(() => {
-    agent.Activities.list().then((response) => {
-      // let activities: Activity[] = [];
-      // response.forEach((activity) => {
-      //   activity.date = activity.date.split("T")[0];
-      //   // activity.date = new Date().toLocaleDateString();
-      // });
-      setActivities(response);
-      setloading(false);
-    });
-  }, []);
+    activityStore.loadActivities();
+  }, [activityStore]);
 
   //Get data by Id
   function handleSelectedActivity(id: string) {
@@ -81,14 +74,14 @@ function App() {
   }
 
   //loading gif
-  if (Loading) return <LoadingComponent content="Loading app" />;
+  if (activityStore.loadingInitial)
+    return <LoadingComponent content="Loading app" />;
   return (
     <div>
       <NavBar openForm={handleFormOpen} />
       <Container style={{ marginTop: "7em" }}>
-        {/* <h2>{activityStore.title}</h2> */}
         <ActivityDashboard
-          activities={activities}
+          activities={activityStore.activities}
           selectedActivity={selectedActivity}
           selectActivity={handleSelectedActivity}
           cancelSelectActivity={handleCancelSelectActivity}
@@ -104,4 +97,4 @@ function App() {
   );
 }
 
-export default App;
+export default observer(App);
