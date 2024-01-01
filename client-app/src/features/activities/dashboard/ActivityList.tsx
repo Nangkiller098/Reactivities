@@ -34,7 +34,7 @@ export default function ActivityList({
                   color="blue"
                 />
                 <Button
-                  onClick={() => selectActivity(activity.id)}
+                  onClick={() => deleteActivity(activity.id)}
                   floated="right"
                   content="Delete"
                   color="red"
