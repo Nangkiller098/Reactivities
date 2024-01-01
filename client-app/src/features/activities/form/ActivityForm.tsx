@@ -5,11 +5,13 @@ import { ChangeEvent, useState } from "react";
 interface Props {
   activity: Activities | undefined;
   closeForm: () => void;
+  createOrEdit: (activity: Activities) => void;
 }
 
 export default function ActivityForm({
   activity: selectedActivity,
   closeForm,
+  createOrEdit,
 }: Props) {
   const initalState = selectedActivity ?? {
     id: "",
@@ -24,7 +26,7 @@ export default function ActivityForm({
   const [activity, setActivity] = useState(initalState);
 
   function handleSubmit() {
-    console.log(activity);
+    createOrEdit(activity);
   }
 
   function handleInputChange(event: ChangeEvent<HTMLInputElement>) {
@@ -72,7 +74,13 @@ export default function ActivityForm({
           name="venue"
           onChange={handleInputChange}
         />
-        <Button floated="right" positive type="submit" content="Submit" />
+        <Button
+          onClick={handleSubmit}
+          floated="right"
+          positive
+          type="submit"
+          content="Submit"
+        />
         <Button
           onClick={closeForm}
           floated="right"
