@@ -1,15 +1,23 @@
-import { ChangeEvent, useState } from "react";
+import { ChangeEvent, useEffect, useState } from "react";
 import { Button, Form, Segment } from "semantic-ui-react";
 import { useStore } from "../../../app/stores/store";
 import { observer } from "mobx-react-lite";
+import { useParams } from "react-router-dom";
+import { Activities } from "../../../models/Activities";
+import LoadingComponent from "../../../app/layout/LoadingComponent";
 
 export default observer(function ActivityForm() {
   const { activityStore } = useStore();
-  const { selectedActivity, updateActivity, createActiviy, loading } =
-    activityStore;
-
-  //const is use for make a variable constant and cannnot be changed
-  const initiaState = selectedActivity ?? {
+  const {
+    // selectedActivity,
+    updateActivity,
+    createActiviy,
+    loading,
+    loadActivity,
+    loadingInitial,
+  } = activityStore;
+  const { id } = useParams();
+  const [activity, setActivity] = useState<Activities>({
     id: "",
     title: "",
     category: "",
@@ -17,9 +25,10 @@ export default observer(function ActivityForm() {
     date: "",
     city: "",
     venue: "",
-  };
-  const [activity, setActivity] = useState(initiaState);
-
+  });
+  useEffect(() => {
+    if (id) loadActivity(id).then((activity) => setActivity(activity!));
+  }, [id, loadActivity]);
   function handleSubmit() {
     activity.id ? updateActivity(activity) : createActiviy(activity);
   }
@@ -27,6 +36,8 @@ export default observer(function ActivityForm() {
     const { name, value } = event.target;
     setActivity({ ...activity, [name]: value });
   }
+
+  if (loadingInitial) return <LoadingComponent content="Loading activity..." />;
   return (
     <Segment clearing>
       <Form onSubmit={handleSubmit} autoComplete="off">

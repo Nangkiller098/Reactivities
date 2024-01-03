@@ -244,3 +244,15 @@ D:\Projects\Exercise\Reactivities\API\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
 D:\Projects\Exercise\Reactivities\API\bin\Debug\net8.0\Serilog.Sinks.File.dll
 D:\Projects\Exercise\Reactivities\API\bin\Debug\net8.0\Serilog.Sinks.PeriodicBatching.dll
 D:\Projects\Exercise\Reactivities\API\bin\Debug\net8.0\Serilog.Sinks.Seq.dll
+D:\Project\Reactivities\API\bin\Debug\net8.0\Serilog.dll
+D:\Project\Reactivities\API\bin\Debug\net8.0\Serilog.AspNetCore.dll
+D:\Project\Reactivities\API\bin\Debug\net8.0\Serilog.Expressions.dll
+D:\Project\Reactivities\API\bin\Debug\net8.0\Serilog.Extensions.Hosting.dll
+D:\Project\Reactivities\API\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
+D:\Project\Reactivities\API\bin\Debug\net8.0\Serilog.Formatting.Compact.dll
+D:\Project\Reactivities\API\bin\Debug\net8.0\Serilog.Settings.Configuration.dll
+D:\Project\Reactivities\API\bin\Debug\net8.0\Serilog.Sinks.Console.dll
+D:\Project\Reactivities\API\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
+D:\Project\Reactivities\API\bin\Debug\net8.0\Serilog.Sinks.File.dll
+D:\Project\Reactivities\API\bin\Debug\net8.0\Serilog.Sinks.PeriodicBatching.dll
+D:\Project\Reactivities\API\bin\Debug\net8.0\Serilog.Sinks.Seq.dll

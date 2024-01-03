@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\Exercise\\Reactivities\\API\\API.csproj": {}
+    "D:\\Project\\Reactivities\\API\\API.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\Exercise\\Reactivities\\API\\API.csproj": {
+    "D:\\Project\\Reactivities\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\Exercise\\Reactivities\\API\\API.csproj",
+        "projectUniqueName": "D:\\Project\\Reactivities\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "D:\\Projects\\Exercise\\Reactivities\\API\\API.csproj",
-        "packagesPath": "C:\\Users\\ripdo\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\Exercise\\Reactivities\\API\\obj\\",
+        "projectPath": "D:\\Project\\Reactivities\\API\\API.csproj",
+        "packagesPath": "C:\\Users\\NK\\.nuget\\packages\\",
+        "outputPath": "D:\\Project\\Reactivities\\API\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\ripdo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\NK\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,14 +26,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Projects\\Exercise\\Reactivities\\Application\\Application.csproj": {
-                "projectPath": "D:\\Projects\\Exercise\\Reactivities\\Application\\Application.csproj"
+              "D:\\Project\\Reactivities\\Application\\Application.csproj": {
+                "projectPath": "D:\\Project\\Reactivities\\Application\\Application.csproj"
               }
             }
           }
@@ -98,17 +103,21 @@
         }
       }
     },
-    "D:\\Projects\\Exercise\\Reactivities\\Application\\Application.csproj": {
+    "D:\\Project\\Reactivities\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\Exercise\\Reactivities\\Application\\Application.csproj",
+        "projectUniqueName": "D:\\Project\\Reactivities\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "D:\\Projects\\Exercise\\Reactivities\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\ripdo\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\Exercise\\Reactivities\\Application\\obj\\",
+        "projectPath": "D:\\Project\\Reactivities\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\NK\\.nuget\\packages\\",
+        "outputPath": "D:\\Project\\Reactivities\\Application\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\ripdo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\NK\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -116,17 +125,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Projects\\Exercise\\Reactivities\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\Projects\\Exercise\\Reactivities\\Domain\\Domain.csproj"
+              "D:\\Project\\Reactivities\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\Project\\Reactivities\\Domain\\Domain.csproj"
               },
-              "D:\\Projects\\Exercise\\Reactivities\\Persistence\\Persistence.csproj": {
-                "projectPath": "D:\\Projects\\Exercise\\Reactivities\\Persistence\\Persistence.csproj"
+              "D:\\Project\\Reactivities\\Persistence\\Persistence.csproj": {
+                "projectPath": "D:\\Project\\Reactivities\\Persistence\\Persistence.csproj"
               }
             }
           }
@@ -170,17 +180,21 @@
         }
       }
     },
-    "D:\\Projects\\Exercise\\Reactivities\\Domain\\Domain.csproj": {
+    "D:\\Project\\Reactivities\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\Exercise\\Reactivities\\Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\Project\\Reactivities\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\Projects\\Exercise\\Reactivities\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\ripdo\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\Exercise\\Reactivities\\Domain\\obj\\",
+        "projectPath": "D:\\Project\\Reactivities\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\NK\\.nuget\\packages\\",
+        "outputPath": "D:\\Project\\Reactivities\\Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\ripdo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\NK\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -188,6 +202,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -225,17 +240,21 @@
         }
       }
     },
-    "D:\\Projects\\Exercise\\Reactivities\\Persistence\\Persistence.csproj": {
+    "D:\\Project\\Reactivities\\Persistence\\Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\Exercise\\Reactivities\\Persistence\\Persistence.csproj",
+        "projectUniqueName": "D:\\Project\\Reactivities\\Persistence\\Persistence.csproj",
         "projectName": "Persistence",
-        "projectPath": "D:\\Projects\\Exercise\\Reactivities\\Persistence\\Persistence.csproj",
-        "packagesPath": "C:\\Users\\ripdo\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\Exercise\\Reactivities\\Persistence\\obj\\",
+        "projectPath": "D:\\Project\\Reactivities\\Persistence\\Persistence.csproj",
+        "packagesPath": "C:\\Users\\NK\\.nuget\\packages\\",
+        "outputPath": "D:\\Project\\Reactivities\\Persistence\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\ripdo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\NK\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -243,14 +262,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Projects\\Exercise\\Reactivities\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\Projects\\Exercise\\Reactivities\\Domain\\Domain.csproj"
+              "D:\\Project\\Reactivities\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\Project\\Reactivities\\Domain\\Domain.csproj"
               }
             }
           }

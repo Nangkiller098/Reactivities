@@ -1,7 +1,7 @@
 import { Grid } from "semantic-ui-react";
 import ActivityList from "./ActivityList";
-import ActivityDetails from "../details/ActivityDetails";
-import ActivityForm from "../form/ActivityForm";
+// import ActivityDetails from "../details/ActivityDetails";
+// import ActivityForm from "../form/ActivityForm";
 import { useStore } from "../../../app/stores/store";
 import { observer } from "mobx-react-lite";
 import { useEffect } from "react";
@@ -10,7 +10,7 @@ import LoadingComponent from "../../../app/layout/LoadingComponent";
 //{activities} as paramameter extent from Props activities
 export default observer(function ActivityDashboard() {
   const { activityStore } = useStore();
-  const { selectedActivity, editMode } = activityStore;
+  // const { selectedActivity, editMode } = activityStore;
 
   // get data from api using axios by url
   useEffect(() => {
@@ -26,8 +26,8 @@ export default observer(function ActivityDashboard() {
         <ActivityList />
       </Grid.Column>
       <Grid.Column width={"6"}>
-        {selectedActivity && !editMode && <ActivityDetails />}
-        {editMode && <ActivityForm />}
+        {/* {selectedActivity && !editMode && <ActivityDetails />}
+        {editMode && <ActivityForm />} */}
       </Grid.Column>
     </Grid>
   );
