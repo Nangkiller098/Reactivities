@@ -14,7 +14,7 @@ export default observer(function ActivityDashboard() {
 
   // get data from api using axios by url
   useEffect(() => {
-    if (activityRegistry.size === 0) loadActivities();
+    if (activityRegistry.size <= 1) loadActivities();
   }, [activityRegistry.size, loadActivities]);
 
   //loading gif
@@ -25,7 +25,7 @@ export default observer(function ActivityDashboard() {
       <Grid.Column width={10}>
         <ActivityList />
       </Grid.Column>
-      <Grid.Column width={"6"}></Grid.Column>
+      <Grid.Column width={"6"}>Activity Filter</Grid.Column>
     </Grid>
   );
 });

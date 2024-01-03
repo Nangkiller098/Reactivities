@@ -4,7 +4,7 @@ import agent from "../api/agents";
 import { v4 as uuid } from "uuid";
 export default class ActivityStore {
   activityRegistry = new Map<string, Activities>();
-  selectedActivity: Activities | undefined = undefined;
+  selectedActivity: Activities | undefined;
   editMode = false;
   loading = false;
   loadingInitial = false;
@@ -37,22 +37,22 @@ export default class ActivityStore {
 
   //load activity by id in view form
   loadActivity = async (id: string) => {
-    this.setLoadingInitial(true);
     let activity = this.getActivity(id);
     if (activity) {
       this.selectedActivity = activity;
-      this.setLoadingInitial(false);
       return activity;
     } else {
-      this.setLoadingInitial(true);
       try {
         activity = await agent.Activities.details(id);
+        if (!activity) {
+          alert("null");
+        }
         this.setActivity(activity);
-        this.setLoadingInitial(false);
         runInAction(() => {
           this.selectedActivity = activity;
+          this.setLoadingInitial(false);
         });
-
+        //
         return activity;
       } catch (error) {
         console.log(error);
