@@ -10,12 +10,12 @@ import LoadingComponent from "../../../app/layout/LoadingComponent";
 //{activities} as paramameter extent from Props activities
 export default observer(function ActivityDashboard() {
   const { activityStore } = useStore();
-  // const { selectedActivity, editMode } = activityStore;
+  const { loadActivities, activityRegistry } = activityStore;
 
   // get data from api using axios by url
   useEffect(() => {
-    activityStore.loadActivities();
-  }, [activityStore]);
+    if (activityRegistry.size === 0) loadActivities();
+  }, [activityRegistry.size, loadActivities]);
 
   //loading gif
   if (activityStore.loadingInitial)
@@ -25,10 +25,7 @@ export default observer(function ActivityDashboard() {
       <Grid.Column width={10}>
         <ActivityList />
       </Grid.Column>
-      <Grid.Column width={"6"}>
-        {/* {selectedActivity && !editMode && <ActivityDetails />}
-        {editMode && <ActivityForm />} */}
-      </Grid.Column>
+      <Grid.Column width={"6"}></Grid.Column>
     </Grid>
   );
 });

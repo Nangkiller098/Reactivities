@@ -37,19 +37,22 @@ export default class ActivityStore {
 
   //load activity by id in view form
   loadActivity = async (id: string) => {
+    this.setLoadingInitial(true);
     let activity = this.getActivity(id);
     if (activity) {
       this.selectedActivity = activity;
+      this.setLoadingInitial(false);
       return activity;
     } else {
       this.setLoadingInitial(true);
       try {
         activity = await agent.Activities.details(id);
         this.setActivity(activity);
+        this.setLoadingInitial(false);
         runInAction(() => {
           this.selectedActivity = activity;
         });
-        this.setLoadingInitial(false);
+
         return activity;
       } catch (error) {
         console.log(error);
@@ -60,7 +63,7 @@ export default class ActivityStore {
 
   //set date in activty view
   private setActivity = (activity: Activities) => {
-    // activity.date = activity.date.split("T")[0];
+    activity.date = activity.date.split("T")[0];
     this.activityRegistry.set(activity.id, activity);
   };
 

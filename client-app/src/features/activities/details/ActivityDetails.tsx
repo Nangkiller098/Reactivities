@@ -18,7 +18,8 @@ export default observer(function ActivityDetails() {
     if (id) loadActivity(id);
   }, [id, loadActivity]);
 
-  if (loadingInitial || !activity) return <LoadingComponent />;
+  if (loadingInitial || !activity)
+    return <LoadingComponent content="Loadng Activity" />;
   return (
     <>
       <Card>
