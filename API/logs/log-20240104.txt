@@ -467,3 +467,11 @@ System.Exception: Activity Not Founds
    at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
    at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
    at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-01-04 16:58:58.872 +07:00 [INF] Now listening on: http://localhost:5000
+2024-01-04 16:58:58.896 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-04 16:58:58.897 +07:00 [INF] Hosting environment: Development
+2024-01-04 16:58:58.897 +07:00 [INF] Content root path: D:\Project\Reactivities\API
+2024-01-04 16:59:04.101 +07:00 [WRN] Failed to determine the https port for redirect.
+2024-01-04 16:59:04.202 +07:00 [INF] HTTP GET /api/Activities responded 200 in 97.4547 ms
+2024-01-04 17:03:10.669 +07:00 [INF] HTTP POST /api/activities responded 400 in 49.6676 ms
+2024-01-04 17:03:36.074 +07:00 [INF] HTTP POST /api/Activities responded 200 in 107.6333 ms
