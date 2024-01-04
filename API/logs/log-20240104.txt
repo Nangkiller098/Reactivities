@@ -212,3 +212,60 @@ Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving 
 2024-01-04 09:21:35.079 +07:00 [INF] HTTP OPTIONS /api/activities/3466c36a-19c8-458d-be93-681cf788a584 responded 204 in 0.1883 ms
 2024-01-04 09:21:35.098 +07:00 [INF] HTTP PATCH /api/activities/3466c36a-19c8-458d-be93-681cf788a584 responded 200 in 14.2655 ms
 2024-01-04 09:21:35.247 +07:00 [INF] HTTP PATCH /api/activities/3466c36a-19c8-458d-be93-681cf788a584 responded 200 in 163.6392 ms
+2024-01-04 09:57:15.131 +07:00 [INF] Now listening on: http://localhost:5000
+2024-01-04 09:57:15.160 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-04 09:57:15.162 +07:00 [INF] Hosting environment: Development
+2024-01-04 09:57:15.163 +07:00 [INF] Content root path: D:\Project\Reactivities\API
+2024-01-04 09:57:33.519 +07:00 [WRN] Failed to determine the https port for redirect.
+2024-01-04 09:57:33.636 +07:00 [INF] HTTP GET /api/activities responded 200 in 110.8600 ms
+2024-01-04 09:58:43.295 +07:00 [INF] HTTP GET /api/activities responded 200 in 45.9160 ms
+2024-01-04 09:59:11.200 +07:00 [INF] HTTP GET /api/activities responded 200 in 4.6565 ms
+2024-01-04 09:59:14.259 +07:00 [INF] HTTP GET /api/activities responded 200 in 2.3375 ms
+2024-01-04 09:59:22.260 +07:00 [INF] HTTP GET /api/activities responded 200 in 1.5867 ms
+2024-01-04 09:59:48.241 +07:00 [INF] HTTP GET /api/activities responded 200 in 3.9683 ms
+2024-01-04 09:59:52.243 +07:00 [INF] HTTP GET /api/activities responded 200 in 5.7937 ms
+2024-01-04 10:00:02.216 +07:00 [INF] HTTP GET /api/activities responded 200 in 3.0063 ms
+2024-01-04 10:00:16.272 +07:00 [INF] HTTP GET /api/activities responded 200 in 2.3132 ms
+2024-01-04 10:00:21.228 +07:00 [INF] HTTP GET /api/activities responded 200 in 1.8132 ms
+2024-01-04 10:02:03.304 +07:00 [INF] HTTP GET /api/activities responded 200 in 2.5278 ms
+2024-01-04 10:02:12.195 +07:00 [INF] HTTP GET /api/activities responded 200 in 2.0751 ms
+2024-01-04 10:05:01.032 +07:00 [INF] HTTP GET /api/activities responded 200 in 1.5178 ms
+2024-01-04 10:05:42.446 +07:00 [INF] HTTP OPTIONS /api/activities/3466c36a-19c8-458d-be93-681cf788a584 responded 204 in 1.1193 ms
+2024-01-04 10:05:42.448 +07:00 [INF] HTTP OPTIONS /api/activities/3466c36a-19c8-458d-be93-681cf788a584 responded 204 in 0.1344 ms
+2024-01-04 10:05:42.631 +07:00 [INF] HTTP PATCH /api/activities/3466c36a-19c8-458d-be93-681cf788a584 responded 200 in 177.6871 ms
+2024-01-04 10:05:42.784 +07:00 [INF] HTTP PATCH /api/activities/3466c36a-19c8-458d-be93-681cf788a584 responded 200 in 330.8428 ms
+2024-01-04 10:05:54.360 +07:00 [INF] HTTP GET /api/activities responded 200 in 2.1259 ms
+2024-01-04 10:06:07.809 +07:00 [INF] HTTP OPTIONS /api/activities/a8079829-f241-414c-aaa2-457b83eda9c7 responded 204 in 0.0925 ms
+2024-01-04 10:06:07.810 +07:00 [INF] HTTP OPTIONS /api/activities/a8079829-f241-414c-aaa2-457b83eda9c7 responded 204 in 0.0257 ms
+2024-01-04 10:06:07.824 +07:00 [INF] HTTP PATCH /api/activities/a8079829-f241-414c-aaa2-457b83eda9c7 responded 200 in 8.0351 ms
+2024-01-04 10:06:07.985 +07:00 [INF] HTTP PATCH /api/activities/a8079829-f241-414c-aaa2-457b83eda9c7 responded 200 in 169.2184 ms
+2024-01-04 10:06:16.269 +07:00 [INF] HTTP GET /api/activities responded 200 in 2.8911 ms
+2024-01-04 10:06:37.140 +07:00 [INF] HTTP GET /api/activities responded 200 in 4.3563 ms
+2024-01-04 10:06:45.871 +07:00 [INF] HTTP OPTIONS /api/activities/a8079829-f241-414c-aaa2-457b83eda9c7 responded 204 in 0.0866 ms
+2024-01-04 10:06:45.871 +07:00 [INF] HTTP OPTIONS /api/activities/a8079829-f241-414c-aaa2-457b83eda9c7 responded 204 in 0.0844 ms
+2024-01-04 10:06:45.884 +07:00 [INF] HTTP PATCH /api/activities/a8079829-f241-414c-aaa2-457b83eda9c7 responded 200 in 6.4968 ms
+2024-01-04 10:06:46.034 +07:00 [INF] HTTP PATCH /api/activities/a8079829-f241-414c-aaa2-457b83eda9c7 responded 200 in 156.6664 ms
+2024-01-04 10:06:57.990 +07:00 [INF] HTTP OPTIONS /api/activities/33ca717a-96ae-44bb-b114-0e24714749a1 responded 204 in 0.0323 ms
+2024-01-04 10:06:57.990 +07:00 [INF] HTTP OPTIONS /api/activities/33ca717a-96ae-44bb-b114-0e24714749a1 responded 204 in 0.0810 ms
+2024-01-04 10:06:58.002 +07:00 [INF] HTTP PATCH /api/activities/33ca717a-96ae-44bb-b114-0e24714749a1 responded 200 in 5.4173 ms
+2024-01-04 10:06:58.160 +07:00 [INF] HTTP PATCH /api/activities/33ca717a-96ae-44bb-b114-0e24714749a1 responded 200 in 163.1985 ms
+2024-01-04 10:07:57.318 +07:00 [INF] HTTP GET /api/activities responded 200 in 3.5738 ms
+2024-01-04 15:19:11.530 +07:00 [INF] HTTP GET /api/activities responded 200 in 3.4557 ms
+2024-01-04 15:19:12.082 +07:00 [INF] HTTP GET /api/activities responded 200 in 2.0500 ms
+2024-01-04 15:19:27.700 +07:00 [INF] HTTP OPTIONS /api/activities/3466c36a-19c8-458d-be93-681cf788a584 responded 204 in 0.2034 ms
+2024-01-04 15:19:27.700 +07:00 [INF] HTTP OPTIONS /api/activities/3466c36a-19c8-458d-be93-681cf788a584 responded 204 in 0.0202 ms
+2024-01-04 15:19:27.716 +07:00 [INF] HTTP PATCH /api/activities/3466c36a-19c8-458d-be93-681cf788a584 responded 200 in 11.3050 ms
+2024-01-04 15:19:27.863 +07:00 [INF] HTTP PATCH /api/activities/3466c36a-19c8-458d-be93-681cf788a584 responded 200 in 159.7719 ms
+2024-01-04 15:23:05.133 +07:00 [INF] Now listening on: http://localhost:5000
+2024-01-04 15:23:05.155 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-04 15:23:05.156 +07:00 [INF] Hosting environment: Development
+2024-01-04 15:23:05.157 +07:00 [INF] Content root path: D:\Project\Reactivities\API
+2024-01-04 15:23:30.799 +07:00 [WRN] Failed to determine the https port for redirect.
+2024-01-04 15:23:30.902 +07:00 [INF] HTTP GET /api/activities responded 200 in 99.4975 ms
+2024-01-04 15:23:54.518 +07:00 [INF] HTTP GET /api/activities/b9624114-8543-49c4-8286-fc9e6b0468eb responded 200 in 85.0538 ms
+2024-01-04 15:26:28.001 +07:00 [INF] HTTP GET /api/activities responded 200 in 2.6694 ms
+2024-01-04 15:36:28.369 +07:00 [INF] HTTP GET /api/activities responded 200 in 7.6973 ms
+2024-01-04 15:41:40.680 +07:00 [INF] HTTP GET /api/activities responded 200 in 1.9479 ms
+2024-01-04 15:43:36.285 +07:00 [INF] HTTP GET /api/activities/b9624114-8543-49c4-8286-fc9e6b0468eb responded 200 in 5.1018 ms
+2024-01-04 15:43:39.084 +07:00 [INF] HTTP GET /api/activities responded 200 in 1.5416 ms
+2024-01-04 15:46:19.014 +07:00 [INF] HTTP GET /api/activities responded 200 in 2.9314 ms
