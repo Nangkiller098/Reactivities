@@ -44,9 +44,6 @@ export default class ActivityStore {
     } else {
       try {
         activity = await agent.Activities.details(id);
-        if (!activity) {
-          alert("null");
-        }
         this.setActivity(activity);
         runInAction(() => {
           this.selectedActivity = activity;
