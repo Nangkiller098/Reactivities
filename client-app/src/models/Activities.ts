@@ -1,7 +1,7 @@
 export interface Activities {
   id: string;
   title: string;
-  date: string;
+  date: Date | null;
   description: string;
   category: string;
   city: string;

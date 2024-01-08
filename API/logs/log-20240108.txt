@@ -1,0 +1,4 @@
+2024-01-08 15:49:30.545 +07:00 [INF] Now listening on: http://localhost:5000
+2024-01-08 15:49:30.584 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-08 15:49:30.585 +07:00 [INF] Hosting environment: Development
+2024-01-08 15:49:30.587 +07:00 [INF] Content root path: D:\Project\Reactivities\API
