@@ -7,11 +7,14 @@ import { ToastContainer } from "react-toastify";
 import { useStore } from "../stores/store";
 import { useEffect } from "react";
 import LoadingComponent from "./LoadingComponent";
+import ModalContainer from "../api/common/modals/ModalContainer";
 
 //create value
 function App() {
   const location = useLocation();
+
   const { commonStore, userStore } = useStore();
+
   useEffect(() => {
     if (commonStore.token) {
       userStore.getUser().finally(() => commonStore.setAppLoaded());
@@ -19,10 +22,12 @@ function App() {
       commonStore.setAppLoaded();
     }
   }, [commonStore, userStore]);
+  
   if (!commonStore.appLoaded)
     return <LoadingComponent content="Loading app..." />;
   return (
     <>
+      <ModalContainer />
       <ToastContainer position="bottom-right" hideProgressBar theme="colored" />
       {location.pathname === "/" ? (
         <HomePage />
