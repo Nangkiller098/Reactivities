@@ -3,22 +3,31 @@ import { Activities } from "../../models/Activities";
 import { toast } from "react-toastify";
 import { router } from "../router/Routes";
 import { store } from "../stores/store";
+import { User, UserFormValus } from "../../models/user";
 
+//set sleep request api for 10000 second
 const sleep = (delay: number) => {
   return new Promise((resolve) => {
     setTimeout(resolve, delay);
   });
 };
 
+//set option alert base on statecode from api
+
+//base url api
 axios.defaults.baseURL = "http://localhost:5000/api/";
+
+//function sleep api
 axios.interceptors.response.use(
   async (response) => {
     await sleep(1000);
     return response;
   },
+  //if error
   (error: AxiosError) => {
     const { data, status, config } = error.response as AxiosResponse;
 
+    //
     switch (status) {
       case 400:
         if (
@@ -56,8 +65,17 @@ axios.interceptors.response.use(
   }
 );
 
+//catch response from api
 const responseBody = <T>(response: AxiosResponse<T>) => response.data;
 
+//setup Authorization
+axios.interceptors.request.use((config) => {
+  const token = store.commonStore.token;
+  if (token && config.headers) config.headers.Authorization = `Bearer ${token}`;
+  return config;
+});
+
+//request main api get/post/path/delete
 const request = {
   get: <T>(url: string) => axios.get<T>(url).then(responseBody),
   post: <T>(url: string, body: object) =>
@@ -67,6 +85,7 @@ const request = {
   delete: <T>(url: string) => axios.delete<T>(url).then(responseBody),
 };
 
+//request api activites
 const Activities = {
   list: () => request.get<Activities[]>("/activities"),
   details: (id: string) => request.get<Activities>(`/activities/${id}`),
@@ -76,7 +95,16 @@ const Activities = {
   delete: (id: string) => axios.delete<void>(`/activities/${id}`),
 };
 
+//get user from login
+const Account = {
+  current: () => request.get<User>(`/account`),
+  login: (user: UserFormValus) => request.post<User>(`/account/login`, user),
+  register: (user: UserFormValus) =>
+    request.post<User>(`/accoutn/register`, user),
+};
+
 const agent = {
   Activities,
+  Account,
 };
 export default agent;
