@@ -100,7 +100,7 @@ const Account = {
   current: () => request.get<User>(`/account`),
   login: (user: UserFormValus) => request.post<User>(`/account/login`, user),
   register: (user: UserFormValus) =>
-    request.post<User>(`/accoutn/register`, user),
+    request.post<User>(`/account/register`, user),
 };
 
 const agent = {

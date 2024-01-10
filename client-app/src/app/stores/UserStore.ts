@@ -17,7 +17,22 @@ export default class UserStore {
   //login
   login = async (creds: UserFormValus) => {
     try {
+      //get user from api
       const user = await agent.Account.login(creds);
+      //set token
+      store.commonStore.setToken(user.token);
+      runInAction(() => (this.user = user));
+      router.navigate("/activities");
+      store.modalStore.closeModal();
+    } catch (error) {
+      console.log(error);
+      throw error;
+    }
+  };
+  //Register
+  Register = async (creds: UserFormValus) => {
+    try {
+      const user = await agent.Account.register(creds);
       store.commonStore.setToken(user.token);
       runInAction(() => (this.user = user));
       router.navigate("/activities");

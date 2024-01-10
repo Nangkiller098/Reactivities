@@ -10,6 +10,7 @@ namespace API.Controllers
         public ActionResult GetNotFound()
         {
             return NotFound();
+            
         }
 
         [HttpGet("bad-request")]

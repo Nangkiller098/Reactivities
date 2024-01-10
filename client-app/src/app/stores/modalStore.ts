@@ -4,6 +4,7 @@ interface Modal {
   open: boolean;
   body: JSX.Element | null;
 }
+//use modeal store for popup Modal
 export default class ModalStore {
   modal: Modal = {
     open: false,
