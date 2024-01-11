@@ -1,0 +1,132 @@
+2024-01-11 09:59:25.250 +07:00 [INF] Now listening on: http://localhost:5000
+2024-01-11 09:59:25.273 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-11 09:59:25.274 +07:00 [INF] Hosting environment: Development
+2024-01-11 09:59:25.274 +07:00 [INF] Content root path: D:\Project\Reactivities\API
+2024-01-11 10:01:04.338 +07:00 [WRN] Failed to determine the https port for redirect.
+2024-01-11 10:01:04.394 +07:00 [INF] HTTP OPTIONS /api/account/login responded 204 in 1.0493 ms
+2024-01-11 10:01:04.538 +07:00 [INF] HTTP POST /api/account/login responded 200 in 131.3314 ms
+2024-01-11 10:01:05.677 +07:00 [INF] HTTP OPTIONS /api/activities responded 204 in 0.3881 ms
+2024-01-11 10:01:05.799 +07:00 [INF] HTTP GET /api/activities responded 200 in 83.7789 ms
+2024-01-11 10:12:01.510 +07:00 [INF] Now listening on: http://localhost:5000
+2024-01-11 10:12:01.542 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-11 10:12:01.543 +07:00 [INF] Hosting environment: Development
+2024-01-11 10:12:01.544 +07:00 [INF] Content root path: D:\Project\Reactivities\API
+2024-01-11 10:12:10.947 +07:00 [WRN] Failed to determine the https port for redirect.
+2024-01-11 10:12:10.963 +07:00 [INF] HTTP OPTIONS /api/account responded 204 in 0.9531 ms
+2024-01-11 10:12:11.071 +07:00 [INF] HTTP GET /api/account responded 200 in 52.9855 ms
+2024-01-11 10:12:13.208 +07:00 [INF] HTTP OPTIONS /api/activities responded 204 in 0.1781 ms
+2024-01-11 10:12:13.291 +07:00 [INF] HTTP GET /api/activities responded 200 in 77.8914 ms
+2024-01-11 10:12:18.138 +07:00 [INF] HTTP OPTIONS /api/account/login responded 204 in 0.0960 ms
+2024-01-11 10:12:18.224 +07:00 [INF] HTTP POST /api/account/login responded 200 in 81.7486 ms
+2024-01-11 10:12:58.127 +07:00 [INF] HTTP OPTIONS /api/account/login responded 204 in 0.0450 ms
+2024-01-11 10:12:58.186 +07:00 [INF] HTTP POST /api/account/login responded 200 in 55.1491 ms
+2024-01-11 10:17:51.700 +07:00 [INF] Now listening on: http://localhost:5000
+2024-01-11 10:17:51.725 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-11 10:17:51.726 +07:00 [INF] Hosting environment: Development
+2024-01-11 10:17:51.727 +07:00 [INF] Content root path: D:\Project\Reactivities\API
+2024-01-11 10:18:09.757 +07:00 [INF] Application is shutting down...
+2024-01-11 10:18:58.698 +07:00 [INF] Now listening on: http://localhost:5000
+2024-01-11 10:18:58.722 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-11 10:18:58.723 +07:00 [INF] Hosting environment: Development
+2024-01-11 10:18:58.724 +07:00 [INF] Content root path: D:\Project\Reactivities\API
+2024-01-11 10:19:22.433 +07:00 [WRN] Failed to determine the https port for redirect.
+2024-01-11 10:19:22.643 +07:00 [INF] HTTP POST /api/account/login responded 200 in 159.3131 ms
+2024-01-11 10:20:21.959 +07:00 [INF] HTTP POST /api/account/login responded 200 in 97.7577 ms
+2024-01-11 10:21:51.882 +07:00 [INF] HTTP GET /api/activities responded 200 in 48.1749 ms
+2024-01-11 10:22:23.117 +07:00 [ERR] HTTP POST /api/activities responded 500 in 41.5786 ms
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Application.Activities.Create.Handler.Handle(Command request, CancellationToken cancellationToken) in D:\Project\Reactivities\Application\Activities\Create.cs:line 49
+   at API.Controllers.ActivitiesController.CreateActivity(Activity activity) in D:\Project\Reactivities\API\Controllers\ActivitiesController.cs:line 25
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-01-11 10:22:23.129 +07:00 [ERR] Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Application.Activities.Create.Handler.Handle(Command request, CancellationToken cancellationToken) in D:\Project\Reactivities\Application\Activities\Create.cs:line 49
+   at API.Controllers.ActivitiesController.CreateActivity(Activity activity) in D:\Project\Reactivities\API\Controllers\ActivitiesController.cs:line 25
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at API.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext context) in D:\Project\Reactivities\API\Middleware\ExceptionMiddleware.cs:line 23
+2024-01-11 10:25:28.062 +07:00 [ERR] HTTP POST /api/activities responded 500 in 4.4753 ms
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Application.Activities.Create.Handler.Handle(Command request, CancellationToken cancellationToken) in D:\Project\Reactivities\Application\Activities\Create.cs:line 49
+   at API.Controllers.ActivitiesController.CreateActivity(Activity activity) in D:\Project\Reactivities\API\Controllers\ActivitiesController.cs:line 25
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-01-11 10:25:28.068 +07:00 [ERR] Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Application.Activities.Create.Handler.Handle(Command request, CancellationToken cancellationToken) in D:\Project\Reactivities\Application\Activities\Create.cs:line 49
+   at API.Controllers.ActivitiesController.CreateActivity(Activity activity) in D:\Project\Reactivities\API\Controllers\ActivitiesController.cs:line 25
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at API.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext context) in D:\Project\Reactivities\API\Middleware\ExceptionMiddleware.cs:line 23
+2024-01-11 10:25:39.560 +07:00 [INF] HTTP GET /api/activities responded 200 in 1.9406 ms
+2024-01-11 10:25:48.466 +07:00 [INF] Application is shutting down...
+2024-01-11 10:25:55.010 +07:00 [INF] Now listening on: http://localhost:5000
+2024-01-11 10:25:55.036 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-11 10:25:55.038 +07:00 [INF] Hosting environment: Development
+2024-01-11 10:25:55.038 +07:00 [INF] Content root path: D:\Project\Reactivities\API
+2024-01-11 10:25:59.810 +07:00 [WRN] Failed to determine the https port for redirect.
+2024-01-11 10:25:59.843 +07:00 [INF] HTTP GET /api/activities responded 401 in 12.3826 ms
+2024-01-11 10:26:01.594 +07:00 [INF] HTTP GET /api/activities responded 401 in 1.9449 ms
+2024-01-11 10:26:03.367 +07:00 [INF] HTTP GET /api/activities responded 401 in 0.8410 ms
+2024-01-11 10:26:04.391 +07:00 [INF] HTTP GET /api/activities responded 401 in 0.2358 ms
+2024-01-11 10:26:12.773 +07:00 [INF] HTTP GET /api/activities responded 401 in 0.2805 ms
+2024-01-11 10:26:16.613 +07:00 [INF] Application is shutting down...
+2024-01-11 10:26:25.688 +07:00 [INF] Now listening on: http://localhost:5000
+2024-01-11 10:26:25.714 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-11 10:26:25.715 +07:00 [INF] Hosting environment: Development
+2024-01-11 10:26:25.715 +07:00 [INF] Content root path: D:\Project\Reactivities\API
+2024-01-11 10:26:37.666 +07:00 [WRN] Failed to determine the https port for redirect.
+2024-01-11 10:26:37.697 +07:00 [INF] HTTP GET /api/activities responded 401 in 11.1855 ms
+2024-01-11 10:26:47.316 +07:00 [INF] HTTP GET /api/activities responded 401 in 1.9538 ms
+2024-01-11 10:27:06.302 +07:00 [INF] HTTP GET /api/activities/239eeda0-0ebe-4e53-b7df-23f8426f9d2c responded 401 in 6.9908 ms
+2024-01-11 10:27:22.349 +07:00 [INF] HTTP POST /api/account/login responded 200 in 113.7658 ms
+2024-01-11 10:28:03.061 +07:00 [INF] HTTP GET /api/activities responded 401 in 0.2639 ms
+2024-01-11 10:29:00.581 +07:00 [INF] HTTP POST /api/account/login responded 200 in 99.5341 ms
+2024-01-11 10:30:21.706 +07:00 [INF] HTTP GET /api/activities responded 200 in 42.4783 ms
+2024-01-11 10:31:05.824 +07:00 [INF] HTTP POST /api/activities responded 200 in 137.5166 ms
+2024-01-11 10:31:08.327 +07:00 [INF] HTTP GET /api/activities responded 200 in 1.7073 ms
