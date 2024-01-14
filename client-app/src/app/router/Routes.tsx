@@ -1,3 +1,5 @@
+/* This code is setting up the routing configuration for a TypeScript React application using the
+react-router-dom library. */
 import { Navigate, RouteObject, createBrowserRouter } from "react-router-dom";
 import App from "../layout/App";
 import HomePage from "../../features/home/HomePage";

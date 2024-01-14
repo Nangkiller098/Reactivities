@@ -1,3 +1,5 @@
+/* The code you provided is the startup code for a C# ASP.NET Core application. Here's a breakdown of
+what each part does: */
 using API.Extensions;
 using API.Middleware;
 using Domain;

@@ -1,3 +1,11 @@
+/**
+ * This is a TypeScript file that sets up an Axios instance for making API requests, including
+ * authentication, error handling, and specific requests for activities and user accounts.
+ * @param {number} delay - The `delay` parameter in the `sleep` function is the number of milliseconds
+ * to wait before resolving the promise. It is used to simulate a delay in the API response.
+ * @returns The code is exporting an object named "agent" which contains two properties: "Activities"
+ * and "Account". Each property is an object that contains various methods for making API requests.
+ */
 import axios, { AxiosError, AxiosResponse } from "axios";
 import { Activities } from "../../models/Activities";
 import { toast } from "react-toastify";
@@ -80,7 +88,7 @@ const request = {
   get: <T>(url: string) => axios.get<T>(url).then(responseBody),
   post: <T>(url: string, body: object) =>
     axios.post<T>(url, body).then(responseBody),
-  patch: <T>(url: string, body: object) =>
+  put: <T>(url: string, body: object) =>
     axios.patch<T>(url, body).then(responseBody),
   delete: <T>(url: string) => axios.delete<T>(url).then(responseBody),
 };
@@ -91,7 +99,7 @@ const Activities = {
   details: (id: string) => request.get<Activities>(`/activities/${id}`),
   create: (activity: Activities) => request.post<void>(`/activities`, activity),
   update: (activity: Activities) =>
-    request.patch<void>(`/activities/${activity.id}`, activity),
+    request.put<void>(`/activities/${activity.id}`, activity),
   delete: (id: string) => axios.delete<void>(`/activities/${id}`),
 };
 

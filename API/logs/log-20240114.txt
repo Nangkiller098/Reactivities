@@ -1,0 +1,33 @@
+2024-01-14 09:31:19.722 +07:00 [INF] Now listening on: http://localhost:5000
+2024-01-14 09:31:19.756 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-14 09:31:19.757 +07:00 [INF] Hosting environment: Development
+2024-01-14 09:31:19.758 +07:00 [INF] Content root path: D:\Project\Reactivities\API
+2024-01-14 09:32:29.682 +07:00 [INF] Application is shutting down...
+2024-01-14 09:32:36.011 +07:00 [INF] Now listening on: http://localhost:5000
+2024-01-14 09:32:36.034 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-14 09:32:36.036 +07:00 [INF] Hosting environment: Development
+2024-01-14 09:32:36.036 +07:00 [INF] Content root path: D:\Project\Reactivities\API
+2024-01-14 09:33:08.785 +07:00 [WRN] Failed to determine the https port for redirect.
+2024-01-14 09:33:08.958 +07:00 [INF] HTTP GET /api/activities responded 200 in 75.8443 ms
+2024-01-14 09:33:26.102 +07:00 [INF] HTTP POST /api/activities/031b0d7b-2fd4-4756-98fd-58a49bb799e1/attend responded 404 in 0.1855 ms
+2024-01-14 09:33:33.827 +07:00 [INF] HTTP POST /api/account/login responded 200 in 153.7671 ms
+2024-01-14 09:33:36.686 +07:00 [INF] HTTP POST /api/account/login responded 200 in 61.9858 ms
+2024-01-14 09:33:39.969 +07:00 [INF] HTTP GET /api/activities responded 200 in 2.5966 ms
+2024-01-14 09:34:23.091 +07:00 [INF] HTTP POST /api/activities/031b0d7b-2fd4-4756-98fd-58a49bb799e1/attend responded 404 in 0.1039 ms
+2024-01-14 09:34:28.819 +07:00 [INF] HTTP POST /api/activities/13e529c6-8b1d-413a-93c8-7dbb89a105bd/attend responded 404 in 0.0330 ms
+2024-01-14 09:34:39.308 +07:00 [INF] HTTP POST /api/activities/13e529c6-8b1d-413a-93c8-7dbb89a105bd/attend responded 404 in 0.0318 ms
+2024-01-14 09:36:53.747 +07:00 [INF] Application is shutting down...
+2024-01-14 09:37:42.912 +07:00 [INF] Now listening on: http://localhost:5000
+2024-01-14 09:37:42.940 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-14 09:37:42.942 +07:00 [INF] Hosting environment: Development
+2024-01-14 09:37:42.943 +07:00 [INF] Content root path: D:\Project\Reactivities\API
+2024-01-14 09:37:52.750 +07:00 [WRN] Failed to determine the https port for redirect.
+2024-01-14 09:37:52.773 +07:00 [INF] HTTP OPTIONS /api/account responded 204 in 2.9189 ms
+2024-01-14 09:37:52.914 +07:00 [INF] HTTP GET /api/account responded 200 in 71.2279 ms
+2024-01-14 09:37:54.804 +07:00 [INF] HTTP OPTIONS /api/activities responded 204 in 0.2029 ms
+2024-01-14 09:37:54.891 +07:00 [INF] HTTP GET /api/activities responded 200 in 81.3491 ms
+2024-01-14 09:38:02.235 +07:00 [INF] HTTP GET /api/activities responded 401 in 4.1178 ms
+2024-01-14 09:38:05.951 +07:00 [INF] HTTP OPTIONS /api/account/login responded 204 in 0.0458 ms
+2024-01-14 09:38:06.033 +07:00 [INF] HTTP POST /api/account/login responded 200 in 78.2317 ms
+2024-01-14 09:38:07.069 +07:00 [INF] HTTP OPTIONS /api/activities responded 204 in 0.0757 ms
+2024-01-14 09:38:07.077 +07:00 [INF] HTTP GET /api/activities responded 200 in 3.0153 ms

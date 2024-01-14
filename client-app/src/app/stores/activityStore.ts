@@ -1,3 +1,6 @@
+/* The ActivityStore class is responsible for managing activities, including loading, creating,
+updating, and deleting activities. */
+
 import { Activities } from "./../../models/Activities";
 import { makeAutoObservable, runInAction } from "mobx";
 import agent from "../api/agents";

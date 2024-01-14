@@ -1,3 +1,5 @@
+/* The code you provided is a C# class that defines a controller called `BuggyController`. This
+controller is used to handle HTTP requests and return appropriate responses. */
 
 using System;
 using Microsoft.AspNetCore.Mvc;

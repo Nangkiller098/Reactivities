@@ -1,3 +1,5 @@
+/* The UserStore class is responsible for handling user login, registration, logout, and retrieving
+user information. */
 import { makeAutoObservable, runInAction } from "mobx";
 import { User, UserFormValus } from "../../models/user";
 import agent from "../api/agents";

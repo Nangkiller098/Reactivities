@@ -1,3 +1,10 @@
+/**
+ * The above code is a TypeScript React component that renders a select input field with error handling
+ * using Formik and Semantic UI React.
+ * @param {Props} props - - `placeholder`: The placeholder text for the select input field.
+ * @returns The MySelectInput component is being returned.
+ */
+
 import { useField } from "formik";
 import { Form, Label, Select } from "semantic-ui-react";
 

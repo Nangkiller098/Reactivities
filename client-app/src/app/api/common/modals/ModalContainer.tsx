@@ -1,3 +1,5 @@
+/* The code is defining a React component called `ModalContainer`. */
+
 import { Modal } from "semantic-ui-react";
 import { useStore } from "../../../stores/store";
 import { observer } from "mobx-react-lite";

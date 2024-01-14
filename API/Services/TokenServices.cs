@@ -1,5 +1,7 @@
+/* The code is defining a class called `TokenServices` in the `API.Services` namespace. This class is
+responsible for creating a JWT (JSON Web Token) for a given user. */
+
 using System.IdentityModel.Tokens.Jwt;
-using System.Net.Http.Headers;
 using System.Security.Claims;
 using System.Text;
 using Domain;

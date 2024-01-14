@@ -1,7 +1,6 @@
+/* The code is defining a React component called `ActivityDashboard`. */
 import { Grid } from "semantic-ui-react";
 import ActivityList from "./ActivityList";
-// import ActivityDetails from "../details/ActivityDetails";
-// import ActivityForm from "../form/ActivityForm";
 import { useStore } from "../../../app/stores/store";
 import { observer } from "mobx-react-lite";
 import { useEffect } from "react";

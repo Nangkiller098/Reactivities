@@ -1,3 +1,5 @@
+/* The code is defining a React functional component called `LoadingComponent`. */
+
 import { Dimmer, Loader } from "semantic-ui-react";
 
 interface Props {

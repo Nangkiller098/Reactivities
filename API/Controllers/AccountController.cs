@@ -1,3 +1,5 @@
+/* The code is defining a controller class called `AccountController` that handles various API
+endpoints related to user authentication and account management. */
 using System.Security.Claims;
 using API.DTOs;
 using API.Services;

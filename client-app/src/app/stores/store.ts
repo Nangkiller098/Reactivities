@@ -1,3 +1,6 @@
+/* The code is creating a store object that contains instances of different store classes. These store
+classes are used to manage the state of the application. */
+
 import { createContext, useContext } from "react";
 import ActivityStore from "./activityStore";
 import CommonStore from "./commonStore";

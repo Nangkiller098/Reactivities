@@ -1,3 +1,4 @@
+/* The code is defining a class called `ExceptionMiddleware` that acts as a middleware in an API. */
 using System.Net;
 using System.Text.Json;
 using Application.Core;

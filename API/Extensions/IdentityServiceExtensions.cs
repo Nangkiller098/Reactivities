@@ -1,7 +1,13 @@
+/* This code is defining an extension method called `AddIdentityServices` for the `IServiceCollection`
+interface. This method is used to configure and add identity services to the service collection in
+an ASP.NET Core application. */
+
 using System.Text;
 using API.Services;
 using Domain;
+using Infrastructure.Security;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.IdentityModel.Tokens;
 using Persistence;
 
@@ -28,6 +34,14 @@ namespace API.Extensions
                     ValidateAudience = false,
                 };
             });
+            services.AddAuthorization(opt =>
+            {
+                opt.AddPolicy("IsActivityHost", policy =>
+                {
+                    policy.Requirements.Add(new IsHostRequirement());
+                });
+            });
+            services.AddTransient<IAuthorizationHandler, IsHostRequirementHandler>();
             services.AddScoped<TokenServices>();
             return services;
         }

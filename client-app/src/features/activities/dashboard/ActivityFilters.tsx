@@ -1,3 +1,8 @@
+/**
+ * The `ActivityFilters` function returns a component that displays a vertical menu with filter options
+ * and a calendar.
+ * @returns The function `ActivityFilters` is returning a JSX element.
+ */
 import Calendar from "react-calendar";
 import { Header, Menu } from "semantic-ui-react";
 

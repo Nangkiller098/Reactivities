@@ -1,3 +1,6 @@
+/* The CommonStore class is used to handle server error messages and store the token in local storage
+for an ASP.NET Core application. */
+
 import { ServerError } from "./../../models/serverError";
 import { makeAutoObservable, reaction } from "mobx";
 
