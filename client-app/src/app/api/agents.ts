@@ -89,7 +89,7 @@ const request = {
   post: <T>(url: string, body: object) =>
     axios.post<T>(url, body).then(responseBody),
   put: <T>(url: string, body: object) =>
-    axios.patch<T>(url, body).then(responseBody),
+    axios.put<T>(url, body).then(responseBody),
   delete: <T>(url: string) => axios.delete<T>(url).then(responseBody),
 };
 
@@ -100,7 +100,8 @@ const Activities = {
   create: (activity: Activities) => request.post<void>(`/activities`, activity),
   update: (activity: Activities) =>
     request.put<void>(`/activities/${activity.id}`, activity),
-  delete: (id: string) => axios.delete<void>(`/activities/${id}`),
+  delete: (id: string) => request.delete<void>(`/activities/${id}`),
+  attend: (id: string) => request.post<void>(`/activities/${id}/attend`, {}),
 };
 
 //get user from login

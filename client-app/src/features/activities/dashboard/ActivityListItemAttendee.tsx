@@ -15,9 +15,9 @@ export default observer(function ActivityListItemAttendee({
       <List horizontal>
         {attendees.map((attendee) => (
           <List.Item
-            key={attendee.username}
+            key={attendee.userName}
             as={Link}
-            to={`/profiles/${attendee.username}`}
+            to={`/profiles/${attendee.userName}`}
           >
             {" "}
             <Image
