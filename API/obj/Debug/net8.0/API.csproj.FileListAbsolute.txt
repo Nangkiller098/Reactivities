@@ -337,3 +337,5 @@ D:\Project\Reactivities\API\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.K
 D:\Project\Reactivities\API\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
 D:\Project\Reactivities\API\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
 D:\Project\Reactivities\API\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\Project\Reactivities\API\bin\Debug\net8.0\CloudinaryDotNet.dll
+D:\Project\Reactivities\API\bin\Debug\net8.0\Newtonsoft.Json.dll

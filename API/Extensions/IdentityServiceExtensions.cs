@@ -34,14 +34,17 @@ namespace API.Extensions
                     ValidateAudience = false,
                 };
             });
-            services.AddAuthorization(opt =>
-            {
-                opt.AddPolicy("IsActivityHost", policy =>
+
+            // custom authorization
+            services.AddAuthorizationBuilder()
+                .AddPolicy("IsActivityHost", policy =>
                 {
                     policy.Requirements.Add(new IsHostRequirement());
                 });
-            });
+            //check user is host on activity or not
             services.AddTransient<IAuthorizationHandler, IsHostRequirementHandler>();
+            //
+
             services.AddScoped<TokenServices>();
             return services;
         }

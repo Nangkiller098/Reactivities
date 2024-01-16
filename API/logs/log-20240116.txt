@@ -1,0 +1,9 @@
+2024-01-16 11:52:55.864 +07:00 [INF] Now listening on: http://localhost:5000
+2024-01-16 11:52:55.887 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-16 11:52:55.888 +07:00 [INF] Hosting environment: Development
+2024-01-16 11:52:55.889 +07:00 [INF] Content root path: D:\Project\Reactivities\API
+2024-01-16 11:52:59.675 +07:00 [WRN] Failed to determine the https port for redirect.
+2024-01-16 11:52:59.756 +07:00 [INF] HTTP OPTIONS /api/account responded 204 in 2.3648 ms
+2024-01-16 11:52:59.966 +07:00 [INF] HTTP GET /api/account responded 200 in 145.2002 ms
+2024-01-16 11:53:02.360 +07:00 [INF] HTTP OPTIONS /api/activities responded 204 in 0.1685 ms
+2024-01-16 11:53:02.539 +07:00 [INF] HTTP GET /api/activities responded 200 in 174.2338 ms

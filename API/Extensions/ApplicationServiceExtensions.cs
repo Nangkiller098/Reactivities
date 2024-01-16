@@ -3,6 +3,7 @@ using Application.Core;
 using Application.Interfaces;
 using FluentValidation;
 using FluentValidation.AspNetCore;
+using Infrastructure.Photos;
 using Infrastructure.Security;
 using Microsoft.EntityFrameworkCore;
 using Persistence;
@@ -17,12 +18,14 @@ namespace API.Extensions
             services.AddEndpointsApiExplorer();
             services.AddSwaggerGen();
 
+            //connection string
             services.AddDbContext<DataContext>(opt =>
             {
                 // opt.UseNpgsql(config.GetConnectionString("DefaultConnection"));
                 opt.UseSqlite(config.GetConnectionString("DefaultConnection"));
             });
 
+            //Cros for allow client side to use api
             services.AddCors(opt =>
             {
                 opt.AddPolicy("CorsPolicy", policy =>
@@ -30,14 +33,29 @@ namespace API.Extensions
                     policy.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin();
                 });
             });
+
+            //service MediatR
             services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(List.Handler).Assembly));
             // services.AddMediatR(typeof(List.Handler));
+
+            //automapper
             services.AddAutoMapper(typeof(MappingProfiles).Assembly);
+
+            //validation for model (fludentValidation package)
             services.AddFluentValidationAutoValidation();
+
+            //validation create
             services.AddValidatorsFromAssemblyContaining<Create>();
 
+            //
             services.AddHttpContextAccessor();
+
+            //IServices
             services.AddScoped<IUserAccessor, UserAccerssor>();
+            services.AddScoped<IPhotoAccerssor, PhotoAccessor>();
+            //Cloudinary
+            services.Configure<CloudinarySettins>(config.GetSection("Cloudinary"));
+
             return services;
         }
     }
