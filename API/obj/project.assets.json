@@ -1445,7 +1445,7 @@
           }
         }
       },
-      "Serilog.AspNetCore/8.0.0": {
+      "Serilog.AspNetCore/8.0.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection": "8.0.0",
@@ -5479,10 +5479,10 @@
         "serilog.nuspec"
       ]
     },
-    "Serilog.AspNetCore/8.0.0": {
-      "sha512": "FAjtKPZ4IzqFQBqZKPv6evcXK/F0ls7RoXI/62Pnx2igkDZ6nZ/jn/C/FxVATqQbEQvtqP+KViWYIe4NZIHa2w==",
+    "Serilog.AspNetCore/8.0.1": {
+      "sha512": "B/X+wAfS7yWLVOTD83B+Ip9yl4MkhioaXj90JSoWi1Ayi8XHepEnsBdrkojg08eodCnmOKmShFUN2GgEc6c0CQ==",
       "type": "package",
-      "path": "serilog.aspnetcore/8.0.0",
+      "path": "serilog.aspnetcore/8.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -5498,7 +5498,7 @@
         "lib/net8.0/Serilog.AspNetCore.xml",
         "lib/netstandard2.0/Serilog.AspNetCore.dll",
         "lib/netstandard2.0/Serilog.AspNetCore.xml",
-        "serilog.aspnetcore.8.0.0.nupkg.sha512",
+        "serilog.aspnetcore.8.0.1.nupkg.sha512",
         "serilog.aspnetcore.nuspec"
       ]
     },
@@ -9344,7 +9344,7 @@
       "Microsoft.EntityFrameworkCore.Sqlite >= 8.0.1",
       "Npgsql.EntityFrameworkCore.PostgreSQL >= 8.0.0",
       "Npgsql.EntityFrameworkCore.PostgreSQL.Design >= 1.1.1",
-      "Serilog.AspNetCore >= 8.0.0",
+      "Serilog.AspNetCore >= 8.0.1",
       "Serilog.Expressions >= 4.0.0",
       "Serilog.Sinks.Seq >= 6.0.0",
       "Swashbuckle.AspNetCore >= 6.5.0",
@@ -9352,24 +9352,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\NK\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\ripdo\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Project\\Reactivities\\API\\API.csproj",
+      "projectUniqueName": "D:\\Projects\\Exercise\\Reactivities\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "D:\\Project\\Reactivities\\API\\API.csproj",
-      "packagesPath": "C:\\Users\\NK\\.nuget\\packages\\",
-      "outputPath": "D:\\Project\\Reactivities\\API\\obj\\",
+      "projectPath": "D:\\Projects\\Exercise\\Reactivities\\API\\API.csproj",
+      "packagesPath": "C:\\Users\\ripdo\\.nuget\\packages\\",
+      "outputPath": "D:\\Projects\\Exercise\\Reactivities\\API\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\NK\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\ripdo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -9377,18 +9372,17 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Project\\Reactivities\\Application\\Application.csproj": {
-              "projectPath": "D:\\Project\\Reactivities\\Application\\Application.csproj"
+            "D:\\Projects\\Exercise\\Reactivities\\Application\\Application.csproj": {
+              "projectPath": "D:\\Projects\\Exercise\\Reactivities\\Application\\Application.csproj"
             },
-            "D:\\Project\\Reactivities\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "D:\\Project\\Reactivities\\Infrastructure\\Infrastructure.csproj"
+            "D:\\Projects\\Exercise\\Reactivities\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "D:\\Projects\\Exercise\\Reactivities\\Infrastructure\\Infrastructure.csproj"
             }
           }
         }
@@ -9427,7 +9421,7 @@
           },
           "Serilog.AspNetCore": {
             "target": "Package",
-            "version": "[8.0.0, )"
+            "version": "[8.0.1, )"
           },
           "Serilog.Expressions": {
             "target": "Package",
@@ -9465,7 +9459,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

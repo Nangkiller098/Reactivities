@@ -5,7 +5,8 @@
       "previewLimit": 50,
       "driver": "SQLite",
       "database": "${workspaceFolder:Reactivities}/API/reactivities",
-      "name": "hengsomnang"
+      "name": "reactivities",
+      "group": "reactivities"
     }
   ],
   "workbench.colorCustomizations": {
