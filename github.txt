@@ -1,0 +1,1 @@
+https://github.com/TryCatchLearn/Reactivities/blob/main/client-app/package.json
