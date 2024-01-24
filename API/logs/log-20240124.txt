@@ -1058,3 +1058,377 @@ System.InvalidOperationException: The CORS protocol does not allow specifying a 
 2024-01-24 12:21:04.219 +07:00 [INF] HTTP OPTIONS /chat/negotiate responded 204 in 0.0557 ms
 2024-01-24 12:21:04.220 +07:00 [INF] HTTP POST /chat/negotiate responded 200 in 0.1334 ms
 2024-01-24 12:21:04.221 +07:00 [INF] HTTP POST /chat/negotiate responded 200 in 0.1006 ms
+2024-01-24 14:54:12.917 +07:00 [INF] Now listening on: http://localhost:5000
+2024-01-24 14:54:12.943 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-24 14:54:12.944 +07:00 [INF] Hosting environment: Development
+2024-01-24 14:54:12.944 +07:00 [INF] Content root path: D:\Project\Reactivities\API
+2024-01-24 14:54:40.349 +07:00 [INF] Application is shutting down...
+2024-01-24 14:54:51.817 +07:00 [INF] Now listening on: http://localhost:5000
+2024-01-24 14:54:51.840 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-24 14:54:51.840 +07:00 [INF] Hosting environment: Development
+2024-01-24 14:54:51.841 +07:00 [INF] Content root path: D:\Project\Reactivities\API
+2024-01-24 14:55:07.642 +07:00 [WRN] Failed to determine the https port for redirect.
+2024-01-24 14:55:07.999 +07:00 [INF] HTTP POST /api/account/login responded 200 in 294.7838 ms
+2024-01-24 14:55:14.319 +07:00 [INF] HTTP GET /api/profiles/bob responded 200 in 134.2753 ms
+2024-01-24 14:55:18.975 +07:00 [INF] HTTP GET /api/profiles/tom responded 200 in 7.9174 ms
+2024-01-24 14:55:24.224 +07:00 [INF] HTTP POST /api/follow/tom responded 404 in 0.0680 ms
+2024-01-24 14:56:40.851 +07:00 [INF] HTTP PUT /api/Profiles responded 401 in 6.0841 ms
+2024-01-24 14:57:02.549 +07:00 [INF] HTTP POST /api/Following/tom responded 401 in 4.4477 ms
+2024-01-24 14:58:12.826 +07:00 [INF] HTTP POST /api/Following/tom responded 200 in 103.5809 ms
+2024-01-24 15:03:42.165 +07:00 [INF] Application is shutting down...
+2024-01-24 15:04:29.288 +07:00 [INF] Now listening on: http://localhost:5000
+2024-01-24 15:04:29.311 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-24 15:04:29.313 +07:00 [INF] Hosting environment: Development
+2024-01-24 15:04:29.313 +07:00 [INF] Content root path: D:\Project\Reactivities\API
+2024-01-24 15:04:32.477 +07:00 [WRN] Failed to determine the https port for redirect.
+2024-01-24 15:04:32.772 +07:00 [INF] HTTP GET /api/profiles/bob responded 200 in 248.2611 ms
+2024-01-24 15:04:37.795 +07:00 [INF] HTTP GET /api/profiles/tom responded 200 in 44.9199 ms
+2024-01-24 15:09:51.578 +07:00 [INF] HTTP OPTIONS /api/account responded 204 in 2.3959 ms
+2024-01-24 15:09:51.686 +07:00 [INF] HTTP GET /api/account responded 200 in 94.8605 ms
+2024-01-24 15:09:54.711 +07:00 [INF] HTTP OPTIONS /api/activities responded 204 in 0.1895 ms
+2024-01-24 15:09:54.764 +07:00 [INF] HTTP GET /api/activities responded 200 in 45.8157 ms
+2024-01-24 15:09:57.680 +07:00 [INF] HTTP OPTIONS /chat/negotiate responded 204 in 0.1109 ms
+2024-01-24 15:09:57.690 +07:00 [INF] HTTP POST /chat/negotiate responded 200 in 3.6936 ms
+2024-01-24 15:10:01.614 +07:00 [INF] HTTP GET /chat responded 101 in 3918.3112 ms
+2024-01-24 15:10:18.259 +07:00 [INF] HTTP OPTIONS /api/account responded 204 in 0.2788 ms
+2024-01-24 15:10:18.314 +07:00 [INF] HTTP GET /api/account responded 200 in 12.0952 ms
+2024-01-24 15:10:19.365 +07:00 [INF] HTTP OPTIONS /api/activities responded 204 in 0.0553 ms
+2024-01-24 15:10:19.372 +07:00 [INF] HTTP GET /api/activities responded 200 in 2.1965 ms
+2024-01-24 15:10:31.722 +07:00 [INF] HTTP OPTIONS /chat/negotiate responded 204 in 0.0804 ms
+2024-01-24 15:10:31.727 +07:00 [INF] HTTP POST /chat/negotiate responded 200 in 0.4305 ms
+2024-01-24 15:11:21.517 +07:00 [INF] HTTP GET /chat responded 101 in 49784.5151 ms
+2024-01-24 15:39:39.392 +07:00 [INF] Application is shutting down...
+2024-01-24 15:39:53.604 +07:00 [INF] Now listening on: http://localhost:5000
+2024-01-24 15:39:53.629 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-24 15:39:53.630 +07:00 [INF] Hosting environment: Development
+2024-01-24 15:39:53.631 +07:00 [INF] Content root path: D:\Project\Reactivities\API
+2024-01-24 15:39:54.469 +07:00 [WRN] Failed to determine the https port for redirect.
+2024-01-24 15:39:54.526 +07:00 [INF] HTTP GET /api/follow/bob responded 404 in 0.6391 ms
+2024-01-24 15:40:10.387 +07:00 [INF] HTTP GET /api/profiles/bob responded 200 in 235.6515 ms
+2024-01-24 15:40:13.665 +07:00 [INF] HTTP GET /api/profiles/tom responded 200 in 47.9807 ms
+2024-01-24 15:40:21.981 +07:00 [INF] HTTP GET /api/Following/bob responded 200 in 32.9644 ms
+2024-01-24 15:40:28.044 +07:00 [INF] HTTP GET /api/Following/bob responded 200 in 12.5457 ms
+2024-01-24 15:40:33.294 +07:00 [INF] HTTP GET /api/Following/bob responded 200 in 3.8857 ms
+2024-01-24 15:40:40.712 +07:00 [INF] HTTP GET /api/Following/tom responded 200 in 1.3364 ms
+2024-01-24 15:40:45.792 +07:00 [INF] HTTP GET /api/Following/tom responded 200 in 2.0577 ms
+2024-01-24 15:45:37.998 +07:00 [INF] HTTP GET /api/Following/bob responded 200 in 1.8411 ms
+2024-01-24 15:45:44.010 +07:00 [INF] Application is shutting down...
+2024-01-24 15:45:51.874 +07:00 [INF] Now listening on: http://localhost:5000
+2024-01-24 15:45:51.897 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-24 15:45:51.898 +07:00 [INF] Hosting environment: Development
+2024-01-24 15:45:51.898 +07:00 [INF] Content root path: D:\Project\Reactivities\API
+2024-01-24 15:45:53.374 +07:00 [WRN] Failed to determine the https port for redirect.
+2024-01-24 15:45:53.795 +07:00 [INF] HTTP GET /api/Following/bob responded 200 in 347.8697 ms
+2024-01-24 15:45:56.075 +07:00 [INF] HTTP GET /api/Following/bob responded 200 in 42.2278 ms
+2024-01-24 15:46:00.961 +07:00 [INF] HTTP GET /api/Following/bob responded 200 in 18.3000 ms
+2024-01-24 15:46:40.003 +07:00 [INF] HTTP GET /api/profiles/bob responded 200 in 20.8151 ms
+2024-01-24 15:46:47.508 +07:00 [INF] HTTP GET /api/profiles/tom responded 200 in 2.4831 ms
+2024-01-24 16:09:49.274 +07:00 [INF] HTTP GET /api/activities responded 200 in 52.4043 ms
+2024-01-24 16:10:00.862 +07:00 [INF] Application is shutting down...
+2024-01-24 16:10:18.393 +07:00 [INF] Now listening on: http://localhost:5000
+2024-01-24 16:10:18.416 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-24 16:10:18.417 +07:00 [INF] Hosting environment: Development
+2024-01-24 16:10:18.418 +07:00 [INF] Content root path: D:\Project\Reactivities\API
+2024-01-24 16:10:19.078 +07:00 [WRN] Failed to determine the https port for redirect.
+2024-01-24 16:10:19.352 +07:00 [INF] HTTP GET /api/activities responded 200 in 229.2704 ms
+2024-01-24 16:10:32.499 +07:00 [ERR] HTTP GET /api/activities/13e529c6-8b1d-413a-93c8-7dbb89a105bd responded 500 in 74.7876 ms
+System.Exception: Activity Not Founds
+   at Application.Activities.Details.Handler.Handle(Query request, CancellationToken cancellationToken) in D:\Project\Reactivities\Application\Activities\Details.cs:line 27
+   at API.Controllers.ActivitiesController.GetActivity(Guid id) in D:\Project\Reactivities\API\Controllers\ActivitiesController.cs:line 18
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-01-24 16:10:32.512 +07:00 [ERR] Activity Not Founds
+System.Exception: Activity Not Founds
+   at Application.Activities.Details.Handler.Handle(Query request, CancellationToken cancellationToken) in D:\Project\Reactivities\Application\Activities\Details.cs:line 27
+   at API.Controllers.ActivitiesController.GetActivity(Guid id) in D:\Project\Reactivities\API\Controllers\ActivitiesController.cs:line 18
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at API.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext context) in D:\Project\Reactivities\API\Middleware\ExceptionMiddleware.cs:line 24
+2024-01-24 16:10:48.721 +07:00 [INF] HTTP GET /api/activities/03bb60a1-b65e-4307-a542-4e96f05bc7d0 responded 200 in 9.4547 ms
+2024-01-24 16:12:18.373 +07:00 [INF] Application is shutting down...
+2024-01-24 16:12:33.109 +07:00 [INF] Now listening on: http://localhost:5000
+2024-01-24 16:12:33.147 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-24 16:12:33.148 +07:00 [INF] Hosting environment: Development
+2024-01-24 16:12:33.149 +07:00 [INF] Content root path: D:\Project\Reactivities\API
+2024-01-24 16:12:39.426 +07:00 [WRN] Failed to determine the https port for redirect.
+2024-01-24 16:12:39.708 +07:00 [INF] HTTP GET /api/profiles/tom responded 200 in 235.8177 ms
+2024-01-24 16:13:15.335 +07:00 [INF] Application is shutting down...
+2024-01-24 16:13:23.703 +07:00 [INF] Now listening on: http://localhost:5000
+2024-01-24 16:13:23.728 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-24 16:13:23.729 +07:00 [INF] Hosting environment: Development
+2024-01-24 16:13:23.729 +07:00 [INF] Content root path: D:\Project\Reactivities\API
+2024-01-24 16:14:03.127 +07:00 [WRN] Failed to determine the https port for redirect.
+2024-01-24 16:14:03.146 +07:00 [INF] HTTP OPTIONS /api/account responded 204 in 1.0580 ms
+2024-01-24 16:14:03.384 +07:00 [INF] HTTP GET /api/account responded 200 in 192.0498 ms
+2024-01-24 16:14:04.414 +07:00 [INF] HTTP OPTIONS /api/activities responded 204 in 0.2813 ms
+2024-01-24 16:14:04.582 +07:00 [INF] HTTP GET /api/activities responded 200 in 163.4406 ms
+2024-01-24 16:14:25.148 +07:00 [INF] HTTP OPTIONS /api/account responded 204 in 0.1066 ms
+2024-01-24 16:14:25.176 +07:00 [INF] HTTP GET /api/account responded 200 in 16.5539 ms
+2024-01-24 16:14:26.768 +07:00 [INF] HTTP OPTIONS /api/activities responded 204 in 0.0622 ms
+2024-01-24 16:14:26.778 +07:00 [INF] HTTP GET /api/activities responded 200 in 5.5997 ms
+2024-01-24 16:14:40.196 +07:00 [INF] HTTP OPTIONS /api/account responded 204 in 0.1830 ms
+2024-01-24 16:14:40.232 +07:00 [INF] HTTP GET /api/account responded 200 in 8.6613 ms
+2024-01-24 16:14:41.767 +07:00 [INF] HTTP OPTIONS /api/activities responded 204 in 0.0504 ms
+2024-01-24 16:14:41.772 +07:00 [INF] HTTP GET /api/activities responded 200 in 2.3981 ms
+2024-01-24 16:14:43.042 +07:00 [INF] HTTP GET /api/account responded 200 in 2.3057 ms
+2024-01-24 16:14:44.071 +07:00 [INF] HTTP GET /api/activities responded 200 in 2.2873 ms
+2024-01-24 16:14:47.100 +07:00 [INF] HTTP OPTIONS /api/account responded 204 in 0.0704 ms
+2024-01-24 16:14:47.111 +07:00 [INF] HTTP GET /api/account responded 200 in 2.3210 ms
+2024-01-24 16:14:48.768 +07:00 [INF] HTTP OPTIONS /api/activities responded 204 in 0.0454 ms
+2024-01-24 16:14:48.773 +07:00 [INF] HTTP GET /api/activities responded 200 in 1.7492 ms
+2024-01-24 16:14:55.068 +07:00 [INF] HTTP OPTIONS /api/account responded 204 in 0.2041 ms
+2024-01-24 16:14:55.083 +07:00 [INF] HTTP GET /api/account responded 200 in 3.0364 ms
+2024-01-24 16:14:56.777 +07:00 [INF] HTTP OPTIONS /api/activities responded 204 in 0.0604 ms
+2024-01-24 16:14:56.791 +07:00 [INF] HTTP GET /api/activities responded 200 in 5.3104 ms
+2024-01-24 16:15:04.156 +07:00 [INF] HTTP OPTIONS /api/account responded 204 in 0.1129 ms
+2024-01-24 16:15:04.173 +07:00 [INF] HTTP GET /api/account responded 200 in 2.2899 ms
+2024-01-24 16:15:05.775 +07:00 [INF] HTTP OPTIONS /api/activities responded 204 in 0.0980 ms
+2024-01-24 16:15:05.780 +07:00 [INF] HTTP GET /api/activities responded 200 in 1.5189 ms
+2024-01-24 16:15:12.113 +07:00 [INF] HTTP OPTIONS /api/account responded 204 in 0.1681 ms
+2024-01-24 16:15:12.139 +07:00 [INF] HTTP GET /api/account responded 200 in 2.6280 ms
+2024-01-24 16:15:13.174 +07:00 [INF] HTTP OPTIONS /api/activities responded 204 in 0.0513 ms
+2024-01-24 16:15:13.179 +07:00 [INF] HTTP GET /api/activities responded 200 in 1.6217 ms
+2024-01-24 16:15:16.117 +07:00 [INF] HTTP GET /api/account responded 200 in 3.0313 ms
+2024-01-24 16:15:17.145 +07:00 [INF] HTTP GET /api/activities responded 200 in 1.7663 ms
+2024-01-24 16:15:19.175 +07:00 [INF] HTTP OPTIONS /api/account responded 204 in 0.0883 ms
+2024-01-24 16:15:19.199 +07:00 [INF] HTTP GET /api/account responded 200 in 3.6371 ms
+2024-01-24 16:15:20.777 +07:00 [INF] HTTP OPTIONS /api/activities responded 204 in 0.1375 ms
+2024-01-24 16:15:20.787 +07:00 [INF] HTTP GET /api/activities responded 200 in 3.5177 ms
+2024-01-24 16:16:16.144 +07:00 [INF] HTTP OPTIONS /api/account responded 204 in 0.1212 ms
+2024-01-24 16:16:16.155 +07:00 [INF] HTTP GET /api/account responded 200 in 2.4527 ms
+2024-01-24 16:16:17.772 +07:00 [INF] HTTP OPTIONS /api/activities responded 204 in 0.0307 ms
+2024-01-24 16:16:17.778 +07:00 [INF] HTTP GET /api/activities responded 200 in 3.0633 ms
+2024-01-24 16:16:30.381 +07:00 [INF] HTTP OPTIONS /api/account responded 204 in 0.0493 ms
+2024-01-24 16:16:30.395 +07:00 [INF] HTTP GET /api/account responded 200 in 3.1559 ms
+2024-01-24 16:16:31.775 +07:00 [INF] HTTP OPTIONS /api/activities responded 204 in 0.0590 ms
+2024-01-24 16:16:31.783 +07:00 [INF] HTTP GET /api/activities responded 200 in 2.3986 ms
+2024-01-24 16:16:34.115 +07:00 [INF] HTTP GET /api/account responded 200 in 2.2339 ms
+2024-01-24 16:16:35.141 +07:00 [INF] HTTP GET /api/activities responded 200 in 1.3619 ms
+2024-01-24 16:16:39.074 +07:00 [INF] HTTP OPTIONS /api/account responded 204 in 0.0650 ms
+2024-01-24 16:16:39.083 +07:00 [INF] HTTP GET /api/account responded 200 in 2.5528 ms
+2024-01-24 16:16:40.133 +07:00 [INF] HTTP OPTIONS /api/activities responded 204 in 0.0430 ms
+2024-01-24 16:16:40.141 +07:00 [INF] HTTP GET /api/activities responded 200 in 2.4626 ms
+2024-01-24 16:16:53.136 +07:00 [INF] HTTP OPTIONS /api/account responded 204 in 0.0409 ms
+2024-01-24 16:16:53.153 +07:00 [INF] HTTP GET /api/account responded 200 in 1.9914 ms
+2024-01-24 16:16:54.779 +07:00 [INF] HTTP OPTIONS /api/activities responded 204 in 0.0766 ms
+2024-01-24 16:16:54.785 +07:00 [INF] HTTP GET /api/activities responded 200 in 2.7709 ms
+2024-01-24 16:17:25.106 +07:00 [INF] HTTP OPTIONS /api/account responded 204 in 0.0893 ms
+2024-01-24 16:17:25.120 +07:00 [INF] HTTP GET /api/account responded 200 in 2.2947 ms
+2024-01-24 16:17:26.038 +07:00 [INF] HTTP GET /api/account responded 200 in 3.5819 ms
+2024-01-24 16:17:27.068 +07:00 [INF] HTTP OPTIONS /api/activities responded 204 in 0.0249 ms
+2024-01-24 16:17:27.072 +07:00 [INF] HTTP GET /api/activities responded 200 in 1.4622 ms
+2024-01-24 16:17:28.021 +07:00 [INF] HTTP GET /api/account responded 200 in 2.8051 ms
+2024-01-24 16:17:29.768 +07:00 [INF] HTTP GET /api/activities responded 200 in 1.2300 ms
+2024-01-24 16:17:32.070 +07:00 [INF] HTTP OPTIONS /api/account responded 204 in 0.0402 ms
+2024-01-24 16:17:32.083 +07:00 [INF] HTTP GET /api/account responded 200 in 1.7536 ms
+2024-01-24 16:17:33.119 +07:00 [INF] HTTP OPTIONS /api/activities responded 204 in 0.0216 ms
+2024-01-24 16:17:33.124 +07:00 [INF] HTTP GET /api/activities responded 200 in 1.2868 ms
+2024-01-24 16:17:40.021 +07:00 [INF] HTTP OPTIONS /api/account responded 204 in 0.0258 ms
+2024-01-24 16:17:40.030 +07:00 [INF] HTTP GET /api/account responded 200 in 1.8642 ms
+2024-01-24 16:17:41.068 +07:00 [INF] HTTP OPTIONS /api/activities responded 204 in 0.0182 ms
+2024-01-24 16:17:41.074 +07:00 [INF] HTTP GET /api/activities responded 200 in 1.3836 ms
+2024-01-24 16:17:42.053 +07:00 [INF] HTTP GET /api/account responded 200 in 2.2331 ms
+2024-01-24 16:17:43.768 +07:00 [INF] HTTP GET /api/activities responded 200 in 1.8870 ms
+2024-01-24 16:17:44.037 +07:00 [INF] HTTP GET /api/account responded 200 in 2.1143 ms
+2024-01-24 16:17:45.074 +07:00 [INF] HTTP GET /api/activities responded 200 in 1.2565 ms
+2024-01-24 16:17:46.206 +07:00 [INF] HTTP OPTIONS /api/account responded 204 in 0.1069 ms
+2024-01-24 16:17:46.224 +07:00 [INF] HTTP GET /api/account responded 200 in 1.6237 ms
+2024-01-24 16:17:47.764 +07:00 [INF] HTTP OPTIONS /api/activities responded 204 in 0.0193 ms
+2024-01-24 16:17:47.769 +07:00 [INF] HTTP GET /api/activities responded 200 in 1.4054 ms
+2024-01-24 16:18:22.833 +07:00 [INF] HTTP OPTIONS /api/account responded 204 in 0.0232 ms
+2024-01-24 16:18:22.843 +07:00 [INF] HTTP GET /api/account responded 200 in 2.6320 ms
+2024-01-24 16:18:23.876 +07:00 [INF] HTTP OPTIONS /api/activities responded 204 in 0.0164 ms
+2024-01-24 16:18:23.882 +07:00 [INF] HTTP GET /api/activities responded 200 in 1.3694 ms
+2024-01-24 16:18:25.907 +07:00 [INF] HTTP OPTIONS /chat/negotiate responded 204 in 0.0741 ms
+2024-01-24 16:18:25.914 +07:00 [INF] HTTP POST /chat/negotiate responded 200 in 1.9840 ms
+2024-01-24 16:18:28.071 +07:00 [INF] HTTP GET /chat responded 101 in 2150.7752 ms
+2024-01-24 16:18:29.686 +07:00 [INF] HTTP OPTIONS /chat/negotiate responded 204 in 0.0189 ms
+2024-01-24 16:18:29.687 +07:00 [INF] HTTP OPTIONS /chat/negotiate responded 204 in 0.0154 ms
+2024-01-24 16:18:29.690 +07:00 [INF] HTTP POST /chat/negotiate responded 200 in 0.3396 ms
+2024-01-24 16:18:29.691 +07:00 [INF] HTTP POST /chat/negotiate responded 200 in 0.1111 ms
+2024-01-24 16:20:20.729 +07:00 [INF] HTTP GET /chat responded 101 in 111032.5351 ms
+2024-01-24 16:20:32.654 +07:00 [INF] HTTP OPTIONS /api/account responded 204 in 0.0415 ms
+2024-01-24 16:20:32.666 +07:00 [INF] HTTP GET /api/account responded 200 in 1.3976 ms
+2024-01-24 16:20:33.689 +07:00 [INF] HTTP OPTIONS /api/activities responded 204 in 0.0354 ms
+2024-01-24 16:20:33.696 +07:00 [INF] HTTP GET /api/activities responded 200 in 1.9314 ms
+2024-01-24 16:21:31.179 +07:00 [INF] HTTP OPTIONS /api/account responded 204 in 0.0465 ms
+2024-01-24 16:21:31.189 +07:00 [INF] HTTP GET /api/account responded 200 in 2.6484 ms
+2024-01-24 16:21:32.219 +07:00 [INF] HTTP OPTIONS /api/activities responded 204 in 0.0254 ms
+2024-01-24 16:21:32.224 +07:00 [INF] HTTP GET /api/activities responded 200 in 1.2266 ms
+2024-01-24 16:21:34.993 +07:00 [INF] HTTP OPTIONS /api/profiles/bob responded 204 in 0.0183 ms
+2024-01-24 16:21:35.025 +07:00 [INF] HTTP GET /api/profiles/bob responded 200 in 28.4134 ms
+2024-01-24 16:22:29.742 +07:00 [INF] HTTP OPTIONS /api/account responded 204 in 0.0407 ms
+2024-01-24 16:22:29.751 +07:00 [INF] HTTP GET /api/account responded 200 in 2.7662 ms
+2024-01-24 16:22:30.788 +07:00 [INF] HTTP OPTIONS /api/profiles/bob responded 204 in 0.0275 ms
+2024-01-24 16:22:30.796 +07:00 [INF] HTTP GET /api/profiles/bob responded 200 in 3.4732 ms
+2024-01-24 16:22:58.029 +07:00 [INF] HTTP OPTIONS /api/activities responded 204 in 0.0170 ms
+2024-01-24 16:22:58.035 +07:00 [INF] HTTP GET /api/activities responded 200 in 2.2008 ms
+2024-01-24 16:23:03.977 +07:00 [INF] HTTP OPTIONS /api/account responded 204 in 0.0330 ms
+2024-01-24 16:23:03.986 +07:00 [INF] HTTP GET /api/account responded 200 in 2.2317 ms
+2024-01-24 16:23:05.028 +07:00 [INF] HTTP OPTIONS /api/activities responded 204 in 0.0146 ms
+2024-01-24 16:23:05.034 +07:00 [INF] HTTP GET /api/activities responded 200 in 2.2484 ms
+2024-01-24 16:23:28.216 +07:00 [INF] HTTP OPTIONS /api/account responded 204 in 0.0341 ms
+2024-01-24 16:23:28.231 +07:00 [INF] HTTP GET /api/account responded 200 in 1.7889 ms
+2024-01-24 16:23:29.262 +07:00 [INF] HTTP OPTIONS /api/activities responded 204 in 0.0166 ms
+2024-01-24 16:23:29.267 +07:00 [INF] HTTP GET /api/activities responded 200 in 1.1751 ms
+2024-01-24 16:23:39.442 +07:00 [INF] HTTP OPTIONS /api/profiles/tom responded 204 in 0.0176 ms
+2024-01-24 16:23:39.449 +07:00 [INF] HTTP GET /api/profiles/tom responded 200 in 2.5228 ms
+2024-01-24 16:23:50.967 +07:00 [INF] HTTP OPTIONS /chat/negotiate responded 204 in 0.0198 ms
+2024-01-24 16:23:50.971 +07:00 [INF] HTTP POST /chat/negotiate responded 200 in 0.1039 ms
+2024-01-24 16:24:09.775 +07:00 [INF] HTTP GET /chat responded 101 in 18792.9284 ms
+2024-01-24 16:24:10.136 +07:00 [INF] HTTP OPTIONS /api/account responded 204 in 0.0443 ms
+2024-01-24 16:24:10.160 +07:00 [INF] HTTP GET /api/account responded 200 in 2.2012 ms
+2024-01-24 16:24:11.772 +07:00 [INF] HTTP OPTIONS /api/activities/754e9555-9776-4f5d-834d-340d3072c4ad responded 204 in 0.0155 ms
+2024-01-24 16:24:11.787 +07:00 [INF] HTTP GET /api/activities/754e9555-9776-4f5d-834d-340d3072c4ad responded 200 in 12.6105 ms
+2024-01-24 16:24:13.768 +07:00 [INF] HTTP OPTIONS /chat/negotiate responded 204 in 0.0312 ms
+2024-01-24 16:24:13.773 +07:00 [INF] HTTP POST /chat/negotiate responded 200 in 0.1597 ms
+2024-01-24 16:24:14.049 +07:00 [INF] HTTP GET /api/account responded 200 in 2.5595 ms
+2024-01-24 16:24:15.766 +07:00 [INF] HTTP GET /api/activities/754e9555-9776-4f5d-834d-340d3072c4ad responded 200 in 1.4482 ms
+2024-01-24 16:24:16.799 +07:00 [INF] HTTP OPTIONS /chat/negotiate responded 204 in 0.1026 ms
+2024-01-24 16:24:16.805 +07:00 [INF] HTTP POST /chat/negotiate responded 200 in 0.2199 ms
+2024-01-24 16:24:20.088 +07:00 [INF] HTTP GET /chat responded 101 in 3276.1137 ms
+2024-01-24 16:24:20.105 +07:00 [INF] HTTP OPTIONS /api/activities responded 204 in 0.0167 ms
+2024-01-24 16:24:20.110 +07:00 [INF] HTTP GET /api/activities responded 200 in 1.3723 ms
+2024-01-24 16:24:32.238 +07:00 [INF] HTTP OPTIONS /api/profiles/bob responded 204 in 0.0695 ms
+2024-01-24 16:24:32.245 +07:00 [INF] HTTP GET /api/profiles/bob responded 200 in 1.4467 ms
+2024-01-24 16:48:48.678 +07:00 [INF] HTTP OPTIONS /api/account responded 204 in 0.0210 ms
+2024-01-24 16:48:48.687 +07:00 [INF] HTTP GET /api/account responded 200 in 3.4061 ms
+2024-01-24 16:48:49.740 +07:00 [INF] HTTP OPTIONS /api/activities responded 204 in 0.0337 ms
+2024-01-24 16:48:49.747 +07:00 [INF] HTTP GET /api/activities responded 200 in 1.3776 ms
+2024-01-24 16:48:58.164 +07:00 [INF] HTTP OPTIONS /chat/negotiate responded 204 in 0.0280 ms
+2024-01-24 16:48:58.168 +07:00 [INF] HTTP POST /chat/negotiate responded 200 in 0.1632 ms
+2024-01-24 16:49:03.561 +07:00 [INF] HTTP GET /chat responded 101 in 5388.2744 ms
+2024-01-24 16:49:03.576 +07:00 [INF] HTTP OPTIONS /api/profiles/bob responded 204 in 0.0292 ms
+2024-01-24 16:49:03.582 +07:00 [INF] HTTP GET /api/profiles/bob responded 200 in 1.2236 ms
+2024-01-24 16:49:08.541 +07:00 [INF] HTTP GET /api/profiles/bob responded 200 in 1.0817 ms
+2024-01-24 16:49:12.166 +07:00 [INF] HTTP OPTIONS /api/profiles/jane responded 204 in 0.0208 ms
+2024-01-24 16:49:12.171 +07:00 [INF] HTTP GET /api/profiles/jane responded 200 in 1.1256 ms
+2024-01-24 16:49:14.467 +07:00 [INF] HTTP OPTIONS /api/Following/jane responded 204 in 0.0174 ms
+2024-01-24 16:49:14.567 +07:00 [INF] HTTP POST /api/Following/jane responded 200 in 97.1339 ms
+2024-01-24 16:49:25.341 +07:00 [INF] HTTP OPTIONS /api/Following/jane responded 204 in 0.0252 ms
+2024-01-24 16:49:25.361 +07:00 [INF] HTTP POST /api/Following/jane responded 200 in 16.9725 ms
+2024-01-24 16:50:22.099 +07:00 [INF] HTTP OPTIONS /api/account responded 204 in 0.0244 ms
+2024-01-24 16:50:22.105 +07:00 [INF] HTTP GET /api/account responded 200 in 1.0188 ms
+2024-01-24 16:50:23.128 +07:00 [INF] HTTP OPTIONS /api/profiles/jane responded 204 in 0.0165 ms
+2024-01-24 16:50:23.133 +07:00 [INF] HTTP GET /api/profiles/jane responded 200 in 1.4012 ms
+2024-01-24 16:50:28.496 +07:00 [INF] HTTP OPTIONS /api/activities responded 204 in 0.0166 ms
+2024-01-24 16:50:28.501 +07:00 [INF] HTTP GET /api/activities responded 200 in 1.1432 ms
+2024-01-24 16:50:37.020 +07:00 [INF] HTTP OPTIONS /api/profiles/jane responded 204 in 0.0353 ms
+2024-01-24 16:50:37.025 +07:00 [INF] HTTP GET /api/profiles/jane responded 200 in 0.9972 ms
+2024-01-24 16:50:39.589 +07:00 [INF] HTTP OPTIONS /api/Following/jane responded 204 in 0.0587 ms
+2024-01-24 16:50:39.600 +07:00 [INF] HTTP POST /api/Following/jane responded 200 in 6.2233 ms
+2024-01-24 16:50:48.523 +07:00 [INF] HTTP OPTIONS /api/account responded 204 in 0.0292 ms
+2024-01-24 16:50:48.531 +07:00 [INF] HTTP GET /api/account responded 200 in 2.4989 ms
+2024-01-24 16:50:49.562 +07:00 [INF] HTTP OPTIONS /api/profiles/jane responded 204 in 0.0189 ms
+2024-01-24 16:50:49.567 +07:00 [INF] HTTP GET /api/profiles/jane responded 200 in 1.0807 ms
+2024-01-24 16:50:52.657 +07:00 [INF] HTTP OPTIONS /api/Following/jane responded 204 in 0.0437 ms
+2024-01-24 16:50:52.666 +07:00 [INF] HTTP POST /api/Following/jane responded 200 in 5.0147 ms
+2024-01-24 16:50:56.517 +07:00 [INF] HTTP POST /api/Following/jane responded 200 in 4.5247 ms
+2024-01-24 16:52:31.954 +07:00 [INF] HTTP OPTIONS /api/activities responded 204 in 0.0146 ms
+2024-01-24 16:52:31.958 +07:00 [INF] HTTP GET /api/activities responded 200 in 1.2743 ms
+2024-01-24 16:52:42.273 +07:00 [INF] HTTP OPTIONS /api/profiles/jane responded 204 in 0.0214 ms
+2024-01-24 16:52:42.277 +07:00 [INF] HTTP GET /api/profiles/jane responded 200 in 0.9192 ms
+2024-01-24 16:52:44.430 +07:00 [INF] HTTP OPTIONS /api/Following/jane responded 204 in 0.0239 ms
+2024-01-24 16:52:44.438 +07:00 [INF] HTTP POST /api/Following/jane responded 200 in 4.7056 ms
+2024-01-24 16:52:48.730 +07:00 [INF] HTTP OPTIONS /api/account responded 204 in 0.0501 ms
+2024-01-24 16:52:48.737 +07:00 [INF] HTTP GET /api/account responded 200 in 1.1930 ms
+2024-01-24 16:52:49.760 +07:00 [INF] HTTP OPTIONS /api/profiles/jane responded 204 in 0.0169 ms
+2024-01-24 16:52:49.763 +07:00 [INF] HTTP GET /api/profiles/jane responded 200 in 0.9294 ms
+2024-01-24 16:52:52.347 +07:00 [INF] HTTP OPTIONS /api/Following/jane responded 204 in 0.0258 ms
+2024-01-24 16:52:52.358 +07:00 [INF] HTTP POST /api/Following/jane responded 200 in 6.1545 ms
+2024-01-24 16:52:56.782 +07:00 [INF] HTTP OPTIONS /api/account responded 204 in 0.0221 ms
+2024-01-24 16:52:56.801 +07:00 [INF] HTTP GET /api/account responded 200 in 2.8020 ms
+2024-01-24 16:52:57.825 +07:00 [INF] HTTP OPTIONS /api/profiles/jane responded 204 in 0.0225 ms
+2024-01-24 16:52:57.830 +07:00 [INF] HTTP GET /api/profiles/jane responded 200 in 0.8827 ms
+2024-01-24 16:53:02.969 +07:00 [INF] HTTP OPTIONS /api/Following/jane responded 204 in 0.0177 ms
+2024-01-24 16:53:02.977 +07:00 [INF] HTTP POST /api/Following/jane responded 200 in 5.3284 ms
+2024-01-24 16:54:10.871 +07:00 [INF] HTTP OPTIONS /api/account responded 204 in 0.0514 ms
+2024-01-24 16:54:10.895 +07:00 [INF] HTTP GET /api/account responded 200 in 2.3298 ms
+2024-01-24 16:54:11.925 +07:00 [INF] HTTP OPTIONS /api/profiles/jane responded 204 in 0.0440 ms
+2024-01-24 16:54:11.933 +07:00 [INF] HTTP GET /api/profiles/jane responded 200 in 2.0073 ms
+2024-01-24 16:54:13.967 +07:00 [INF] HTTP OPTIONS /api/Following/jane responded 204 in 0.0307 ms
+2024-01-24 16:54:13.975 +07:00 [INF] HTTP POST /api/Following/jane responded 200 in 4.6923 ms
+2024-01-24 16:54:15.784 +07:00 [INF] HTTP POST /api/Following/jane responded 200 in 4.6883 ms
+2024-01-24 16:54:18.225 +07:00 [INF] HTTP POST /api/Following/jane responded 200 in 4.3419 ms
+2024-01-24 16:54:19.874 +07:00 [INF] HTTP OPTIONS /api/Following/jane responded 204 in 0.0173 ms
+2024-01-24 16:54:19.884 +07:00 [INF] HTTP POST /api/Following/jane responded 200 in 5.9406 ms
+2024-01-24 16:54:22.100 +07:00 [INF] HTTP OPTIONS /api/activities responded 204 in 0.0150 ms
+2024-01-24 16:54:22.105 +07:00 [INF] HTTP GET /api/activities responded 200 in 1.2879 ms
+2024-01-24 16:55:36.043 +07:00 [INF] HTTP OPTIONS /api/account responded 204 in 0.0403 ms
+2024-01-24 16:55:36.053 +07:00 [INF] HTTP GET /api/account responded 200 in 2.2481 ms
+2024-01-24 16:55:37.774 +07:00 [INF] HTTP OPTIONS /api/activities responded 204 in 0.0170 ms
+2024-01-24 16:55:37.778 +07:00 [INF] HTTP GET /api/activities responded 200 in 1.0042 ms
+2024-01-24 16:55:39.055 +07:00 [INF] HTTP GET /api/account responded 200 in 1.1814 ms
+2024-01-24 16:55:40.096 +07:00 [INF] HTTP GET /api/activities responded 200 in 1.0979 ms
+2024-01-24 16:55:48.133 +07:00 [INF] HTTP OPTIONS /api/account responded 204 in 0.0335 ms
+2024-01-24 16:55:48.151 +07:00 [INF] HTTP GET /api/account responded 200 in 1.5034 ms
+2024-01-24 16:55:48.879 +07:00 [INF] HTTP GET /api/account responded 200 in 1.5239 ms
+2024-01-24 16:55:49.922 +07:00 [INF] HTTP OPTIONS /api/activities responded 204 in 0.0157 ms
+2024-01-24 16:55:49.927 +07:00 [INF] HTTP GET /api/activities responded 200 in 1.3511 ms
+2024-01-24 16:55:54.036 +07:00 [INF] HTTP OPTIONS /api/account responded 204 in 0.0453 ms
+2024-01-24 16:55:54.052 +07:00 [INF] HTTP GET /api/account responded 200 in 1.6138 ms
+2024-01-24 16:55:55.776 +07:00 [INF] HTTP OPTIONS /api/activities responded 204 in 0.0147 ms
+2024-01-24 16:55:55.780 +07:00 [INF] HTTP GET /api/activities responded 200 in 1.0237 ms
+2024-01-24 16:55:59.025 +07:00 [INF] HTTP GET /api/account responded 200 in 1.0534 ms
+2024-01-24 16:56:00.048 +07:00 [INF] HTTP GET /api/activities responded 200 in 1.1057 ms
+2024-01-24 16:56:04.013 +07:00 [INF] HTTP OPTIONS /api/account responded 204 in 0.0270 ms
+2024-01-24 16:56:04.022 +07:00 [INF] HTTP GET /api/account responded 200 in 1.0741 ms
+2024-01-24 16:56:05.766 +07:00 [INF] HTTP OPTIONS /api/activities responded 204 in 0.0141 ms
+2024-01-24 16:56:05.770 +07:00 [INF] HTTP GET /api/activities responded 200 in 0.9849 ms
+2024-01-24 16:56:09.060 +07:00 [INF] HTTP OPTIONS /api/account responded 204 in 0.0384 ms
+2024-01-24 16:56:09.073 +07:00 [INF] HTTP GET /api/account responded 200 in 1.1677 ms
+2024-01-24 16:56:10.776 +07:00 [INF] HTTP OPTIONS /api/activities responded 204 in 0.0148 ms
+2024-01-24 16:56:10.780 +07:00 [INF] HTTP GET /api/activities responded 200 in 1.0977 ms
+2024-01-24 16:56:12.077 +07:00 [INF] HTTP GET /api/account responded 200 in 1.7177 ms
+2024-01-24 16:56:13.116 +07:00 [INF] HTTP GET /api/activities responded 200 in 2.2071 ms
+2024-01-24 16:56:25.688 +07:00 [INF] HTTP GET /api/Following/bob responded 200 in 13.6067 ms
+2024-01-24 16:56:30.334 +07:00 [INF] HTTP OPTIONS /api/account responded 204 in 0.0544 ms
+2024-01-24 16:56:30.349 +07:00 [INF] HTTP GET /api/account responded 200 in 2.1036 ms
+2024-01-24 16:56:31.778 +07:00 [INF] HTTP OPTIONS /api/activities responded 204 in 0.0192 ms
+2024-01-24 16:56:31.783 +07:00 [INF] HTTP GET /api/activities responded 200 in 1.3034 ms
+2024-01-24 16:56:44.162 +07:00 [INF] HTTP OPTIONS /api/account responded 204 in 0.0312 ms
+2024-01-24 16:56:44.179 +07:00 [INF] HTTP GET /api/account responded 200 in 1.3354 ms
+2024-01-24 16:56:45.210 +07:00 [INF] HTTP OPTIONS /api/activities responded 204 in 0.0253 ms
+2024-01-24 16:56:45.217 +07:00 [INF] HTTP GET /api/activities responded 200 in 1.5963 ms
+2024-01-24 16:57:20.217 +07:00 [INF] HTTP OPTIONS /api/account responded 204 in 0.0885 ms
+2024-01-24 16:57:20.229 +07:00 [INF] HTTP GET /api/account responded 200 in 1.1163 ms
+2024-01-24 16:57:21.769 +07:00 [INF] HTTP OPTIONS /api/activities responded 204 in 0.0166 ms
+2024-01-24 16:57:21.773 +07:00 [INF] HTTP GET /api/activities responded 200 in 0.9825 ms
+2024-01-24 16:57:45.176 +07:00 [INF] HTTP OPTIONS /api/account responded 204 in 0.0362 ms
+2024-01-24 16:57:45.192 +07:00 [INF] HTTP GET /api/account responded 200 in 1.3843 ms
+2024-01-24 16:57:46.235 +07:00 [INF] HTTP OPTIONS /api/activities responded 204 in 0.0180 ms
+2024-01-24 16:57:46.242 +07:00 [INF] HTTP GET /api/activities responded 200 in 1.4763 ms
+2024-01-24 16:58:05.218 +07:00 [INF] HTTP OPTIONS /api/account responded 204 in 0.0246 ms
+2024-01-24 16:58:05.243 +07:00 [INF] HTTP GET /api/account responded 200 in 1.5393 ms
+2024-01-24 16:58:06.771 +07:00 [INF] HTTP OPTIONS /api/activities responded 204 in 0.0203 ms
+2024-01-24 16:58:06.775 +07:00 [INF] HTTP GET /api/activities responded 200 in 1.0193 ms
+2024-01-24 16:58:11.146 +07:00 [INF] HTTP OPTIONS /api/account responded 204 in 0.0420 ms
+2024-01-24 16:58:11.158 +07:00 [INF] HTTP GET /api/account responded 200 in 1.4489 ms
+2024-01-24 16:58:11.827 +07:00 [INF] HTTP GET /api/account responded 200 in 1.4364 ms
+2024-01-24 16:58:12.872 +07:00 [INF] HTTP OPTIONS /api/activities responded 204 in 0.0147 ms
+2024-01-24 16:58:12.877 +07:00 [INF] HTTP GET /api/activities responded 200 in 1.2607 ms
+2024-01-24 16:58:40.346 +07:00 [INF] HTTP OPTIONS /api/profiles/bob responded 204 in 0.0156 ms
+2024-01-24 16:58:40.352 +07:00 [INF] HTTP GET /api/profiles/bob responded 200 in 1.0068 ms
+2024-01-24 16:59:19.436 +07:00 [INF] Application is shutting down...

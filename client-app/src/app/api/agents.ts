@@ -32,6 +32,7 @@ axios.interceptors.response.use(
     await sleep(1000);
     return response;
   },
+
   //if error
   (error: AxiosError) => {
     const { data, status, config } = error.response as AxiosResponse;
@@ -112,6 +113,7 @@ const Account = {
   register: (user: UserFormValus) =>
     request.post<User>(`/account/register`, user),
 };
+
 const Profiles = {
   get: (username: string) => request.get<Profile>(`/profiles/${username}`),
   uploadPhoto: (file: Blob) => {
@@ -125,6 +127,10 @@ const Profiles = {
   deletePhoto: (id: string) => request.delete(`/photos/${id}`),
   updateProfile: (profile: Partial<Profile>) =>
     request.put(`/profiles`, profile),
+  updateFollowing: (username: string) =>
+    request.post(`/Following/${username}`, {}),
+  listFollowing: (username: string, predicate: string) =>
+    request.get<Profile[]>(`/Following/${username}?predicate=${predicate}`),
 };
 const agent = {
   Activities,

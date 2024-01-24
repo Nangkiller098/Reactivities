@@ -22,7 +22,7 @@ export default observer(function ProfileCard({ profile }: Props) {
       </Card.Content>
       <Card.Content>
         <Icon name="user" />
-        20 folowers
+        {profile.followerCount} folowers
       </Card.Content>
     </Card>
   );
