@@ -2,6 +2,7 @@
 what each part does: */
 using API.Extensions;
 using API.Middleware;
+using API.SignalR;
 using Domain;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
@@ -49,8 +50,14 @@ app.UseHttpsRedirection();
 app.UseAuthentication();
 app.UseAuthorization();
 app.UseSerilogRequestLogging();
+
+//allow policy for clinent app
 app.UseCors("CorsPolicy");
 app.MapControllers();
+
+//chat hub signal R
+app.MapHub<ChatHub>("/chat");
+
 
 using var scope = app.Services.CreateScope();
 var services = scope.ServiceProvider;
