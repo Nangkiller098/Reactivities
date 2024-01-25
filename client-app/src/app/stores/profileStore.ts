@@ -1,4 +1,4 @@
-import { makeAutoObservable, runInAction } from "mobx";
+import { makeAutoObservable, reaction, runInAction } from "mobx";
 import { Photo, Profile } from "./../../models/profile";
 import agent from "../api/agents";
 import { store } from "./store";
@@ -10,10 +10,26 @@ export default class ProfielStore {
   loading = false;
   following: Profile[] = [];
   loadingFollowings = false;
+  activeTab = 0;
 
   constructor() {
     makeAutoObservable(this);
+    reaction(
+      () => this.activeTab,
+      (activeTab) => {
+        if (activeTab === 3 || this.activeTab === 4) {
+          const predicate = activeTab === 3 ? "followers" : "following";
+          this.loadFollowings(predicate);
+        } else {
+          this.following = [];
+        }
+      }
+    );
   }
+
+  setActiveTab = (activeTab: number) => {
+    this.activeTab = activeTab;
+  };
 
   get isCurrentUser() {
     if (store.userStore.user && this.profile) {
@@ -124,19 +140,28 @@ export default class ProfielStore {
       runInAction(() => {
         if (
           this.profile &&
-          this.profile.userName !== store.userStore.user?.username
+          this.profile.userName !== store.userStore.user?.username &&
+          this.profile.userName === username
         ) {
           following
             ? this.profile.followerCount++
             : this.profile.followerCount--;
-
           this.profile.following = !this.profile.following;
+        }
+        if (
+          this.profile &&
+          this.profile.userName === store.userStore.user?.username
+        ) {
+          following
+            ? this.profile.followingCount++
+            : this.profile.followingCount--;
         }
         this.following.forEach((profile) => {
           if (profile.userName === username) {
             profile.following
               ? profile.followerCount--
               : profile.followerCount++;
+            profile.following = !profile.following;
           }
         });
         this.loading = false;

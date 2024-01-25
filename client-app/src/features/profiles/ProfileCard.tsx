@@ -1,11 +1,13 @@
 import { Card, Icon, Image } from "semantic-ui-react";
-import { Profile } from "../../models/profile";
-import { Link } from "react-router-dom";
-import { observer } from "mobx-react-lite";
 
-type Props = {
+import { observer } from "mobx-react-lite";
+import { Link } from "react-router-dom";
+import FollowButton from "./FollowButton";
+import { Profile } from "../../models/profile";
+
+interface Props {
   profile: Profile;
-};
+}
 
 export default observer(function ProfileCard({ profile }: Props) {
   function truncate(str: string | undefined) {
@@ -13,17 +15,19 @@ export default observer(function ProfileCard({ profile }: Props) {
       return str.length > 40 ? str.substring(0, 37) + "..." : str;
     }
   }
+
   return (
     <Card as={Link} to={`/profiles/${profile.userName}`}>
-      <Image src={profile.image || `/assets/user.png`} />
+      <Image src={profile.image || "/assets/user.png"} />
       <Card.Content>
         <Card.Header>{profile.displayName}</Card.Header>
         <Card.Description>{truncate(profile.bio)}</Card.Description>
       </Card.Content>
-      <Card.Content>
+      <Card.Content extra>
         <Icon name="user" />
-        {profile.followerCount} folowers
+        {profile.followerCount} Followers
       </Card.Content>
+      <FollowButton profile={profile} />
     </Card>
   );
 });
