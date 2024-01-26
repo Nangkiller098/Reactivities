@@ -1,0 +1,39 @@
+2024-01-26 10:23:52.696 +07:00 [INF] Now listening on: http://localhost:5000
+2024-01-26 10:23:52.721 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-26 10:23:52.722 +07:00 [INF] Hosting environment: Development
+2024-01-26 10:23:52.723 +07:00 [INF] Content root path: D:\Project\Reactivities\API
+2024-01-26 10:24:17.407 +07:00 [WRN] Failed to determine the https port for redirect.
+2024-01-26 10:24:17.786 +07:00 [INF] HTTP POST /api/account/login responded 200 in 303.3085 ms
+2024-01-26 10:24:21.294 +07:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-01-26 10:24:21.295 +07:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-01-26 10:24:21.336 +07:00 [INF] HTTP GET /api/activities responded 200 in 201.2140 ms
+2024-01-26 10:24:30.497 +07:00 [INF] HTTP GET /api/activities responded 200 in 9.7905 ms
+2024-01-26 10:43:27.944 +07:00 [INF] Application is shutting down...
+2024-01-26 10:43:41.889 +07:00 [INF] Now listening on: http://localhost:5000
+2024-01-26 10:43:41.914 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-26 10:43:41.915 +07:00 [INF] Hosting environment: Development
+2024-01-26 10:43:41.916 +07:00 [INF] Content root path: D:\Project\Reactivities\API
+2024-01-26 10:43:47.532 +07:00 [WRN] Failed to determine the https port for redirect.
+2024-01-26 10:43:47.737 +07:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-01-26 10:43:47.739 +07:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-01-26 10:43:47.832 +07:00 [INF] HTTP GET /api/activities responded 200 in 253.7356 ms
+2024-01-26 10:44:44.480 +07:00 [INF] HTTP GET /api/activities responded 200 in 43.6909 ms
+2024-01-26 10:46:37.416 +07:00 [INF] Application is shutting down...
+2024-01-26 10:46:45.985 +07:00 [INF] Now listening on: http://localhost:5000
+2024-01-26 10:46:46.008 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-26 10:46:46.009 +07:00 [INF] Hosting environment: Development
+2024-01-26 10:46:46.009 +07:00 [INF] Content root path: D:\Project\Reactivities\API
+2024-01-26 10:46:46.566 +07:00 [WRN] Failed to determine the https port for redirect.
+2024-01-26 10:46:46.832 +07:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-01-26 10:46:46.834 +07:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-01-26 10:46:46.949 +07:00 [INF] HTTP GET /api/activities responded 200 in 337.5453 ms
+2024-01-26 10:48:18.717 +07:00 [INF] HTTP GET /api/activities responded 200 in 43.9912 ms
+2024-01-26 10:51:00.484 +07:00 [INF] Application is shutting down...
+2024-01-26 10:51:08.101 +07:00 [INF] Now listening on: http://localhost:5000
+2024-01-26 10:51:08.123 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-26 10:51:08.124 +07:00 [INF] Hosting environment: Development
+2024-01-26 10:51:08.125 +07:00 [INF] Content root path: D:\Project\Reactivities\API
+2024-01-26 10:51:16.759 +07:00 [WRN] Failed to determine the https port for redirect.
+2024-01-26 10:51:17.052 +07:00 [INF] HTTP GET /api/activities responded 200 in 247.8697 ms
+2024-01-26 13:47:16.339 +07:00 [INF] HTTP GET /api/activities responded 200 in 52.9393 ms
+2024-01-26 13:47:38.088 +07:00 [INF] HTTP GET /api/activities responded 200 in 17.9215 ms
