@@ -13,6 +13,8 @@ import { router } from "../router/Routes";
 import { store } from "../stores/store";
 import { User, UserFormValus } from "../../models/user";
 import { Photo, Profile } from "../../models/profile";
+import { PaginatedResult } from "../../models/pagination";
+import { UserActivity } from "../../models/UserActivity";
 
 //set sleep request api for 10000 second
 const sleep = (delay: number) => {
@@ -30,6 +32,14 @@ axios.defaults.baseURL = "http://localhost:5000/api/";
 axios.interceptors.response.use(
   async (response) => {
     await sleep(1000);
+    const pagination = response.headers["pagination"];
+    if (pagination) {
+      response.data = new PaginatedResult(
+        response.data,
+        JSON.parse(pagination)
+      );
+      return response as AxiosResponse<PaginatedResult<unknown>>;
+    }
     return response;
   },
 
@@ -97,7 +107,10 @@ const request = {
 
 //request api activites
 const Activities = {
-  list: () => request.get<Activities[]>("/activities"),
+  list: (params: URLSearchParams) =>
+    axios
+      .get<PaginatedResult<Activities[]>>("/activities", { params })
+      .then(responseBody),
   details: (id: string) => request.get<Activities>(`/activities/${id}`),
   create: (activity: Activities) => request.post<void>(`/activities`, activity),
   update: (activity: Activities) =>
@@ -131,7 +144,11 @@ const Profiles = {
     request.post(`/Following/${username}`, {}),
   listFollowing: (username: string, predicate: string) =>
     request.get<Profile[]>(`/Following/${username}?predicate=${predicate}`),
+  listActivities: (username: string, predicate: string) =>
+    request.get<UserActivity[]>(`/profiles/${username}/activities?
+predicate=${predicate}`),
 };
+
 const agent = {
   Activities,
   Account,

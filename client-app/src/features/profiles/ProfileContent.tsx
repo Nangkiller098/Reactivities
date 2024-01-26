@@ -4,6 +4,7 @@ import { Profile } from "../../models/profile";
 import ProfileAbout from "./ProfileAbout";
 import ProfileFollowing from "./ProfileFollowing";
 import { useStore } from "../../app/stores/store";
+import ProfileActivities from "./ProfileActivities";
 
 interface Props {
   profile: Profile;
@@ -28,7 +29,14 @@ export default function ProfielContent({ profile }: Props) {
         </Tab.Pane>
       ),
     },
-    { menuItem: "Events", render: () => <Tab.Pane>Events Content</Tab.Pane> },
+    {
+      menuItem: "Events",
+      render: () => (
+        <Tab.Pane>
+          <ProfileActivities />
+        </Tab.Pane>
+      ),
+    },
     {
       menuItem: "Followers",
       render: () => (
