@@ -49,6 +49,10 @@ app.UseHttpsRedirection();
 
 app.UseAuthentication();
 app.UseAuthorization();
+
+app.UseDefaultFiles();
+app.UseStaticFiles();
+
 app.UseSerilogRequestLogging();
 
 //allow policy for clinent app
@@ -57,6 +61,8 @@ app.MapControllers();
 
 //chat hub signal R
 app.MapHub<ChatHub>("/chat");
+
+app.MapFallbackToController("Index", "Fallback");
 
 
 using var scope = app.Services.CreateScope();

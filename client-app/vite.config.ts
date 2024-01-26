@@ -7,7 +7,9 @@ export default defineConfig({
     port: 3000,
   },
   plugins: [react()],
+  // build to controller API /wwwroot/index.html
   build: {
+    outDir: "../API/wwwroot",
     chunkSizeWarningLimit: 1600,
   },
 });
