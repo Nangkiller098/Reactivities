@@ -1,1 +1,4 @@
 https://github.com/TryCatchLearn/Reactivities/blob/main/client-app/package.json
+
+//command for create docker
+docker run --name dev -e POSTGRES_USER=admin -e POSTGRES_PASSWORD=123 -p 5432:5432 -d postgres:latest

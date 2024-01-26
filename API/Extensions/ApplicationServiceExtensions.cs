@@ -21,8 +21,8 @@ namespace API.Extensions
             //connection string
             services.AddDbContext<DataContext>(opt =>
             {
-                // opt.UseNpgsql(config.GetConnectionString("DefaultConnection"));
-                opt.UseSqlite(config.GetConnectionString("DefaultConnection"));
+                opt.UseNpgsql(config.GetConnectionString("DefaultConnection"));
+                // opt.UseSqlite(config.GetConnectionString("DefaultConnection"));
             });
 
             //Cros for allow client side to use api
