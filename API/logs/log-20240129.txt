@@ -1,0 +1,589 @@
+2024-01-29 15:36:47.213 +07:00 [INF] Now listening on: http://localhost:5000
+2024-01-29 15:36:47.240 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-29 15:36:47.240 +07:00 [INF] Hosting environment: Development
+2024-01-29 15:36:47.240 +07:00 [INF] Content root path: D:\Project\Reactivities\API
+2024-01-29 15:36:52.030 +07:00 [WRN] Failed to determine the https port for redirect.
+2024-01-29 15:36:52.101 +07:00 [INF] HTTP OPTIONS /api/account/login responded 204 in 0.9685 ms
+2024-01-29 15:36:52.413 +07:00 [INF] HTTP POST /api/account/login responded 200 in 267.5194 ms
+2024-01-29 15:36:53.496 +07:00 [INF] HTTP OPTIONS /api/activities responded 204 in 0.3915 ms
+2024-01-29 15:36:53.719 +07:00 [INF] HTTP GET /api/activities responded 200 in 216.2058 ms
+2024-01-29 15:37:10.299 +07:00 [INF] HTTP OPTIONS /api/activities responded 204 in 0.1037 ms
+2024-01-29 15:37:10.330 +07:00 [INF] HTTP GET /api/activities responded 200 in 24.9537 ms
+2024-01-29 15:37:10.339 +07:00 [INF] HTTP GET /api/activities responded 200 in 6.5822 ms
+2024-01-29 15:37:13.597 +07:00 [INF] HTTP OPTIONS /chat/negotiate responded 204 in 0.1300 ms
+2024-01-29 15:37:13.607 +07:00 [INF] HTTP POST /chat/negotiate responded 200 in 4.1805 ms
+2024-01-29 15:37:20.709 +07:00 [INF] HTTP GET /chat responded 101 in 7089.5275 ms
+2024-01-29 15:37:23.540 +07:00 [INF] HTTP OPTIONS /chat/negotiate responded 204 in 0.0916 ms
+2024-01-29 15:37:23.544 +07:00 [INF] HTTP POST /chat/negotiate responded 200 in 0.2709 ms
+2024-01-29 15:37:27.407 +07:00 [INF] HTTP GET /chat responded 101 in 3857.4592 ms
+2024-01-29 15:37:42.354 +07:00 [INF] HTTP OPTIONS /api/activities responded 204 in 0.0993 ms
+2024-01-29 15:37:42.433 +07:00 [INF] HTTP POST /api/activities responded 200 in 74.1180 ms
+2024-01-29 15:37:43.473 +07:00 [INF] HTTP OPTIONS /chat/negotiate responded 204 in 0.1538 ms
+2024-01-29 15:37:43.478 +07:00 [INF] HTTP POST /chat/negotiate responded 200 in 0.2504 ms
+2024-01-29 15:37:56.642 +07:00 [INF] HTTP GET /chat responded 101 in 13157.9745 ms
+2024-01-29 15:38:41.986 +07:00 [INF] HTTP OPTIONS /api/account responded 204 in 0.0909 ms
+2024-01-29 15:38:42.057 +07:00 [INF] HTTP GET /api/account responded 200 in 27.2286 ms
+2024-01-29 15:38:43.122 +07:00 [INF] HTTP OPTIONS /api/activities responded 204 in 0.1226 ms
+2024-01-29 15:38:43.146 +07:00 [INF] HTTP GET /api/activities responded 200 in 11.8865 ms
+2024-01-29 15:38:45.580 +07:00 [INF] HTTP OPTIONS /api/activities responded 204 in 0.1628 ms
+2024-01-29 15:38:45.588 +07:00 [INF] HTTP GET /api/activities responded 200 in 5.3019 ms
+2024-01-29 15:38:45.603 +07:00 [INF] HTTP GET /api/activities responded 200 in 5.7779 ms
+2024-01-29 15:38:47.262 +07:00 [INF] HTTP OPTIONS /api/activities responded 204 in 0.0409 ms
+2024-01-29 15:38:47.267 +07:00 [INF] HTTP OPTIONS /api/activities responded 204 in 0.0419 ms
+2024-01-29 15:38:47.275 +07:00 [INF] HTTP GET /api/activities responded 200 in 6.9930 ms
+2024-01-29 15:38:47.282 +07:00 [INF] HTTP GET /api/activities responded 200 in 5.7469 ms
+2024-01-29 15:38:48.579 +07:00 [INF] HTTP OPTIONS /api/activities responded 204 in 0.0600 ms
+2024-01-29 15:38:48.589 +07:00 [INF] HTTP GET /api/activities responded 200 in 4.6598 ms
+2024-01-29 15:38:48.604 +07:00 [INF] HTTP GET /api/activities responded 200 in 13.9403 ms
+2024-01-29 15:40:27.780 +07:00 [INF] HTTP OPTIONS /api/account responded 204 in 0.1058 ms
+2024-01-29 15:40:27.826 +07:00 [INF] HTTP GET /api/account responded 200 in 6.6932 ms
+2024-01-29 15:40:28.886 +07:00 [INF] HTTP OPTIONS /api/activities responded 204 in 0.1255 ms
+2024-01-29 15:40:28.899 +07:00 [INF] HTTP GET /api/activities responded 200 in 7.2252 ms
+2024-01-29 15:40:34.495 +07:00 [INF] HTTP OPTIONS /api/profiles/bob responded 204 in 0.0631 ms
+2024-01-29 15:40:34.521 +07:00 [INF] HTTP GET /api/profiles/bob responded 200 in 21.5475 ms
+2024-01-29 15:41:11.243 +07:00 [INF] HTTP OPTIONS /api/photos responded 204 in 0.0584 ms
+2024-01-29 15:41:16.864 +07:00 [INF] HTTP POST /api/photos responded 200 in 5614.1698 ms
+2024-01-29 15:41:23.771 +07:00 [INF] HTTP OPTIONS /api/account responded 204 in 0.0722 ms
+2024-01-29 15:41:23.783 +07:00 [INF] HTTP GET /api/account responded 200 in 6.3217 ms
+2024-01-29 15:41:24.843 +07:00 [INF] HTTP OPTIONS /api/profiles/bob responded 204 in 0.0907 ms
+2024-01-29 15:41:24.855 +07:00 [INF] HTTP GET /api/profiles/bob responded 200 in 7.4431 ms
+2024-01-29 15:41:28.748 +07:00 [INF] HTTP OPTIONS /api/activities responded 204 in 0.0566 ms
+2024-01-29 15:41:28.760 +07:00 [INF] HTTP GET /api/activities responded 200 in 8.3480 ms
+2024-01-29 15:41:30.309 +07:00 [INF] HTTP OPTIONS /api/activities responded 204 in 0.0794 ms
+2024-01-29 15:41:30.319 +07:00 [INF] HTTP GET /api/activities responded 200 in 5.8349 ms
+2024-01-29 15:41:30.328 +07:00 [INF] HTTP GET /api/activities responded 200 in 6.7380 ms
+2024-01-29 15:41:31.536 +07:00 [INF] HTTP OPTIONS /chat/negotiate responded 204 in 0.1312 ms
+2024-01-29 15:41:31.543 +07:00 [INF] HTTP POST /chat/negotiate responded 200 in 0.4888 ms
+2024-01-29 15:41:32.884 +07:00 [INF] HTTP GET /chat responded 101 in 1325.8077 ms
+2024-01-29 15:41:37.611 +07:00 [INF] HTTP OPTIONS /api/activities/15a32543-62a2-422d-8f2d-de7f2419ac23 responded 204 in 0.0352 ms
+2024-01-29 15:41:37.639 +07:00 [ERR] HTTP PUT /api/activities/15a32543-62a2-422d-8f2d-de7f2419ac23 responded 500 in 16.5560 ms
+System.InvalidOperationException: Unable to track an entity of type 'ActivityAttendee' because its primary key property 'AppUserId' is null.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.NullableKeyIdentityMap`1.Add(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.StartTracking(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState oldState, EntityState newState, Boolean acceptChanges, Boolean modifyProperties)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState entityState, Boolean acceptChanges, Boolean modifyProperties, Nullable`1 forceStateWhenUnknownKey, Nullable`1 fallbackState)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.PaintAction(EntityEntryGraphNode`1 node)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph[TState](EntityEntryGraphNode`1 node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.AttachGraph(InternalEntityEntry rootEntry, EntityState targetState, EntityState storeGeneratedWithKeySetTargetState, Boolean forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.NavigationFixer.NavigationCollectionChanged(InternalEntityEntry entry, INavigationBase navigationBase, IEnumerable`1 added, IEnumerable`1 removed)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntryNotifier.NavigationCollectionChanged(InternalEntityEntry entry, INavigationBase navigationBase, IEnumerable`1 added, IEnumerable`1 removed)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.DetectNavigationChange(InternalEntityEntry entry, INavigationBase navigationBase)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.LocalDetectChanges(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.DetectChanges(IStateManager stateManager)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.ChangeTracker.DetectChanges()
+   at Microsoft.EntityFrameworkCore.DbContext.TryDetectChanges()
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Application.Activities.Edit.Handler.Handle(Command request, CancellationToken cancellationToken) in D:\Project\Reactivities\Application\Activities\Edit.cs:line 39
+   at API.Controllers.ActivitiesController.EditActivity(Guid id, Activity activity) in D:\Project\Reactivities\API\Controllers\ActivitiesController.cs:line 32
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-01-29 15:41:37.650 +07:00 [ERR] Unable to track an entity of type 'ActivityAttendee' because its primary key property 'AppUserId' is null.
+System.InvalidOperationException: Unable to track an entity of type 'ActivityAttendee' because its primary key property 'AppUserId' is null.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.NullableKeyIdentityMap`1.Add(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.StartTracking(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState oldState, EntityState newState, Boolean acceptChanges, Boolean modifyProperties)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState entityState, Boolean acceptChanges, Boolean modifyProperties, Nullable`1 forceStateWhenUnknownKey, Nullable`1 fallbackState)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.PaintAction(EntityEntryGraphNode`1 node)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph[TState](EntityEntryGraphNode`1 node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.AttachGraph(InternalEntityEntry rootEntry, EntityState targetState, EntityState storeGeneratedWithKeySetTargetState, Boolean forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.NavigationFixer.NavigationCollectionChanged(InternalEntityEntry entry, INavigationBase navigationBase, IEnumerable`1 added, IEnumerable`1 removed)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntryNotifier.NavigationCollectionChanged(InternalEntityEntry entry, INavigationBase navigationBase, IEnumerable`1 added, IEnumerable`1 removed)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.DetectNavigationChange(InternalEntityEntry entry, INavigationBase navigationBase)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.LocalDetectChanges(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.DetectChanges(IStateManager stateManager)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.ChangeTracker.DetectChanges()
+   at Microsoft.EntityFrameworkCore.DbContext.TryDetectChanges()
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Application.Activities.Edit.Handler.Handle(Command request, CancellationToken cancellationToken) in D:\Project\Reactivities\Application\Activities\Edit.cs:line 39
+   at API.Controllers.ActivitiesController.EditActivity(Guid id, Activity activity) in D:\Project\Reactivities\API\Controllers\ActivitiesController.cs:line 32
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at API.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext context) in D:\Project\Reactivities\API\Middleware\ExceptionMiddleware.cs:line 24
+2024-01-29 15:41:37.717 +07:00 [INF] HTTP OPTIONS /chat/negotiate responded 204 in 0.0541 ms
+2024-01-29 15:41:37.720 +07:00 [INF] HTTP POST /chat/negotiate responded 200 in 0.1415 ms
+2024-01-29 15:41:39.279 +07:00 [INF] HTTP GET /chat responded 101 in 1553.0566 ms
+2024-01-29 15:41:42.027 +07:00 [INF] HTTP OPTIONS /chat/negotiate responded 204 in 0.0390 ms
+2024-01-29 15:41:42.031 +07:00 [INF] HTTP POST /chat/negotiate responded 200 in 0.1966 ms
+2024-01-29 15:41:43.244 +07:00 [INF] HTTP GET /chat responded 101 in 1207.6264 ms
+2024-01-29 15:41:47.511 +07:00 [INF] HTTP OPTIONS /api/activities/15a32543-62a2-422d-8f2d-de7f2419ac23 responded 204 in 0.0515 ms
+2024-01-29 15:41:47.536 +07:00 [ERR] HTTP PUT /api/activities/15a32543-62a2-422d-8f2d-de7f2419ac23 responded 500 in 6.1281 ms
+System.InvalidOperationException: Unable to track an entity of type 'ActivityAttendee' because its primary key property 'AppUserId' is null.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.NullableKeyIdentityMap`1.Add(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.StartTracking(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState oldState, EntityState newState, Boolean acceptChanges, Boolean modifyProperties)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState entityState, Boolean acceptChanges, Boolean modifyProperties, Nullable`1 forceStateWhenUnknownKey, Nullable`1 fallbackState)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.PaintAction(EntityEntryGraphNode`1 node)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph[TState](EntityEntryGraphNode`1 node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.AttachGraph(InternalEntityEntry rootEntry, EntityState targetState, EntityState storeGeneratedWithKeySetTargetState, Boolean forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.NavigationFixer.NavigationCollectionChanged(InternalEntityEntry entry, INavigationBase navigationBase, IEnumerable`1 added, IEnumerable`1 removed)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntryNotifier.NavigationCollectionChanged(InternalEntityEntry entry, INavigationBase navigationBase, IEnumerable`1 added, IEnumerable`1 removed)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.DetectNavigationChange(InternalEntityEntry entry, INavigationBase navigationBase)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.LocalDetectChanges(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.DetectChanges(IStateManager stateManager)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.ChangeTracker.DetectChanges()
+   at Microsoft.EntityFrameworkCore.DbContext.TryDetectChanges()
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Application.Activities.Edit.Handler.Handle(Command request, CancellationToken cancellationToken) in D:\Project\Reactivities\Application\Activities\Edit.cs:line 39
+   at API.Controllers.ActivitiesController.EditActivity(Guid id, Activity activity) in D:\Project\Reactivities\API\Controllers\ActivitiesController.cs:line 32
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-01-29 15:41:47.539 +07:00 [ERR] Unable to track an entity of type 'ActivityAttendee' because its primary key property 'AppUserId' is null.
+System.InvalidOperationException: Unable to track an entity of type 'ActivityAttendee' because its primary key property 'AppUserId' is null.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.NullableKeyIdentityMap`1.Add(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.StartTracking(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState oldState, EntityState newState, Boolean acceptChanges, Boolean modifyProperties)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState entityState, Boolean acceptChanges, Boolean modifyProperties, Nullable`1 forceStateWhenUnknownKey, Nullable`1 fallbackState)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.PaintAction(EntityEntryGraphNode`1 node)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph[TState](EntityEntryGraphNode`1 node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.AttachGraph(InternalEntityEntry rootEntry, EntityState targetState, EntityState storeGeneratedWithKeySetTargetState, Boolean forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.NavigationFixer.NavigationCollectionChanged(InternalEntityEntry entry, INavigationBase navigationBase, IEnumerable`1 added, IEnumerable`1 removed)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntryNotifier.NavigationCollectionChanged(InternalEntityEntry entry, INavigationBase navigationBase, IEnumerable`1 added, IEnumerable`1 removed)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.DetectNavigationChange(InternalEntityEntry entry, INavigationBase navigationBase)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.LocalDetectChanges(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.DetectChanges(IStateManager stateManager)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.ChangeTracker.DetectChanges()
+   at Microsoft.EntityFrameworkCore.DbContext.TryDetectChanges()
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Application.Activities.Edit.Handler.Handle(Command request, CancellationToken cancellationToken) in D:\Project\Reactivities\Application\Activities\Edit.cs:line 39
+   at API.Controllers.ActivitiesController.EditActivity(Guid id, Activity activity) in D:\Project\Reactivities\API\Controllers\ActivitiesController.cs:line 32
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at API.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext context) in D:\Project\Reactivities\API\Middleware\ExceptionMiddleware.cs:line 24
+2024-01-29 15:41:47.601 +07:00 [INF] HTTP OPTIONS /chat/negotiate responded 204 in 0.0370 ms
+2024-01-29 15:41:47.604 +07:00 [INF] HTTP POST /chat/negotiate responded 200 in 0.1236 ms
+2024-01-29 15:41:48.792 +07:00 [INF] HTTP GET /chat responded 101 in 1181.6658 ms
+2024-01-29 15:42:01.891 +07:00 [INF] HTTP OPTIONS /api/account responded 204 in 0.0422 ms
+2024-01-29 15:42:01.963 +07:00 [INF] HTTP GET /api/account responded 200 in 8.1875 ms
+2024-01-29 15:42:03.046 +07:00 [INF] HTTP OPTIONS /api/activities responded 204 in 0.0336 ms
+2024-01-29 15:42:03.061 +07:00 [INF] HTTP GET /api/activities responded 200 in 8.3601 ms
+2024-01-29 15:42:07.059 +07:00 [INF] HTTP OPTIONS /chat/negotiate responded 204 in 0.0312 ms
+2024-01-29 15:42:07.063 +07:00 [INF] HTTP POST /chat/negotiate responded 200 in 0.1478 ms
+2024-01-29 15:42:13.141 +07:00 [INF] HTTP GET /chat responded 101 in 6068.3869 ms
+2024-01-29 15:42:19.228 +07:00 [INF] HTTP OPTIONS /api/activities/15a32543-62a2-422d-8f2d-de7f2419ac23 responded 204 in 0.0911 ms
+2024-01-29 15:42:19.236 +07:00 [ERR] HTTP PUT /api/activities/15a32543-62a2-422d-8f2d-de7f2419ac23 responded 500 in 3.1633 ms
+System.InvalidOperationException: Unable to track an entity of type 'ActivityAttendee' because its primary key property 'AppUserId' is null.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.NullableKeyIdentityMap`1.Add(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.StartTracking(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState oldState, EntityState newState, Boolean acceptChanges, Boolean modifyProperties)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState entityState, Boolean acceptChanges, Boolean modifyProperties, Nullable`1 forceStateWhenUnknownKey, Nullable`1 fallbackState)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.PaintAction(EntityEntryGraphNode`1 node)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph[TState](EntityEntryGraphNode`1 node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.AttachGraph(InternalEntityEntry rootEntry, EntityState targetState, EntityState storeGeneratedWithKeySetTargetState, Boolean forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.NavigationFixer.NavigationCollectionChanged(InternalEntityEntry entry, INavigationBase navigationBase, IEnumerable`1 added, IEnumerable`1 removed)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntryNotifier.NavigationCollectionChanged(InternalEntityEntry entry, INavigationBase navigationBase, IEnumerable`1 added, IEnumerable`1 removed)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.DetectNavigationChange(InternalEntityEntry entry, INavigationBase navigationBase)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.LocalDetectChanges(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.DetectChanges(IStateManager stateManager)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.ChangeTracker.DetectChanges()
+   at Microsoft.EntityFrameworkCore.DbContext.TryDetectChanges()
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Application.Activities.Edit.Handler.Handle(Command request, CancellationToken cancellationToken) in D:\Project\Reactivities\Application\Activities\Edit.cs:line 39
+   at API.Controllers.ActivitiesController.EditActivity(Guid id, Activity activity) in D:\Project\Reactivities\API\Controllers\ActivitiesController.cs:line 32
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-01-29 15:42:19.238 +07:00 [ERR] Unable to track an entity of type 'ActivityAttendee' because its primary key property 'AppUserId' is null.
+System.InvalidOperationException: Unable to track an entity of type 'ActivityAttendee' because its primary key property 'AppUserId' is null.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.NullableKeyIdentityMap`1.Add(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.StartTracking(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState oldState, EntityState newState, Boolean acceptChanges, Boolean modifyProperties)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState entityState, Boolean acceptChanges, Boolean modifyProperties, Nullable`1 forceStateWhenUnknownKey, Nullable`1 fallbackState)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.PaintAction(EntityEntryGraphNode`1 node)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph[TState](EntityEntryGraphNode`1 node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.AttachGraph(InternalEntityEntry rootEntry, EntityState targetState, EntityState storeGeneratedWithKeySetTargetState, Boolean forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.NavigationFixer.NavigationCollectionChanged(InternalEntityEntry entry, INavigationBase navigationBase, IEnumerable`1 added, IEnumerable`1 removed)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntryNotifier.NavigationCollectionChanged(InternalEntityEntry entry, INavigationBase navigationBase, IEnumerable`1 added, IEnumerable`1 removed)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.DetectNavigationChange(InternalEntityEntry entry, INavigationBase navigationBase)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.LocalDetectChanges(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.DetectChanges(IStateManager stateManager)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.ChangeTracker.DetectChanges()
+   at Microsoft.EntityFrameworkCore.DbContext.TryDetectChanges()
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Application.Activities.Edit.Handler.Handle(Command request, CancellationToken cancellationToken) in D:\Project\Reactivities\Application\Activities\Edit.cs:line 39
+   at API.Controllers.ActivitiesController.EditActivity(Guid id, Activity activity) in D:\Project\Reactivities\API\Controllers\ActivitiesController.cs:line 32
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at API.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext context) in D:\Project\Reactivities\API\Middleware\ExceptionMiddleware.cs:line 24
+2024-01-29 15:42:19.319 +07:00 [INF] HTTP OPTIONS /chat/negotiate responded 204 in 0.0570 ms
+2024-01-29 15:42:19.330 +07:00 [INF] HTTP POST /chat/negotiate responded 200 in 0.3298 ms
+2024-01-29 15:44:20.320 +07:00 [INF] HTTP GET /chat responded 101 in 120981.2581 ms
+2024-01-29 15:44:20.887 +07:00 [INF] HTTP OPTIONS /api/account responded 204 in 0.0272 ms
+2024-01-29 15:44:20.897 +07:00 [INF] HTTP GET /api/account responded 200 in 5.8695 ms
+2024-01-29 15:44:22.314 +07:00 [INF] HTTP OPTIONS /api/activities/15a32543-62a2-422d-8f2d-de7f2419ac23 responded 204 in 0.0277 ms
+2024-01-29 15:44:22.332 +07:00 [INF] HTTP GET /api/activities/15a32543-62a2-422d-8f2d-de7f2419ac23 responded 200 in 14.7868 ms
+2024-01-29 15:44:23.870 +07:00 [INF] HTTP GET /api/account responded 200 in 5.3785 ms
+2024-01-29 15:44:24.908 +07:00 [INF] HTTP GET /api/activities/15a32543-62a2-422d-8f2d-de7f2419ac23 responded 200 in 7.7368 ms
+2024-01-29 15:44:25.945 +07:00 [INF] HTTP OPTIONS /chat/negotiate responded 204 in 0.0300 ms
+2024-01-29 15:44:25.951 +07:00 [INF] HTTP POST /chat/negotiate responded 200 in 0.1430 ms
+2024-01-29 15:44:28.936 +07:00 [INF] HTTP GET /chat responded 101 in 2977.9619 ms
+2024-01-29 15:44:28.952 +07:00 [INF] HTTP OPTIONS /api/activities responded 204 in 0.0171 ms
+2024-01-29 15:44:28.959 +07:00 [INF] HTTP GET /api/activities responded 200 in 3.8029 ms
+2024-01-29 15:44:30.540 +07:00 [INF] HTTP OPTIONS /chat/negotiate responded 204 in 0.0393 ms
+2024-01-29 15:44:30.546 +07:00 [INF] HTTP OPTIONS /chat/negotiate responded 204 in 0.0407 ms
+2024-01-29 15:44:30.547 +07:00 [INF] HTTP POST /chat/negotiate responded 200 in 0.2298 ms
+2024-01-29 15:44:30.551 +07:00 [INF] HTTP POST /chat/negotiate responded 200 in 0.2048 ms
+2024-01-29 15:44:32.196 +07:00 [INF] HTTP OPTIONS /api/activities/01e02fd4-103c-45a1-b425-a92e217af32f/attend responded 204 in 0.0269 ms
+2024-01-29 15:44:32.225 +07:00 [INF] HTTP POST /api/activities/01e02fd4-103c-45a1-b425-a92e217af32f/attend responded 200 in 26.1636 ms
+2024-01-29 15:44:35.231 +07:00 [INF] HTTP GET /chat responded 101 in 4671.7760 ms
+2024-01-29 15:44:35.259 +07:00 [INF] HTTP OPTIONS /api/activities responded 204 in 0.0256 ms
+2024-01-29 15:44:35.269 +07:00 [INF] HTTP GET /api/activities responded 200 in 6.4754 ms
+2024-01-29 15:44:47.458 +07:00 [INF] HTTP OPTIONS /api/account responded 204 in 0.0265 ms
+2024-01-29 15:44:47.486 +07:00 [INF] HTTP GET /api/account responded 200 in 3.5578 ms
+2024-01-29 15:44:48.528 +07:00 [INF] HTTP OPTIONS /api/activities responded 204 in 0.0267 ms
+2024-01-29 15:44:48.541 +07:00 [INF] HTTP GET /api/activities responded 200 in 8.8429 ms
+2024-01-29 15:44:50.465 +07:00 [INF] HTTP OPTIONS /api/api/buggy/not-found responded 204 in 0.0196 ms
+2024-01-29 15:44:50.478 +07:00 [INF] HTTP GET /api/api/buggy/not-found responded 200 in 9.6588 ms
+2024-01-29 15:44:51.258 +07:00 [INF] HTTP OPTIONS /api/api/buggy/bad-request responded 204 in 0.0190 ms
+2024-01-29 15:44:51.262 +07:00 [INF] HTTP GET /api/api/buggy/bad-request responded 200 in 0.9288 ms
+2024-01-29 15:53:27.132 +07:00 [INF] Now listening on: http://localhost:5000
+2024-01-29 15:53:27.161 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-29 15:53:27.162 +07:00 [INF] Hosting environment: Development
+2024-01-29 15:53:27.163 +07:00 [INF] Content root path: D:\Project\Reactivities\API
+2024-01-29 15:53:43.796 +07:00 [WRN] Failed to determine the https port for redirect.
+2024-01-29 15:53:43.875 +07:00 [INF] HTTP OPTIONS /api/account responded 204 in 1.2414 ms
+2024-01-29 15:53:44.190 +07:00 [INF] HTTP GET /api/account responded 200 in 250.3887 ms
+2024-01-29 15:53:46.647 +07:00 [INF] HTTP OPTIONS /api/activities responded 204 in 0.2798 ms
+2024-01-29 15:53:46.898 +07:00 [INF] HTTP GET /api/activities responded 200 in 245.1849 ms
+2024-01-29 15:53:48.605 +07:00 [INF] HTTP OPTIONS /api/activities responded 204 in 0.0451 ms
+2024-01-29 15:53:48.632 +07:00 [INF] HTTP GET /api/activities responded 200 in 22.1165 ms
+2024-01-29 15:53:48.643 +07:00 [INF] HTTP GET /api/activities responded 200 in 7.3504 ms
+2024-01-29 15:53:50.138 +07:00 [INF] HTTP OPTIONS /api/activities responded 204 in 0.2047 ms
+2024-01-29 15:53:50.147 +07:00 [INF] HTTP OPTIONS /api/activities responded 204 in 0.0347 ms
+2024-01-29 15:53:50.153 +07:00 [INF] HTTP GET /api/activities responded 200 in 6.2190 ms
+2024-01-29 15:53:50.159 +07:00 [INF] HTTP GET /api/activities responded 200 in 5.1657 ms
+2024-01-29 15:53:51.942 +07:00 [INF] HTTP OPTIONS /api/activities responded 204 in 0.0660 ms
+2024-01-29 15:53:51.949 +07:00 [INF] HTTP OPTIONS /api/activities responded 204 in 0.0453 ms
+2024-01-29 15:53:51.953 +07:00 [INF] HTTP GET /api/activities responded 200 in 5.5859 ms
+2024-01-29 15:53:51.959 +07:00 [INF] HTTP GET /api/activities responded 200 in 5.2427 ms
+2024-01-29 15:53:56.352 +07:00 [INF] HTTP OPTIONS /chat/negotiate responded 204 in 0.1125 ms
+2024-01-29 15:53:56.363 +07:00 [INF] HTTP POST /chat/negotiate responded 200 in 3.4540 ms
+2024-01-29 15:54:00.596 +07:00 [INF] HTTP GET /chat responded 101 in 4223.3374 ms
+2024-01-29 15:54:04.118 +07:00 [INF] HTTP OPTIONS /api/activities/424a6b59-e0d4-4363-8cdc-78e3e0bdb836 responded 204 in 0.0941 ms
+2024-01-29 15:54:04.238 +07:00 [ERR] HTTP PUT /api/activities/424a6b59-e0d4-4363-8cdc-78e3e0bdb836 responded 500 in 107.7320 ms
+System.InvalidOperationException: Unable to track an entity of type 'ActivityAttendee' because its primary key property 'AppUserId' is null.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.NullableKeyIdentityMap`1.Add(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.StartTracking(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState oldState, EntityState newState, Boolean acceptChanges, Boolean modifyProperties)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState entityState, Boolean acceptChanges, Boolean modifyProperties, Nullable`1 forceStateWhenUnknownKey, Nullable`1 fallbackState)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.PaintAction(EntityEntryGraphNode`1 node)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph[TState](EntityEntryGraphNode`1 node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.AttachGraph(InternalEntityEntry rootEntry, EntityState targetState, EntityState storeGeneratedWithKeySetTargetState, Boolean forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.NavigationFixer.NavigationCollectionChanged(InternalEntityEntry entry, INavigationBase navigationBase, IEnumerable`1 added, IEnumerable`1 removed)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntryNotifier.NavigationCollectionChanged(InternalEntityEntry entry, INavigationBase navigationBase, IEnumerable`1 added, IEnumerable`1 removed)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.DetectNavigationChange(InternalEntityEntry entry, INavigationBase navigationBase)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.LocalDetectChanges(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.DetectChanges(IStateManager stateManager)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.ChangeTracker.DetectChanges()
+   at Microsoft.EntityFrameworkCore.DbContext.TryDetectChanges()
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Application.Activities.Edit.Handler.Handle(Command request, CancellationToken cancellationToken) in D:\Project\Reactivities\Application\Activities\Edit.cs:line 39
+   at API.Controllers.ActivitiesController.EditActivity(Guid id, Activity activity) in D:\Project\Reactivities\API\Controllers\ActivitiesController.cs:line 32
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-01-29 15:54:04.255 +07:00 [ERR] Unable to track an entity of type 'ActivityAttendee' because its primary key property 'AppUserId' is null.
+System.InvalidOperationException: Unable to track an entity of type 'ActivityAttendee' because its primary key property 'AppUserId' is null.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.NullableKeyIdentityMap`1.Add(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.StartTracking(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState oldState, EntityState newState, Boolean acceptChanges, Boolean modifyProperties)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState entityState, Boolean acceptChanges, Boolean modifyProperties, Nullable`1 forceStateWhenUnknownKey, Nullable`1 fallbackState)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.PaintAction(EntityEntryGraphNode`1 node)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph[TState](EntityEntryGraphNode`1 node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.AttachGraph(InternalEntityEntry rootEntry, EntityState targetState, EntityState storeGeneratedWithKeySetTargetState, Boolean forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.NavigationFixer.NavigationCollectionChanged(InternalEntityEntry entry, INavigationBase navigationBase, IEnumerable`1 added, IEnumerable`1 removed)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntryNotifier.NavigationCollectionChanged(InternalEntityEntry entry, INavigationBase navigationBase, IEnumerable`1 added, IEnumerable`1 removed)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.DetectNavigationChange(InternalEntityEntry entry, INavigationBase navigationBase)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.LocalDetectChanges(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.DetectChanges(IStateManager stateManager)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.ChangeTracker.DetectChanges()
+   at Microsoft.EntityFrameworkCore.DbContext.TryDetectChanges()
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Application.Activities.Edit.Handler.Handle(Command request, CancellationToken cancellationToken) in D:\Project\Reactivities\Application\Activities\Edit.cs:line 39
+   at API.Controllers.ActivitiesController.EditActivity(Guid id, Activity activity) in D:\Project\Reactivities\API\Controllers\ActivitiesController.cs:line 32
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at API.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext context) in D:\Project\Reactivities\API\Middleware\ExceptionMiddleware.cs:line 24
+2024-01-29 15:54:04.324 +07:00 [INF] HTTP OPTIONS /chat/negotiate responded 204 in 0.0516 ms
+2024-01-29 15:54:04.328 +07:00 [INF] HTTP POST /chat/negotiate responded 200 in 0.2653 ms
+2024-01-29 15:59:18.500 +07:00 [INF] Application is shutting down...
+2024-01-29 15:59:39.042 +07:00 [INF] Now listening on: http://localhost:5000
+2024-01-29 15:59:39.068 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-29 15:59:39.069 +07:00 [INF] Hosting environment: Development
+2024-01-29 15:59:39.069 +07:00 [INF] Content root path: D:\Project\Reactivities\API
+2024-01-29 15:59:44.326 +07:00 [WRN] Failed to determine the https port for redirect.
+2024-01-29 15:59:44.342 +07:00 [INF] HTTP OPTIONS /chat/negotiate responded 204 in 1.1726 ms
+2024-01-29 15:59:44.382 +07:00 [INF] HTTP POST /chat/negotiate responded 200 in 3.2060 ms
+2024-01-29 15:59:47.441 +07:00 [INF] HTTP GET /chat responded 101 in 3047.5202 ms
+2024-01-29 15:59:47.930 +07:00 [INF] HTTP OPTIONS /api/account responded 204 in 0.1233 ms
+2024-01-29 15:59:48.118 +07:00 [INF] HTTP GET /api/account responded 200 in 171.9500 ms
+2024-01-29 15:59:49.144 +07:00 [INF] HTTP OPTIONS /api/activities/424a6b59-e0d4-4363-8cdc-78e3e0bdb836 responded 204 in 0.0985 ms
+2024-01-29 15:59:49.211 +07:00 [INF] HTTP GET /api/activities/424a6b59-e0d4-4363-8cdc-78e3e0bdb836 responded 200 in 62.7023 ms
+2024-01-29 15:59:50.244 +07:00 [INF] HTTP OPTIONS /chat/negotiate responded 204 in 0.0931 ms
+2024-01-29 15:59:50.249 +07:00 [INF] HTTP POST /chat/negotiate responded 200 in 0.3924 ms
+2024-01-29 15:59:59.556 +07:00 [INF] HTTP GET /chat responded 101 in 9299.0244 ms
+2024-01-29 16:00:06.182 +07:00 [INF] HTTP OPTIONS /api/activities/424a6b59-e0d4-4363-8cdc-78e3e0bdb836 responded 204 in 0.1079 ms
+2024-01-29 16:00:06.267 +07:00 [ERR] HTTP PUT /api/activities/424a6b59-e0d4-4363-8cdc-78e3e0bdb836 responded 500 in 71.8069 ms
+System.InvalidOperationException: The property 'Activity.Id' is part of a key and so cannot be modified or marked as modified. To change the principal of an existing entity with an identifying foreign key, first delete the dependent and invoke 'SaveChanges', and then associate the dependent with the new principal.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetPropertyModified(IProperty property, Boolean changeState, Boolean isModified, Boolean isConceptualNull, Boolean acceptChanges)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.DetectValueChange(InternalEntityEntry entry, IProperty property)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.LocalDetectChanges(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.DetectChanges(IStateManager stateManager)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.ChangeTracker.DetectChanges()
+   at Microsoft.EntityFrameworkCore.DbContext.TryDetectChanges()
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Application.Activities.Edit.Handler.Handle(Command request, CancellationToken cancellationToken) in D:\Project\Reactivities\Application\Activities\Edit.cs:line 40
+   at API.Controllers.ActivitiesController.EditActivity(Guid id, Activity activity) in D:\Project\Reactivities\API\Controllers\ActivitiesController.cs:line 32
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-01-29 16:00:06.279 +07:00 [ERR] The property 'Activity.Id' is part of a key and so cannot be modified or marked as modified. To change the principal of an existing entity with an identifying foreign key, first delete the dependent and invoke 'SaveChanges', and then associate the dependent with the new principal.
+System.InvalidOperationException: The property 'Activity.Id' is part of a key and so cannot be modified or marked as modified. To change the principal of an existing entity with an identifying foreign key, first delete the dependent and invoke 'SaveChanges', and then associate the dependent with the new principal.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetPropertyModified(IProperty property, Boolean changeState, Boolean isModified, Boolean isConceptualNull, Boolean acceptChanges)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.DetectValueChange(InternalEntityEntry entry, IProperty property)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.LocalDetectChanges(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.DetectChanges(IStateManager stateManager)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.ChangeTracker.DetectChanges()
+   at Microsoft.EntityFrameworkCore.DbContext.TryDetectChanges()
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Application.Activities.Edit.Handler.Handle(Command request, CancellationToken cancellationToken) in D:\Project\Reactivities\Application\Activities\Edit.cs:line 40
+   at API.Controllers.ActivitiesController.EditActivity(Guid id, Activity activity) in D:\Project\Reactivities\API\Controllers\ActivitiesController.cs:line 32
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at API.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext context) in D:\Project\Reactivities\API\Middleware\ExceptionMiddleware.cs:line 24
+2024-01-29 16:00:06.350 +07:00 [INF] HTTP OPTIONS /chat/negotiate responded 204 in 0.0761 ms
+2024-01-29 16:00:06.355 +07:00 [INF] HTTP POST /chat/negotiate responded 200 in 0.1338 ms
+2024-01-29 16:00:44.485 +07:00 [INF] HTTP GET /chat responded 101 in 38123.3167 ms
+2024-01-29 16:00:54.676 +07:00 [INF] HTTP OPTIONS /api/activities responded 204 in 0.1166 ms
+2024-01-29 16:00:54.788 +07:00 [INF] HTTP POST /api/activities responded 200 in 106.7360 ms
+2024-01-29 16:00:55.828 +07:00 [INF] HTTP OPTIONS /chat/negotiate responded 204 in 0.0800 ms
+2024-01-29 16:00:55.837 +07:00 [INF] HTTP POST /chat/negotiate responded 200 in 0.3477 ms
+2024-01-29 16:00:57.983 +07:00 [INF] HTTP GET /chat responded 101 in 2135.4351 ms
+2024-01-29 16:00:58.458 +07:00 [INF] HTTP OPTIONS /api/account responded 204 in 0.0812 ms
+2024-01-29 16:00:58.486 +07:00 [INF] HTTP GET /api/account responded 200 in 12.9984 ms
+2024-01-29 16:00:59.514 +07:00 [INF] HTTP OPTIONS /api/activities/ef58f0e0-8c9d-4f44-8f67-c2903eab312f responded 204 in 0.0365 ms
+2024-01-29 16:00:59.527 +07:00 [INF] HTTP GET /api/activities/ef58f0e0-8c9d-4f44-8f67-c2903eab312f responded 200 in 8.6268 ms
+2024-01-29 16:01:00.558 +07:00 [INF] HTTP OPTIONS /chat/negotiate responded 204 in 0.2420 ms
+2024-01-29 16:01:00.567 +07:00 [INF] HTTP POST /chat/negotiate responded 200 in 0.2929 ms
+2024-01-29 16:01:06.415 +07:00 [INF] HTTP GET /chat responded 101 in 5831.0307 ms
+2024-01-29 16:01:08.090 +07:00 [INF] HTTP OPTIONS /chat/negotiate responded 204 in 0.0981 ms
+2024-01-29 16:01:08.096 +07:00 [INF] HTTP POST /chat/negotiate responded 200 in 0.1388 ms
+2024-01-29 16:01:10.313 +07:00 [INF] HTTP GET /chat responded 101 in 2211.6053 ms
+2024-01-29 16:01:11.380 +07:00 [INF] HTTP OPTIONS /chat/negotiate responded 204 in 0.0801 ms
+2024-01-29 16:01:11.382 +07:00 [INF] HTTP OPTIONS /api/activities/424a6b59-e0d4-4363-8cdc-78e3e0bdb836 responded 204 in 0.0303 ms
+2024-01-29 16:01:11.384 +07:00 [INF] HTTP POST /chat/negotiate responded 200 in 0.1182 ms
+2024-01-29 16:01:11.390 +07:00 [INF] HTTP GET /api/activities/424a6b59-e0d4-4363-8cdc-78e3e0bdb836 responded 200 in 5.2052 ms
+2024-01-29 16:01:12.148 +07:00 [INF] HTTP GET /chat responded 101 in 757.8797 ms
+2024-01-29 16:01:21.804 +07:00 [INF] HTTP OPTIONS /api/account responded 204 in 0.0861 ms
+2024-01-29 16:01:21.819 +07:00 [INF] HTTP GET /api/account responded 200 in 6.0951 ms
+2024-01-29 16:01:22.861 +07:00 [INF] HTTP OPTIONS /api/activities responded 204 in 0.0669 ms
+2024-01-29 16:01:22.903 +07:00 [INF] HTTP GET /api/activities responded 200 in 36.1706 ms
+2024-01-29 16:01:25.019 +07:00 [INF] HTTP OPTIONS /api/activities responded 204 in 0.0520 ms
+2024-01-29 16:01:25.026 +07:00 [INF] HTTP OPTIONS /api/activities responded 204 in 0.0217 ms
+2024-01-29 16:01:25.039 +07:00 [INF] HTTP GET /api/activities responded 200 in 14.2433 ms
+2024-01-29 16:01:25.047 +07:00 [INF] HTTP GET /api/activities responded 200 in 5.8024 ms
+2024-01-29 16:01:26.594 +07:00 [INF] HTTP OPTIONS /api/activities responded 204 in 0.0552 ms
+2024-01-29 16:01:26.612 +07:00 [INF] HTTP GET /api/activities responded 200 in 5.6700 ms
+2024-01-29 16:01:26.618 +07:00 [INF] HTTP GET /api/activities responded 200 in 5.1145 ms
+2024-01-29 16:01:28.181 +07:00 [INF] HTTP OPTIONS /api/activities responded 204 in 0.0346 ms
+2024-01-29 16:01:28.186 +07:00 [INF] HTTP OPTIONS /api/activities responded 204 in 0.0308 ms
+2024-01-29 16:01:28.210 +07:00 [INF] HTTP GET /api/activities responded 200 in 23.6732 ms
+2024-01-29 16:01:28.228 +07:00 [INF] HTTP GET /api/activities responded 200 in 16.7650 ms
+2024-01-29 16:19:08.426 +07:00 [INF] HTTP OPTIONS /api/account responded 204 in 1.1639 ms
+2024-01-29 16:19:08.529 +07:00 [INF] HTTP GET /api/account responded 200 in 80.0027 ms
+2024-01-29 16:19:09.584 +07:00 [INF] HTTP OPTIONS /api/activities responded 204 in 0.0370 ms
+2024-01-29 16:19:09.615 +07:00 [INF] HTTP GET /api/activities responded 200 in 24.1531 ms
+2024-01-29 16:19:12.617 +07:00 [INF] HTTP OPTIONS /api/activities responded 204 in 0.0406 ms
+2024-01-29 16:19:12.624 +07:00 [INF] HTTP OPTIONS /api/activities responded 204 in 0.0320 ms
+2024-01-29 16:19:12.640 +07:00 [INF] HTTP GET /api/activities responded 200 in 14.9611 ms
+2024-01-29 16:19:12.648 +07:00 [INF] HTTP GET /api/activities responded 200 in 7.6189 ms
+2024-01-29 16:20:23.336 +07:00 [INF] Now listening on: http://localhost:5000
+2024-01-29 16:20:23.380 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-29 16:20:23.381 +07:00 [INF] Hosting environment: Development
+2024-01-29 16:20:23.382 +07:00 [INF] Content root path: D:\Project\Reactivities\API
+2024-01-29 16:20:41.777 +07:00 [WRN] Failed to determine the https port for redirect.
+2024-01-29 16:20:52.801 +07:00 [INF] HTTP OPTIONS /api/account responded 204 in 3.5715 ms
+2024-01-29 16:22:26.793 +07:00 [INF] HTTP GET /api/account responded 200 in 78389.6090 ms
+2024-01-29 16:22:36.594 +07:00 [INF] HTTP OPTIONS /api/activities responded 204 in 0.7462 ms
+2024-01-29 16:23:27.915 +07:00 [INF] HTTP GET /api/activities responded 200 in 36843.4091 ms
+2024-01-29 16:23:42.811 +07:00 [INF] HTTP OPTIONS /chat/negotiate responded 204 in 0.0956 ms
+2024-01-29 16:23:44.693 +07:00 [INF] HTTP POST /chat/negotiate responded 200 in 3.7887 ms
+2024-01-29 16:24:18.993 +07:00 [INF] HTTP OPTIONS /api/activities responded 204 in 0.0722 ms
+2024-01-29 16:25:56.834 +07:00 [INF] HTTP POST /api/activities responded 200 in 75628.5527 ms
+2024-01-29 16:26:10.994 +07:00 [INF] HTTP OPTIONS /api/account responded 204 in 0.8404 ms
+2024-01-29 16:26:15.163 +07:00 [INF] HTTP OPTIONS /chat/negotiate responded 204 in 0.0849 ms
+2024-01-29 16:26:16.637 +07:00 [INF] HTTP GET /api/account responded 200 in 4146.2030 ms
+2024-01-29 16:26:17.667 +07:00 [INF] HTTP OPTIONS /api/activities/ef967f05-36bb-4f3e-9419-2b25cd38620f responded 204 in 0.1132 ms
+2024-01-29 16:26:18.573 +07:00 [INF] HTTP GET /api/activities/ef967f05-36bb-4f3e-9419-2b25cd38620f responded 200 in 901.6969 ms
+2024-01-29 16:26:19.604 +07:00 [INF] HTTP OPTIONS /chat/negotiate responded 204 in 0.3267 ms
+2024-01-29 16:26:19.612 +07:00 [INF] HTTP POST /chat/negotiate responded 200 in 0.4414 ms
+2024-01-29 16:26:23.652 +07:00 [INF] HTTP GET /chat responded 101 in 4026.3746 ms
+2024-01-29 16:26:25.407 +07:00 [INF] HTTP OPTIONS /api/activities responded 204 in 0.0553 ms
+2024-01-29 16:26:28.552 +07:00 [INF] HTTP GET /api/activities responded 200 in 3141.4277 ms
+2024-01-29 16:26:31.230 +07:00 [INF] HTTP OPTIONS /api/activities responded 204 in 0.1389 ms
+2024-01-29 16:26:31.239 +07:00 [INF] HTTP OPTIONS /api/activities responded 204 in 0.2166 ms
+2024-01-29 16:26:44.112 +07:00 [INF] HTTP GET /api/activities responded 200 in 12872.8906 ms
+2024-01-29 16:26:45.094 +07:00 [INF] HTTP GET /api/activities responded 200 in 979.9779 ms
+2024-01-29 16:26:45.142 +07:00 [INF] HTTP OPTIONS /chat/negotiate responded 204 in 0.2403 ms
+2024-01-29 16:26:45.151 +07:00 [INF] HTTP POST /chat/negotiate responded 200 in 0.3330 ms
+2024-01-29 16:26:46.577 +07:00 [INF] HTTP GET /chat responded 101 in 1415.9619 ms
+2024-01-29 16:26:49.113 +07:00 [INF] HTTP OPTIONS /api/activities/ef967f05-36bb-4f3e-9419-2b25cd38620f responded 204 in 0.0381 ms
+2024-01-29 16:27:04.310 +07:00 [ERR] HTTP PUT /api/activities/ef967f05-36bb-4f3e-9419-2b25cd38620f responded 500 in 15185.1504 ms
+System.InvalidOperationException: Unable to track an entity of type 'ActivityAttendee' because its primary key property 'AppUserId' is null.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.NullableKeyIdentityMap`1.Add(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.StartTracking(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState oldState, EntityState newState, Boolean acceptChanges, Boolean modifyProperties)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState entityState, Boolean acceptChanges, Boolean modifyProperties, Nullable`1 forceStateWhenUnknownKey, Nullable`1 fallbackState)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.PaintAction(EntityEntryGraphNode`1 node)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph[TState](EntityEntryGraphNode`1 node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.AttachGraph(InternalEntityEntry rootEntry, EntityState targetState, EntityState storeGeneratedWithKeySetTargetState, Boolean forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.NavigationFixer.NavigationCollectionChanged(InternalEntityEntry entry, INavigationBase navigationBase, IEnumerable`1 added, IEnumerable`1 removed)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntryNotifier.NavigationCollectionChanged(InternalEntityEntry entry, INavigationBase navigationBase, IEnumerable`1 added, IEnumerable`1 removed)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.DetectNavigationChange(InternalEntityEntry entry, INavigationBase navigationBase)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.LocalDetectChanges(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.DetectChanges(IStateManager stateManager)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.ChangeTracker.DetectChanges()
+   at Microsoft.EntityFrameworkCore.DbContext.TryDetectChanges()
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Application.Activities.Edit.Handler.Handle(Command request, CancellationToken cancellationToken) in d:\Project\Reactivities\Application\Activities\Edit.cs:line 40
+   at API.Controllers.ActivitiesController.EditActivity(Guid id, Activity activity) in d:\Project\Reactivities\API\Controllers\ActivitiesController.cs:line 32
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-01-29 16:27:10.675 +07:00 [ERR] Unable to track an entity of type 'ActivityAttendee' because its primary key property 'AppUserId' is null.
+System.InvalidOperationException: Unable to track an entity of type 'ActivityAttendee' because its primary key property 'AppUserId' is null.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.NullableKeyIdentityMap`1.Add(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.StartTracking(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState oldState, EntityState newState, Boolean acceptChanges, Boolean modifyProperties)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState entityState, Boolean acceptChanges, Boolean modifyProperties, Nullable`1 forceStateWhenUnknownKey, Nullable`1 fallbackState)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.PaintAction(EntityEntryGraphNode`1 node)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph[TState](EntityEntryGraphNode`1 node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.AttachGraph(InternalEntityEntry rootEntry, EntityState targetState, EntityState storeGeneratedWithKeySetTargetState, Boolean forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.NavigationFixer.NavigationCollectionChanged(InternalEntityEntry entry, INavigationBase navigationBase, IEnumerable`1 added, IEnumerable`1 removed)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntryNotifier.NavigationCollectionChanged(InternalEntityEntry entry, INavigationBase navigationBase, IEnumerable`1 added, IEnumerable`1 removed)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.DetectNavigationChange(InternalEntityEntry entry, INavigationBase navigationBase)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.LocalDetectChanges(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.DetectChanges(IStateManager stateManager)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.ChangeTracker.DetectChanges()
+   at Microsoft.EntityFrameworkCore.DbContext.TryDetectChanges()
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Application.Activities.Edit.Handler.Handle(Command request, CancellationToken cancellationToken) in d:\Project\Reactivities\Application\Activities\Edit.cs:line 40
+   at API.Controllers.ActivitiesController.EditActivity(Guid id, Activity activity) in d:\Project\Reactivities\API\Controllers\ActivitiesController.cs:line 32
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at API.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext context) in d:\Project\Reactivities\API\Middleware\ExceptionMiddleware.cs:line 24

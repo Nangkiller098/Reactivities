@@ -1,4 +1,24 @@
-https://github.com/TryCatchLearn/Reactivities/blob/main/client-app/package.json
+https://github.com/TryCatchLearn/Reactivities/
 
 //command for create docker
-docker run --name dev -e POSTGRES_USER=admin -e POSTGRES_PASSWORD=123 -p 5432:5432 -d postgres:latest
+docker run --name dev -e POSTGRES_USER=admin -e POSTGRES_PASSWORD=secret -p 5432:5432 -d postgres:latest
+
+// build dockerfile
+docker build -t hengsomnang/reactivities .
+
+//run docker
+docker run --rm -it -p 8080:80 hengsomnang/reactivities
+
+//if sucess push to public
+
+docker login
+
+
+Postgres cluster hengsomnang created
+  Username:    postgres
+  Password:    xAFVnQkywlD6HwC
+  Hostname:    hengsomnang.internal
+  Flycast:     fdaa:5:a898:0:1::3
+  Proxy port:  5432
+  Postgres port:  5433
+  Connection string: postgres://postgres:xAFVnQkywlD6HwC@hengsomnang.flycast:5432

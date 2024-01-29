@@ -51,7 +51,11 @@ export default observer(function ActivityDetailedHeader({ activity }: Props) {
                   content={activity.title}
                   style={{ color: "white" }}
                 />
-                <p>{format(activity.date!, "dd MMM yyyy")}</p>
+                <p>
+                  {activity.date != null
+                    ? format(activity.date!, "dd MMM yyyy")
+                    : ""}
+                </p>
                 <p>
                   Hosted by{" "}
                   <strong>

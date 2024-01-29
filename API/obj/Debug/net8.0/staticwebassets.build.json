@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "EwKjyCnHU62eczbBHZJvc7ZGjdj4mdUxxIXjlY9sss0=",
+  "Hash": "IKQEOCgVwJD09n/HpviMAmSL3d+KCJqs4fcIt1pvdvM=",
   "Source": "API",
   "BasePath": "_content/API",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "API\\wwwroot",
       "Source": "API",
-      "ContentRoot": "D:\\Project\\Reactivities\\API\\wwwroot\\",
+      "ContentRoot": "d:\\Project\\Reactivities\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\Project\\Reactivities\\API\\wwwroot\\assets\\brand-icons-Bd0jwnh9.woff",
+      "Identity": "d:\\Project\\Reactivities\\API\\wwwroot\\assets\\brand-icons-Bd0jwnh9.woff",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Reactivities\\API\\wwwroot\\",
+      "ContentRoot": "d:\\Project\\Reactivities\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/brand-icons-Bd0jwnh9.woff",
       "AssetKind": "All",
@@ -36,10 +36,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\brand-icons-Bd0jwnh9.woff"
     },
     {
-      "Identity": "D:\\Project\\Reactivities\\API\\wwwroot\\assets\\brand-icons-Fy_bMVKQ.woff2",
+      "Identity": "d:\\Project\\Reactivities\\API\\wwwroot\\assets\\brand-icons-Fy_bMVKQ.woff2",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Reactivities\\API\\wwwroot\\",
+      "ContentRoot": "d:\\Project\\Reactivities\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/brand-icons-Fy_bMVKQ.woff2",
       "AssetKind": "All",
@@ -55,10 +55,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\brand-icons-Fy_bMVKQ.woff2"
     },
     {
-      "Identity": "D:\\Project\\Reactivities\\API\\wwwroot\\assets\\brand-icons-LKidj4O2.eot",
+      "Identity": "d:\\Project\\Reactivities\\API\\wwwroot\\assets\\brand-icons-LKidj4O2.eot",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Reactivities\\API\\wwwroot\\",
+      "ContentRoot": "d:\\Project\\Reactivities\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/brand-icons-LKidj4O2.eot",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\brand-icons-LKidj4O2.eot"
     },
     {
-      "Identity": "D:\\Project\\Reactivities\\API\\wwwroot\\assets\\brand-icons-Lm4VqMZc.ttf",
+      "Identity": "d:\\Project\\Reactivities\\API\\wwwroot\\assets\\brand-icons-Lm4VqMZc.ttf",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Reactivities\\API\\wwwroot\\",
+      "ContentRoot": "d:\\Project\\Reactivities\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/brand-icons-Lm4VqMZc.ttf",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\brand-icons-Lm4VqMZc.ttf"
     },
     {
-      "Identity": "D:\\Project\\Reactivities\\API\\wwwroot\\assets\\brand-icons-rvwtIWeM.svg",
+      "Identity": "d:\\Project\\Reactivities\\API\\wwwroot\\assets\\brand-icons-rvwtIWeM.svg",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Reactivities\\API\\wwwroot\\",
+      "ContentRoot": "d:\\Project\\Reactivities\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/brand-icons-rvwtIWeM.svg",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\brand-icons-rvwtIWeM.svg"
     },
     {
-      "Identity": "D:\\Project\\Reactivities\\API\\wwwroot\\assets\\categoryImages\\culture.jpg",
+      "Identity": "d:\\Project\\Reactivities\\API\\wwwroot\\assets\\categoryImages\\culture.jpg",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Reactivities\\API\\wwwroot\\",
+      "ContentRoot": "d:\\Project\\Reactivities\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/categoryImages/culture.jpg",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\categoryImages\\culture.jpg"
     },
     {
-      "Identity": "D:\\Project\\Reactivities\\API\\wwwroot\\assets\\categoryImages\\drinks.jpg",
+      "Identity": "d:\\Project\\Reactivities\\API\\wwwroot\\assets\\categoryImages\\drinks.jpg",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Reactivities\\API\\wwwroot\\",
+      "ContentRoot": "d:\\Project\\Reactivities\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/categoryImages/drinks.jpg",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\categoryImages\\drinks.jpg"
     },
     {
-      "Identity": "D:\\Project\\Reactivities\\API\\wwwroot\\assets\\categoryImages\\film.jpg",
+      "Identity": "d:\\Project\\Reactivities\\API\\wwwroot\\assets\\categoryImages\\film.jpg",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Reactivities\\API\\wwwroot\\",
+      "ContentRoot": "d:\\Project\\Reactivities\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/categoryImages/film.jpg",
       "AssetKind": "All",
@@ -169,10 +169,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\categoryImages\\film.jpg"
     },
     {
-      "Identity": "D:\\Project\\Reactivities\\API\\wwwroot\\assets\\categoryImages\\food.jpg",
+      "Identity": "d:\\Project\\Reactivities\\API\\wwwroot\\assets\\categoryImages\\food.jpg",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Reactivities\\API\\wwwroot\\",
+      "ContentRoot": "d:\\Project\\Reactivities\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/categoryImages/food.jpg",
       "AssetKind": "All",
@@ -188,10 +188,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\categoryImages\\food.jpg"
     },
     {
-      "Identity": "D:\\Project\\Reactivities\\API\\wwwroot\\assets\\categoryImages\\music.jpg",
+      "Identity": "d:\\Project\\Reactivities\\API\\wwwroot\\assets\\categoryImages\\music.jpg",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Reactivities\\API\\wwwroot\\",
+      "ContentRoot": "d:\\Project\\Reactivities\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/categoryImages/music.jpg",
       "AssetKind": "All",
@@ -207,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\categoryImages\\music.jpg"
     },
     {
-      "Identity": "D:\\Project\\Reactivities\\API\\wwwroot\\assets\\categoryImages\\travel.jpg",
+      "Identity": "d:\\Project\\Reactivities\\API\\wwwroot\\assets\\categoryImages\\travel.jpg",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Reactivities\\API\\wwwroot\\",
+      "ContentRoot": "d:\\Project\\Reactivities\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/categoryImages/travel.jpg",
       "AssetKind": "All",
@@ -226,10 +226,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\categoryImages\\travel.jpg"
     },
     {
-      "Identity": "D:\\Project\\Reactivities\\API\\wwwroot\\assets\\flags-zi6jlO2O.png",
+      "Identity": "d:\\Project\\Reactivities\\API\\wwwroot\\assets\\flags-zi6jlO2O.png",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Reactivities\\API\\wwwroot\\",
+      "ContentRoot": "d:\\Project\\Reactivities\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/flags-zi6jlO2O.png",
       "AssetKind": "All",
@@ -245,10 +245,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\flags-zi6jlO2O.png"
     },
     {
-      "Identity": "D:\\Project\\Reactivities\\API\\wwwroot\\assets\\icons-7ukzh50T.woff2",
+      "Identity": "d:\\Project\\Reactivities\\API\\wwwroot\\assets\\icons-7ukzh50T.woff2",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Reactivities\\API\\wwwroot\\",
+      "ContentRoot": "d:\\Project\\Reactivities\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/icons-7ukzh50T.woff2",
       "AssetKind": "All",
@@ -264,10 +264,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\icons-7ukzh50T.woff2"
     },
     {
-      "Identity": "D:\\Project\\Reactivities\\API\\wwwroot\\assets\\icons-9vWUBx8H.ttf",
+      "Identity": "d:\\Project\\Reactivities\\API\\wwwroot\\assets\\icons-9vWUBx8H.ttf",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Reactivities\\API\\wwwroot\\",
+      "ContentRoot": "d:\\Project\\Reactivities\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/icons-9vWUBx8H.ttf",
       "AssetKind": "All",
@@ -283,10 +283,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\icons-9vWUBx8H.ttf"
     },
     {
-      "Identity": "D:\\Project\\Reactivities\\API\\wwwroot\\assets\\icons-EcIcnV99.svg",
+      "Identity": "d:\\Project\\Reactivities\\API\\wwwroot\\assets\\icons-EcIcnV99.svg",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Reactivities\\API\\wwwroot\\",
+      "ContentRoot": "d:\\Project\\Reactivities\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/icons-EcIcnV99.svg",
       "AssetKind": "All",
@@ -302,10 +302,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\icons-EcIcnV99.svg"
     },
     {
-      "Identity": "D:\\Project\\Reactivities\\API\\wwwroot\\assets\\icons-h8ytVQ_V.eot",
+      "Identity": "d:\\Project\\Reactivities\\API\\wwwroot\\assets\\icons-h8ytVQ_V.eot",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Reactivities\\API\\wwwroot\\",
+      "ContentRoot": "d:\\Project\\Reactivities\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/icons-h8ytVQ_V.eot",
       "AssetKind": "All",
@@ -321,10 +321,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\icons-h8ytVQ_V.eot"
     },
     {
-      "Identity": "D:\\Project\\Reactivities\\API\\wwwroot\\assets\\icons-TgrQBER4.woff",
+      "Identity": "d:\\Project\\Reactivities\\API\\wwwroot\\assets\\icons-TgrQBER4.woff",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Reactivities\\API\\wwwroot\\",
+      "ContentRoot": "d:\\Project\\Reactivities\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/icons-TgrQBER4.woff",
       "AssetKind": "All",
@@ -340,10 +340,29 @@
       "OriginalItemSpec": "wwwroot\\assets\\icons-TgrQBER4.woff"
     },
     {
-      "Identity": "D:\\Project\\Reactivities\\API\\wwwroot\\assets\\index-iw7ZvIKF.css",
+      "Identity": "d:\\Project\\Reactivities\\API\\wwwroot\\assets\\index-C17cKUrt.js",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Reactivities\\API\\wwwroot\\",
+      "ContentRoot": "d:\\Project\\Reactivities\\API\\wwwroot\\",
+      "BasePath": "_content/API",
+      "RelativePath": "assets/index-C17cKUrt.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\index-C17cKUrt.js"
+    },
+    {
+      "Identity": "d:\\Project\\Reactivities\\API\\wwwroot\\assets\\index-iw7ZvIKF.css",
+      "SourceId": "API",
+      "SourceType": "Discovered",
+      "ContentRoot": "d:\\Project\\Reactivities\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/index-iw7ZvIKF.css",
       "AssetKind": "All",
@@ -359,10 +378,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\index-iw7ZvIKF.css"
     },
     {
-      "Identity": "D:\\Project\\Reactivities\\API\\wwwroot\\assets\\index-rz5WOfFj.js",
+      "Identity": "d:\\Project\\Reactivities\\API\\wwwroot\\assets\\index-rz5WOfFj.js",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Reactivities\\API\\wwwroot\\",
+      "ContentRoot": "d:\\Project\\Reactivities\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/index-rz5WOfFj.js",
       "AssetKind": "All",
@@ -378,10 +397,29 @@
       "OriginalItemSpec": "wwwroot\\assets\\index-rz5WOfFj.js"
     },
     {
-      "Identity": "D:\\Project\\Reactivities\\API\\wwwroot\\assets\\logo.png",
+      "Identity": "d:\\Project\\Reactivities\\API\\wwwroot\\assets\\index-XlLYihDg.js",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Reactivities\\API\\wwwroot\\",
+      "ContentRoot": "d:\\Project\\Reactivities\\API\\wwwroot\\",
+      "BasePath": "_content/API",
+      "RelativePath": "assets/index-XlLYihDg.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\index-XlLYihDg.js"
+    },
+    {
+      "Identity": "d:\\Project\\Reactivities\\API\\wwwroot\\assets\\logo.png",
+      "SourceId": "API",
+      "SourceType": "Discovered",
+      "ContentRoot": "d:\\Project\\Reactivities\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/logo.png",
       "AssetKind": "All",
@@ -397,10 +435,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\logo.png"
     },
     {
-      "Identity": "D:\\Project\\Reactivities\\API\\wwwroot\\assets\\outline-icons-C1_GnSeJ.eot",
+      "Identity": "d:\\Project\\Reactivities\\API\\wwwroot\\assets\\outline-icons-C1_GnSeJ.eot",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Reactivities\\API\\wwwroot\\",
+      "ContentRoot": "d:\\Project\\Reactivities\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/outline-icons-C1_GnSeJ.eot",
       "AssetKind": "All",
@@ -416,10 +454,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\outline-icons-C1_GnSeJ.eot"
     },
     {
-      "Identity": "D:\\Project\\Reactivities\\API\\wwwroot\\assets\\outline-icons-GkPPJ5bU.woff",
+      "Identity": "d:\\Project\\Reactivities\\API\\wwwroot\\assets\\outline-icons-GkPPJ5bU.woff",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Reactivities\\API\\wwwroot\\",
+      "ContentRoot": "d:\\Project\\Reactivities\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/outline-icons-GkPPJ5bU.woff",
       "AssetKind": "All",
@@ -435,10 +473,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\outline-icons-GkPPJ5bU.woff"
     },
     {
-      "Identity": "D:\\Project\\Reactivities\\API\\wwwroot\\assets\\outline-icons-w_I5tLsu.ttf",
+      "Identity": "d:\\Project\\Reactivities\\API\\wwwroot\\assets\\outline-icons-w_I5tLsu.ttf",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Reactivities\\API\\wwwroot\\",
+      "ContentRoot": "d:\\Project\\Reactivities\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/outline-icons-w_I5tLsu.ttf",
       "AssetKind": "All",
@@ -454,10 +492,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\outline-icons-w_I5tLsu.ttf"
     },
     {
-      "Identity": "D:\\Project\\Reactivities\\API\\wwwroot\\assets\\outline-icons-X3S6_Law.svg",
+      "Identity": "d:\\Project\\Reactivities\\API\\wwwroot\\assets\\outline-icons-X3S6_Law.svg",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Reactivities\\API\\wwwroot\\",
+      "ContentRoot": "d:\\Project\\Reactivities\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/outline-icons-X3S6_Law.svg",
       "AssetKind": "All",
@@ -473,10 +511,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\outline-icons-X3S6_Law.svg"
     },
     {
-      "Identity": "D:\\Project\\Reactivities\\API\\wwwroot\\assets\\outline-icons-yJx6IqiG.woff2",
+      "Identity": "d:\\Project\\Reactivities\\API\\wwwroot\\assets\\outline-icons-yJx6IqiG.woff2",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Reactivities\\API\\wwwroot\\",
+      "ContentRoot": "d:\\Project\\Reactivities\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/outline-icons-yJx6IqiG.woff2",
       "AssetKind": "All",
@@ -492,10 +530,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\outline-icons-yJx6IqiG.woff2"
     },
     {
-      "Identity": "D:\\Project\\Reactivities\\API\\wwwroot\\assets\\placeholder.png",
+      "Identity": "d:\\Project\\Reactivities\\API\\wwwroot\\assets\\placeholder.png",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Reactivities\\API\\wwwroot\\",
+      "ContentRoot": "d:\\Project\\Reactivities\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/placeholder.png",
       "AssetKind": "All",
@@ -511,10 +549,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\placeholder.png"
     },
     {
-      "Identity": "D:\\Project\\Reactivities\\API\\wwwroot\\assets\\user.png",
+      "Identity": "d:\\Project\\Reactivities\\API\\wwwroot\\assets\\user.png",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Reactivities\\API\\wwwroot\\",
+      "ContentRoot": "d:\\Project\\Reactivities\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/user.png",
       "AssetKind": "All",
@@ -530,10 +568,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\user.png"
     },
     {
-      "Identity": "D:\\Project\\Reactivities\\API\\wwwroot\\index.html",
+      "Identity": "d:\\Project\\Reactivities\\API\\wwwroot\\index.html",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Reactivities\\API\\wwwroot\\",
+      "ContentRoot": "d:\\Project\\Reactivities\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "index.html",
       "AssetKind": "All",
@@ -549,10 +587,10 @@
       "OriginalItemSpec": "wwwroot\\index.html"
     },
     {
-      "Identity": "D:\\Project\\Reactivities\\API\\wwwroot\\vite.svg",
+      "Identity": "d:\\Project\\Reactivities\\API\\wwwroot\\vite.svg",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Reactivities\\API\\wwwroot\\",
+      "ContentRoot": "d:\\Project\\Reactivities\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "vite.svg",
       "AssetKind": "All",

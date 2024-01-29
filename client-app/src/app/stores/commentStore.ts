@@ -18,12 +18,9 @@ export default class CommentStore {
   createHubConnection = (activityId: string) => {
     if (store.activityStore.selectedActivity) {
       this.hubConntextion = new HubConnectionBuilder()
-        .withUrl(
-          import.meta.env.VITE_CHAT_URL + "/chat?activityId=" + activityId,
-          {
-            accessTokenFactory: () => store.userStore.user?.token as string,
-          }
-        )
+        .withUrl(import.meta.env.VITE_CHAT_URL + "?activityId=" + activityId, {
+          accessTokenFactory: () => store.userStore.user?.token as string,
+        })
         .withAutomaticReconnect()
         .configureLogging(LogLevel.Information)
         .build();

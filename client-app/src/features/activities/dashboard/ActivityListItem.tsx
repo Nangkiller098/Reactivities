@@ -62,7 +62,7 @@ export default function ActivityListItem({ activity }: Props) {
       <Segment>
         <span>
           <Icon name="clock" />
-          {format(activity.date!, "dd MMM yyyy h:mm aa")}
+          {activity.date != null ? format(activity.date!, "dd MMM yyyy") : ""}
           <Item name="marker" />
 
           {activity.venue}

@@ -1,0 +1,57 @@
+2024-01-27 09:03:43.780 +07:00 [ERR] An error occured during migration
+Npgsql.PostgresException (0x80004005): 28P01: password authentication failed for user "admin"
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.Internal.NpgsqlConnector.AuthenticateSASL(List`1 mechanisms, String username, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.Authenticate(String username, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|213_1(NpgsqlConnector conn, SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken, Boolean isFirstAttempt)
+   at Npgsql.Internal.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.UnpooledDataSource.Get(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.<Open>g__OpenAsync|42_0(Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlDatabaseCreator.Exists(Boolean async, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlDatabaseCreator.Exists(Boolean async, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlDatabaseCreator.Exists()
+   at Microsoft.EntityFrameworkCore.Migrations.HistoryRepository.Exists()
+   at Microsoft.EntityFrameworkCore.Migrations.HistoryRepository.GetAppliedMigrations()
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Migrations.Internal.NpgsqlMigrator.Migrate(String targetMigration)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.Migrate(DatabaseFacade databaseFacade)
+   at Program.<Main>$(String[] args) in D:\Project\Reactivities\API\Program.cs:line 74
+  Exception data:
+    Severity: FATAL
+    SqlState: 28P01
+    MessageText: password authentication failed for user "admin"
+    File: auth.c
+    Line: 326
+    Routine: auth_failed
+2024-01-27 09:03:43.917 +07:00 [INF] Now listening on: http://localhost:5000
+2024-01-27 09:03:43.918 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-27 09:03:43.918 +07:00 [INF] Hosting environment: Development
+2024-01-27 09:03:43.918 +07:00 [INF] Content root path: D:\Project\Reactivities\API
+2024-01-27 09:12:45.683 +07:00 [INF] Application is shutting down...
+2024-01-27 09:22:04.506 +07:00 [INF] Now listening on: http://localhost:5000
+2024-01-27 09:22:04.529 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-27 09:22:04.530 +07:00 [INF] Hosting environment: Development
+2024-01-27 09:22:04.530 +07:00 [INF] Content root path: D:\Project\Reactivities\API
+2024-01-27 09:22:30.217 +07:00 [WRN] Failed to determine the https port for redirect.
+2024-01-27 09:22:30.671 +07:00 [INF] HTTP POST /api/account/login responded 200 in 377.6998 ms
+2024-01-27 09:22:35.892 +07:00 [INF] HTTP GET /api/activities responded 200 in 234.1889 ms
+2024-01-27 09:22:57.038 +07:00 [INF] Application is shutting down...
+2024-01-27 09:23:10.292 +07:00 [INF] Now listening on: http://localhost:5000
+2024-01-27 09:23:10.318 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-27 09:23:10.318 +07:00 [INF] Hosting environment: Development
+2024-01-27 09:23:10.318 +07:00 [INF] Content root path: D:\Project\Reactivities\API
+2024-01-27 09:23:29.431 +07:00 [WRN] Failed to determine the https port for redirect.
+2024-01-27 09:23:29.813 +07:00 [INF] HTTP GET /api/activities responded 200 in 305.5993 ms
+2024-01-27 09:24:50.187 +07:00 [INF] Application is shutting down...
+2024-01-27 09:54:46.363 +07:00 [INF] Now listening on: http://localhost:5000
+2024-01-27 09:54:46.390 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-27 09:54:46.390 +07:00 [INF] Hosting environment: Development
+2024-01-27 09:54:46.390 +07:00 [INF] Content root path: D:\Project\Reactivities\API
+2024-01-27 09:55:14.352 +07:00 [WRN] Failed to determine the https port for redirect.
+2024-01-27 09:55:14.809 +07:00 [INF] HTTP GET /api/activities responded 200 in 322.8454 ms
+2024-01-27 09:55:19.168 +07:00 [INF] HTTP GET /api/activities responded 200 in 43.2007 ms
+2024-01-27 09:55:49.968 +07:00 [INF] Application is shutting down...
